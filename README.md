@@ -5,3 +5,10 @@ This repo contains course material for the classes I have taught. To recreate th
 install.packages("tinytex")  
 library(tinytex)
 
+
+
+``` r
+install.packages("tinytex")  
+library(tinytex)
+```
+
