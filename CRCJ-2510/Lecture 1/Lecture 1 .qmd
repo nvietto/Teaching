@@ -1,0 +1,149 @@
+---
+title: "Lecture 1"
+format:  
+  revealjs:
+    embed-resources: false
+    theme: league
+    incremental: true
+    chalkboard: true
+    filters:
+      - webr
+   # show-notes: false
+   # pdf-separate-fragments: false
+    
+---
+
+# Introductions
+
+# I'm Nick!  
+
+A PhD Candidate in the College of Criminology and Criminal Justice at UNO.
+
+<span style="color:#bedaf7;">**Research Interests:**</span> Biopsychosocial criminology and quantitative methods
+
+<span style="color:#bedaf7;">**Teaching Interests:**</span> Research methods and statistics
+
+<span style="color:#bedaf7;">**Where I'm from:**</span> Detroit, Michigan
+
+<span style="color:#bedaf7;">**Fun fact:**</span> I'm a Detroit Lion's fan 
+
+::: {.notes}
+
+Elaborate on these a bit. 
+
+- Education specifics
+- Teaching experience
+
+:::
+
+# Your turn!
+
+**Your name?**
+
+**Where you're from?**
+
+**Year and Career Interests?**
+
+**Fun fact?**
+
+::: {.notes}
+
+Take notes on names and interest 
+
+:::
+
+# Syllabus 
+
+::: {.notes}
+
+Just use the paper printout to read
+
+:::
+
+## Syllabus
+
+::: {.r-stack}
+
+![](Images/page1.png){.fragment width="400"}
+
+![](Images/page2.png){.fragment width="400"}
+
+![](Images/Page3.png){.fragment width="400"}
+:::
+
+## Class Structure
+
+- Slides will be available on Canvas (Files/Lecture Slides) an hour before class 
+  - Everything you *need* to know is not in the slides
+  
+- Lecture with open-ended questions/discussions 
+
+
+## How will you be Graded? 
+
+- Exams (multiple-choice and short answers)
+
+- Assignments (writing and group-work)
+
+
+## My Expectations 
+
+- <span style="color:#bedaf7;">**Read**</span>
+
+- <span style="color:#bedaf7;">**Show up to class**</span> 
+  - This material is cumulative (i.e., it snowballs) and missing lectures will impede your understanding of the material
+  - If missing class is unavoidable, let me know.
+
+- <span style="color:#bedaf7;">**Participate**</span> 
+
+
+## Participation & Climate 
+
+- Inclusive environment 
+  - This class can & should be a place for <span style="color:#bedaf7;">*active*</span> discussions. This is where learning <span style="color:#bedaf7;">'comes to life.'</span>
+  
+- Consider the discussion <span style="color:#bedaf7;">'space'</span> you take up
+  - Allow others to speak. 
+    - If you find yourself taking up most of the discussion, take a break & give room for others to participate. 
+  - This space is for all of us.
+
+
+## Office Hours 
+
+- A couple options: 
+
+  - Talk to me after class
+  
+  - We can set up a time on Zoom 
+  
+## Technology in the Classroom 
+
+- Learning requires <span style="color:#bedaf7;">*intense*</span> attention. 
+  - Focusing without distraction, allows your *specific* brain circuits to strengthen. 
+  - If you are distracted or *'task switching,'* you will have too many circuits firing to promote optimal learning. 
+  
+::: {.notes}
+
+Task switching
+- When you switch from one task to another, there is a 'residual' of your attention – you cannot fully focus on the new task. 
+- For example: checking emails, social media, texts, etc. then switching back to the lecture, you still have that 'residual' attention there and you cannnot fully focus on the task in front of you (i.e., the lecture). 
+::: 
+
+# Questions? 
+
+## My Goal 
+
+> Provide you with the tools that will help you learn <span style="color:#bedaf7;"> ***how to think.***</span>
+
+- What does that mean? 
+
+#  
+
+"Learning how to think' really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience."   
+
+-David Foster Wallace
+
+---
+
+
+
