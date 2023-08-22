@@ -7,5 +7,5 @@ install.packages("tinytex")
 library(tinytex)
 ```
 
-Additionally, my lectures are coded using Quarto (which is kinda just RMarkdown 2.0) in RStudio. For a tutorial on Quarto go <a href = "https://quarto.org/docs/get-started/hello/rstudio.html" >here</a>. 
+Additionally, my lectures are created using Quarto (which is kinda just RMarkdown 2.0) in RStudio. For a tutorial on Quarto go <a href = "https://quarto.org/docs/get-started/hello/rstudio.html" >here</a>. 
 
