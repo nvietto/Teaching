@@ -1,0 +1,548 @@
+---
+title: "Chapter 1 - Science, society, and criminological research"
+format: 
+  revealjs:
+    embed-resources: false
+    theme: league
+    incremental: true 
+    chalkboard: true
+    slide-number: true
+    show-notes: False
+    pdf-separate-fragments: False
+---
+
+## What do you believe are the casues of [police brutality]{style="color:#cf142b ;"}?{style="text-align: center;"}
+
+
+![](Images/protest.png){fig-align="center"}
+
+::: notes
+
+What defines "Brutality"?
+
+How did you arrive at that definition? 
+:::
+
+## Reasoning About the Social World
+
+-   Criminology and criminal justice is a type of [*social science*]{style="color:#bedaf7;"} research.
+
+-   What types of problems are studied in criminology and criminal justice research?
+
+::: notes
+We spend time trying to make sense of the complexities of our social world and our position in it.
+
+(Head to the board)
+Let them answer question. Pause and slowdown.
+
+-   Why people do what they do (Individual (Micro) level, e.g., Self-control).
+-   How organizations function (Macro level, e.g., police culture)
+:::
+
+## What is Reasoning?
+
+-   Can you name some examples?
+
+![](Images/reasoning.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: purePNG.com)
+:::
+
+::: notes
+- Reasoning a problem-solving process of thinking logically, analyzing information, and drawing conclusions based on evidence and patterns.
+
+- Can reasoning be flawed? 
+:::
+
+## But what happens when this process breaks down?
+
+![](https://media.giphy.com/media/8L0Pky6C83SzkzU55a/giphy.gif){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: giphy.com)
+:::
+
+## Which brings us to our discussion topic today!!!
+
+::: {style="font-size: 200%;"}
+[**Everyday Errors in Reasoning**]{style="color:#FC4C02;"}
+:::
+
+- *spooky vibes*
+
+
+## Everyday Errors in Reasoning
+
+### [**Overgeneralizations**]{style="color:#bedaf7;"}
+
+-   Concluding that what we have observed or what we know to be true for [*ONE*]{style="color:#bedaf7;"} observation, to be true for [*ALL*]{style="color:#bedaf7;"} observations.
+    -   Examples:
+        -   "*Everyone* from that ethnicity is a certain way."
+        -   "*All* politicians are corrupt."
+        - "This Chipolte is *always* closed!"
+        
+-   Why do you think we make these errors?
+
+::: notes
+
+Pause and let them answer 
+
+Use objects in the classroom (I have only seen this type of table, therefore all tables are like this)
+
+We draw conclusions from our own experiences, but we forget our own experiences are limited.
+
+Statements that include definitive words like always, never, everything, or only may be overgeneralizations.
+
+:::
+
+## Everyday Errors in Reasoning
+
+### [**Selective or Inaccurate Observations**]{style="color:#bedaf7;"}
+
+-   Choosing to look at things that align (or confirm) with our preferences or beliefs.
+    -   Examples:
+        -   A person who believes that [*all*]{style="color:#bedaf7;"} politicians are corrupt, only pays attention to news stories that reinforce this belief while [*ignoring any news that contradicts it*]{style="color:#bedaf7;"}.
+        - A person who experienced a use-of-force incident with an officer, may believe that [*all*]{style="color:#bedaf7;"} police are corrupt and only pay attention to news that [*confirms*]{style="color:#bedaf7;"} this belief. 
+    
+::: notes
+
+Wait to let them to provide examples..  
+
+If we only acknowledge instances that confirm our beliefs, then we are becoming victims of selective observation 
+:::
+
+## Everyday Errors in Reasoning
+
+### [**Illogical Reasoning**]{style="color:#bedaf7;"}
+
+-   This occurs when a person prematurely jumps to conclusions or argues on the bases of an [invalid]{style="color:#bedaf7;"} or [unsupported]{style="color:#bedaf7;"} assumptions.
+    -   Example:
+        -   Ice cream sales are the highest when homicide rates are the highest. Therefore, ice cream sales causes high homicide rates.
+            -   Instead, homicide rates are highest during seasons of warmer temperatures, like ice cream sales.
+
+::: notes
+This (example) is illogical.
+
+Use diagram to draw.
+
+- Warmer temperatures confounds the relationship between ice cream and crime.  
+
+- Why would temps and crime be associated? (Ask)
+
+Correlation is not causation.
+:::
+
+## Everyday Errors in Reasoning
+
+### [**Resistance to Change**]{style="color:#bedaf7;"} 
+
+
+![](Images/resistance.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: The Boston Globe)
+:::
+
+## Everyday Errors in Reasoning
+
+### [**Resistance to Change**]{style="color:#bedaf7;"} 
+
+What are some reasons we are resistant to change? 
+
+- [Ego-based commitments]{style="color:#bedaf7;"} 
+
+- [Excessive devotion to tradition]{style="color:#bedaf7;"} 
+
+- [Uncritical agreement with authority]{style="color:#bedaf7;"} 
+
+::: notes
+
+Ego-based commitments 
+  - It can be difficult to admit that we were wrong once we've taken a position on an issue. 
+
+Excessive devotion to tradition  
+  - Some degree of devotion to tradition can be healthy for societal functioning, but it can be a slippery slope toward stifling change in light of new evidence.
+
+Uncritical agreement with authority
+  - If we don't critically evaluate what authorities/leaders say and do, we risk enabling them to exercise their authority in ways we do not like/support
+
+:::
+
+
+## Can we avoid these everyday [errors]{style="color:#FC4C02;"} in reasoning?{.center}
+
+
+::: notes
+
+If so, how?
+
+:::
+
+# 
+
+![](https://media.giphy.com/media/fqIBaMWI7m7O8/giphy.gif){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: giphy.com)
+:::
+
+## We use the scientific approach!{.center}
+
+
+## The Scientific Approach
+
+![](Images/SM.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Public Domain)
+:::
+
+::: notes 
+
+Walk through diagram.
+
+**I did not remember to explain this below on 0824**
+
+Reduces...   
+Overgeneralization error -> systematic procedures to select subjects for observations
+
+Selective and inaccurate error -> Measures and samples phenomena systematically
+
+illogical -> explicit criteria for identifying causes and for determining if these criteria are met in a particular instance
+
+This is whats so great about science -  it does not try to prove itself right. It just evolves with time and changes as the evidence accumulates. 
+    - elaborate on Phrenology 
+:::
+
+
+## The Scientific Approach
+### [**Science vs Pseudoscience**]{style="color:#bedaf7;"} 
+
+"The reliability of bloodstain-pattern analysis has never been definitively proven or quantified, but largely due to the testimony of criminalist Herbert MacDonell, it was steadily admitted in court after court around the country in the 1970s and ’80s." (*Propublica*, 2023)   
+  
+
+ Click [here](https://www.propublica.org/article/understanding-junk-science-forensics-criminal-justice).
+
+::: notes
+
+The key to the scientific method is transparency, which enables others to try to replicate findings.   
+
+If instead we relied on findings based on intuitions (or people like Herb), gut reactions, or personal experiences, we'd open ourselves up to all the errors in reasoning we just covered.  
+
+Pseudoscientific beliefs are not based on the scientific method (though they might be touted as "scientifically PROVEN"). Instead, they're based on testimonials.
+
+:::
+
+## The Scientific Approach
+### [**Why we do Criminology Research?**]{style="color:#bedaf7;"} 
+
+**Policy motivations**
+
+- Do we need to find another way to address a problem? 
+- Are we using our funds efficiently? 
+- For example, lets consider the police brutality problem...
+  - What policies could be implemented to reduce or prevent incidents like the murder of George Floyd?  
+  - Click [here](https://www.3newsnow.com/news/investigations/a-2020-omaha-police-department-report-recommended-a-de-escalation-policy-but-there-isnt-one). 
+
+
+:::notes 
+
+Assess programs and policies to determine their success and develop ways to improve outcomes and better address problems.
+
+:::
+
+## The Scientific Approach
+### [**Why we do Criminology Research?**]{style="color:#bedaf7;"} 
+
+**Academic motivations**
+
+- Learn more about complex social phenomena to better understand crime and society’s response to it. 
+
+- Understand mechanisms: why does this phenomena occur the way it does?
+
+![](Images/Theory.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Public Domain)
+:::
+
+
+## The Scientific Approach
+### [**Why we do Criminology Research?**]{style="color:#bedaf7;"} 
+
+**Personal motivations**
+
+- Solving problems of personal interest.  
+
+## Recap 
+### [**What did we learn last lecture?**]{style="color:#bedaf7;"} 
+
+- What is Reasoning?
+
+- The Types of Everyday Errors in Reasoning
+
+- The Scientific Approach to Reasoning 
+
+
+::: notes 
+
+Reasoning a problem-solving process of thinking logically, analyzing information, and drawing conclusions based on evidence and patterns. 
+
+Overgeneralization, Selective and inaccurate Observations, Illogical Reasoning, Resistance to Change (types). 
+
+Ego-based commitments 
+  - It can be difficult to admit that we were wrong once we've taken a position on an issue. 
+
+Excessive devotion to tradition  
+  - Some degree of devotion to tradition can be healthy for societal functioning, but it can be a slippery slope toward stifling change in light of new evidence.
+
+Uncritical agreement with authority
+  - If we don't critically evaluate what authorities/leaders say and do, we risk enabling them to exercise their authority in ways we do not like/support
+
+:::
+
+
+## The Scientific Approach
+### [**Social Criminological Research in Action**]{style="color:#bedaf7;"} 
+
+**Descriptive research**
+
+ - Not interested in explaining some phenomenon, just in [*describing*]{style="color:#bedaf7;"} its prevalence or its qualities.  
+ 
+  - Measurement and sampling are central concerns when doing descriptive research. 
+  
+ - For example,  
+    - National Crime Victimization Survey (NCVS)
+       
+:::notes 
+
+ Nation's primary source for providing estimates on criminal victimization and information about those incidents. 
+
+:::
+
+## The Scientific Approach
+### [**Social Criminological Research in Action**]{style="color:#bedaf7;"} 
+
+**Exploratory research**
+
+   - Seeks a better understanding of some phenomena, without expectations going in.  
+   
+   - Seeks out questions like, *what's going on here?*
+
+- For example, how do police officers feel about protests against police brutality?
+
+:::notes 
+
+Exploratory research seeks to find out how people get along in certain settings, what meanings they give to their actions, and what issues concern them.   
+
+The goal is to answer the question: what's going on here?, and to investigate social phenomena without expectations. Often, questions asked are open-ended.
+
+:::
+
+## The Scientific Approach
+### [**Social Criminological Research in Action**]{style="color:#bedaf7;"} 
+
+**Explanatory research**
+
+  - Seeks to explain the relationship between two or more variables 
+  
+  - For example, subject race and police brutality. 
+
+
+:::notes 
+
+Explanatory research seeks to identify causes and effects of social phenomena, to predict how one phenomena will change or vary in response to variation in some other phenomena.
+
+:::
+
+
+## The Scientific Approach
+### [**Social Criminological Research in Action**]{style="color:#bedaf7;"} 
+
+**Evalualation research**
+  
+  - Do social programs/interventions work as intended? 
+    - For example, does *D.A.R.E.* reduce adolescent drug use?   
+    
+![](Images/dare.png){fig-align="center"}
+
+::: notes
+
+Evaluation research seeks to determine the effects of a social program or some other intervention.  
+
+It's explanatory in that it deals with cause and effect, but it also considers the implementation and outcomes of policies and programs - things that may be less relevant to explanatory research.
+
+:::
+
+## Strengths and Limitations of Social Research 
+
+- Research will [*always*]{style="color:#bedaf7;"} have flaws and limitations. 
+- Findings are [*always*]{style="color:#bedaf7;"} subject to differing interpretations. 
+- The important points are:
+    - [What does the evidence suggest at this moment in time?]{style="color:#bedaf7;"}
+    - [Does our conclusion contain any **errors in reasoning**?]{style="color:#bedaf7;"}
+    
+## Types of Research Methods
+### [**Quantitative Methods**]{style="color:#bedaf7;"} 
+
+![](Images/survey.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: San Marcos Academy)
+:::
+
+## Types of Research Methods
+### [**Quantitative Methods**]{style="color:#bedaf7;"} 
+
+- Utilize surveys and experiments. 
+    - For example, A survey is given to participants in an experiment that has two conditions (A or B)
+      - Group A has a new feature on an phone application.
+      - Group B has the existing feature  
+
+
+::: notes
+
+These are methods that use numerical data, or data pertaining to attributes that can be ordered in terms of magnitude.  
+    - Magnitude should be considered as the strength or size of something (e.g., the brightness of a star)
+  
+:::
+
+## Types of Research Methods
+### [**Quantitative Methods**]{style="color:#bedaf7;"} 
+
+The psychopath and low-resting heart rate
+
+![](Images/psycho.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Wikipedia)
+:::
+
+
+
+## Types of Research Methods
+### [**Qualitative Methods**]{style="color:#bedaf7;"} 
+
+![](Images/qual.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Rev)
+:::
+
+
+## Types of Research Methods
+### [**Qualitative Methods**]{style="color:#bedaf7;"} 
+
+- Utilize participant observation, intervewing, ride alongs, and focus groups.
+  - For example,
+    - A researcher would ask what the new user of phone application thought and felt about it. 
+    - Paying attention to not only the responses but the body language and other expressions. 
+
+
+::: notes
+
+These are methods that use data that is written, spoken word, or observations that do not have a direct numerical interpretation. 
+
+:::
+
+
+## Types of Research Methods
+### [**Qualitative Methods**]{style="color:#bedaf7;"} 
+
+![](Images/dang.png){fig-align="center"}
+
+
+
+
+
+
+
+## Types of Research Methods
+### [**Mixed Methods**]{style="color:#bedaf7;"} 
+
+::: {layout-nrow=1}
+![](Images/survey.png){height=50%}
+
+![](Images/qual.png){height=50%}
+
+:::
+
+## Social Research Goals
+### [**Measurement Validity**]{style="color:#bedaf7;"} 
+
+- This exists when a measure [*actually*]{style="color:#bedaf7;"} measures what we think it does. 
+
+![](Images/target.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+
+(image: Quizizz)
+
+:::
+
+::: notes
+
+For example, a psychologist that wants to measure intelligence, they have to measure it in a way that it differs from a similar concepts like memory. Although, these concepts are similar and may be associated, they represent different things.   
+  - Intelligence is the capacity for higher-order reasoning. 
+  - Memory is the capacity to hold information. 
+
+:::
+
+## Social Research Goals
+### [**Generalizability**]{style="color:#bedaf7;"} 
+
+- Sample generalizability  
+    - When a conclusion [based on our **sample** of the larger population]{style="color:#bedaf7;"} holds true for that larger population.
+
+- Cross-population generalizability
+    - When a conclusion about [one population holds true for another population]{style="color:#bedaf7;"}.
+
+## Social Research Goals
+### [**Generalizability**]{style="color:#bedaf7;"} 
+
+![](Images/gen.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+
+(image: Simply Psychology)
+
+:::
+
+::: notes 
+
+Sample generalizability  
+
+Cross-population generalizability would be taking the findings from the target population and applying it to a different population.
+
+:::
+
+
+## Social Research Goals
+### [**Causal Validity**]{style="color:#bedaf7;"} 
+
+- This exist when the conclusion that X causes Y is correct.  
+
+
+::: notes 
+
+Revisit the Ice cream sales and crime example
+
+:::
+
+
+## Social Research Goals
+### [**Authenticity**]{style="color:#bedaf7;"} 
+
+- This exists when our understanding of a social process or social setting is one that reflects fairly the various perspectives of participants in that setting.
+
+
+
+
+## Have a good day! 
+
+![](https://media.giphy.com/media/2rAKTgJIQe1buYU1R5/giphy.gif){fig-align="center"}
+
+
+
