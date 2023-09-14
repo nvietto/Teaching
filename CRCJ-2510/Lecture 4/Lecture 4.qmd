@@ -1,0 +1,370 @@
+---
+title: "Chapter 3 - Research Ethics and Philosophies"
+format: 
+  revealjs:
+    embed-resources: false
+    theme: solarized
+    incremental: true 
+    chalkboard: true
+    slide-number: true
+    show-notes: False
+    pdf-separate-fragments: False
+---
+
+## Chapter 3 - Research Ethics and Philosophies
+
+
+## The Stanford Prison Experiment 
+
+An [interview](https://www.bbc.com/news/world-us-canada-14564182) with Psychologist Philip Zimbardo. 
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/standfordguards.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: Simple Psychology)
+:::
+
+## The Stanley Milgram Experiment
+
+
+{{< video https://www.youtube.com/watch?v=3YOox59J0Bk&t=109s width="100%" height="85%" >}}
+
+
+
+## The Stanley Milgram Experiment
+
+{{< video https://www.youtube.com/watch?v=Kzd6Ew3TraA width="100%" height="85%" >}}
+
+
+## Cinematic Representations of the Experiments 
+
+
+[The Stanford Prison Experiment, 2015](https://www.imdb.com/title/tt0420293/)
+
+[Experimenter, 2015](https://www.imdb.com/title/tt3726704/)
+
+
+## Historical Background 
+
+**1946:** The Nuremberg War Crime Trials expose horrific medical experiments conducted by Nazi doctors and others in the name of "science."
+ 
+**1970s:** Americans learned researchers funded by the Public Health Service followed 399 low-income black men with syphilis in the 1930s.
+
+::: {#fig- layout-ncol=2}
+
+![Nuremberg War Crime Trials](Images/nurem.png){#fig-nurem}
+
+![Tuskegee Syphilus Experiment](Images/tusk.png){#fig-tusk}
+
+Unethical Events in the History of Human Research 
+:::
+
+::: notes 
+
+Conducted on prisoners - including children and people with disabilities - without their consent. 
+
+Many participants were not informed of their illness and were denied treatment until 1972 - even though a cure (penicillin) was developed in the 1950s!
+
+:::
+
+
+## The Belmont Report (1979)
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/bel.png")
+```
+
+
+::: {style="font-size: 50%;"}
+(image: UNT Digital Library)
+:::
+
+
+::: notes 
+
+The result of these and other human rights violations resulted in the 1979 Belmont Report.
+- National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research
+ 
+Three basic ethical principles:
+
+1.) Respect for Persons: 
+ - Treat persons as autonomous agents and protect those with diminished autonomy   
+
+2.) Beneficence: 
+ - Minimize harms and maximize benefits
+ 
+3.) Justice: 
+ - Distributing benefit and risk of research fairly
+
+:::
+
+
+## Ethical Principles 
+### Achieving Valid Results 
+
+[Mainstream Media Accountability Survey](https://gop.com/mainstream-media/)
+
+**Why is this invalid?**    
+
+- Leading questions  
+- Confusingly worded questions  
+- Self-selecting group  
+  
+**Why is this unethical?**   
+
+ - Biased questions can plant ideas in people's heads.
+ - Reports misleading results ("X% of Americans think _____")
+
+::: notes 
+
+The necessary starting point for any ethical research practice is a commitment to achieving valid results.  
+
+We have no business asking people to answer our questions, submit to observations, or participate in our experiments if we are simply seeking to verify our preexisting prejudices or convince others to take action on behalf of our personal interests.
+
+
+:::
+
+## Ethical Principles 
+### Achieving Valid Results 
+
+Should our **ethical judgments** differ when we are confident a study's results provide valid information about important natural or social processes?
+
+- The Minneapolis Domestic Violence Experiment   
+- Clinical studies that use placebo groups
+
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/dilemma.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: Natalia Peraita)
+:::
+
+::: notes 
+
+It is hard to justify any risk for human subjects - or any expenditure of time and resources - if our findings tell us nothing about the reality of what we're trying to understand.
+
+::: 
+
+
+## Ethical Principles 
+### Honesty and Openness 
+
+Scientists must openly disclose their methods and present their findings honestly. 
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/method.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: Oregon State University)
+:::
+
+
+::: notes 
+
+Transparency!
+
+This information is usually detailed in a "Methods" section in a journal article or report.
+
+Some researchers are hesistant to disclose their findings because they may have acted dishonestly or are afraid someone will steal their ideas. 
+
+:::
+
+## Ethical Principles 
+### Proteecting Research Participants 
+
+Zimbardo's Harmed Participants
+
+1.) Participants suffered emotional and physical trauma  
+2.) Did not disclose the arrest procedure
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/pushup.png")
+```
+
+
+::: {style="font-size: 50%;"}
+(image: Simply Psychology)
+:::
+
+
+::: notes 
+Still, there was no long-lasting harm to the participants, and there were some long-term social benefits of the research.
+
+Thanks in part to debriefing and follow-up interviews.
+
+::: 
+
+## Ethical Principles 
+### Proteecting Research Participants 
+
+Was Milgram's study unethical? Were they harmed? 
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/milexp.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: The Open University)
+:::
+
+
+::: notes 
+
+Milgram believed his experiment was 100% ethical.
+He was motivated by the Nuremberg Trials - wanting to know the conditions under which ordinary citizens would be obedient to authority figures' instructions to inflict pain on others.
+
+Follow up interviews (participants) were favorable for the ethics of the study (84% +)
+
+
+::: 
+
+## Ethical Principles 
+### Proteecting Research Participants 
+
+**Informed Consent** 
+
+To obtain informed consent it must be given by persons who are competent to consent, can consent voluntarily, are fully informed about the research, and comprehend what they have been told.
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/vulnerable.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: NIH)
+:::
+
+
+::: notes 
+
+Vulnerable populations usually require special methods of consent (prison populaitons, children, pregnant women, economically disadvantaged)
+
+This is conducted before a study is undertook through the Institutional Review Board (IRB)
+
+:::
+
+
+## Ethical Principles 
+### Proteecting Research Participants 
+
+Avoid **deception**, except in limited circumstance  
+
+Maintain **privacy** and **confidentiality** 
+
+- Should we strive to leave personal values outside of the laboratory, or is it okay for scientists to be concerned about how their research might be used?
+
+
+::: notes 
+
+Milgram's Experiment required deception, otherwise the results would be meaningless. 
+
+Although, researchers must debrief the participants afterward in order to reduce harm. (speak on your exp if you have time)
+
+Locking hard copies in an office 
+
+De-identifying the surveys 
+
+
+NIJ certificate of confidentiality
+
+HIPAA
+
+:::
+
+
+## Social Research Philosophies 
+### Positivism and Postpositivism
+
+August Comte 
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/comte.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: Humanist Heritage)
+:::
+
+
+
+::: notes 
+
+Think Quantitative. 
+
+Define each concept 
+
+:::
+
+
+## Social Research Philosophies 
+### Interpretivism and Constructivism
+
+Max Weber
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/weber.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: Humanist Heritage)
+:::
+
+::: notes 
+
+Think Qualitative 
+
+Define each concept 
+
+:::
+
+
+## Have a good day!
+
+![](https://media.giphy.com/media/KctrWMQ7u9D2du0YmD/giphy.gif){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: giphy.com)
+:::
+
+
