@@ -1,0 +1,770 @@
+---
+title: "Chapter 4 - Conceptualization and Measurement"
+format: 
+  revealjs:
+    embed-resources: false
+    theme: serif
+    incremental: true 
+    chalkboard: true
+    slide-number: true
+    self-contained: false
+    show-notes: False
+    pdf-separate-fragments: False
+    preview-links: auto
+    transition: fade
+---
+
+# What is a concept?
+
+<br>
+
+::: {.fragment .fade-up}
+A mental image that **summarizes** a set of similar observations, feelings, or idea.
+:::
+
+## What are some concepts seen in criminology?
+
+<br> <br>
+
+::: notes
+
+allow them time to answer
+
+:::
+
+## {auto-animate=true}
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Victimization**
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Psychopathy**
+
+**Victimization**
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Addiction**
+
+**Psychopathy**
+
+**Victimization**
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+
+## {auto-animate=true}
+
+**Rehabilitation**
+
+**Addiction**
+
+**Psychopathy**
+
+**Victimization**
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+**Gangs**
+
+**Rehabilitation**
+
+**Addiction**
+
+**Psychopathy**
+
+**Victimization**
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+## {auto-animate=true}
+
+[**Crime**]{style="color:#FF0000;"}
+
+**Gangs**
+
+**Rehabilitation**
+
+**Addiction**
+
+**Psychopathy**
+
+**Victimization**
+
+**Race**
+
+**Economic Disadvantage**
+
+**Strain**
+
+**Social Control**
+
+**Poverty**
+
+
+## Conceptualization 
+
+<br> 
+
+::: {.fragment .fade-in}
+The process of specifying what we mean by a term. 
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+Helps translate the **abstract meaning** of our concept into something that is **testable**. 
+:::
+
+## Operationalization   
+
+<br>
+
+::: {.fragment .fade-in}
+[**Operation**]{style="color:#0000FF;"} is the procedure for **measuring** the concepts we intend to measure. 
+:::
+
+<br> <br>
+
+::: {.fragment .fade-in}
+[**Operationalization**]{style="color:#013220;"} is the process of specifying the operations that will indicate the **value** of a variable for each case. 
+:::
+
+## *Conceptualization* to ***Operationalization***{background-color="honeydew"}
+
+<br>
+
+![](Images/oper.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: AMA)
+:::
+
+::: notes 
+
+Concept   Variable              Indicator
+
+Poverty    Subjective poverty    "Do you conssider yourself to be poor?"
+          absolute poverry        Family income vs. poverty threshold
+
+(when discussing point out that in the picture the concept and varible are aggregated)
+
+:::
+
+
+
+## *Conceptualization* to ***Operationalization***
+
+![](Images/richards.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch4/#1))
+:::
+
+
+::: notes 
+
+After we've defined our theoretical concepts in the abstract (i.e., conceptualizing), and after we have specified the specific variables we'd like to measure, we must develop our measurement procedures (i.e., operationalization).
+
+
+At the start of the pandemic, when many places adopted SAHOs, there was an explosion of research reporting that domestic violence was increasing.
+
+- Lots of single-city studies
+
+- In every instance, the concept researchers want to measure is DV. But the best available data is 911 calls. So the variable becomes "victim reporting" - which we know won't tell the whole story because victims often choose not to report. In addition, victims may choose to report to an entity other than the police - e.g., emergency hotlines operated by victim assistance agencies.
+
+Results varied across jursidictions. Some saw calls to both agencies go up, some saw increases in calls to one, but not the other.
+
+The thing to keep in mind here is that good conceptualization and operationalization can prevent confusion later on in the process.
+
+:::
+
+## **Identifying the Best Data**
+### Types of Data
+
+**Two Types**
+
+1.) **Original data**
+
+
+2.) [**Secondary data**](https://www.icpsr.umich.edu/web/pages/)
+
+
+![](Images/data.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Planon)
+:::
+
+::: notes 
+
+Click link and discuss ICPSR
+
+Lots of agencies (e.g., BJS, FBI, the US Census Bureau) publish annual reports which makes data aviability pretty easy to access. 
+
+Limitations of secondary data (research question has to fit the data, rather than be the idea) and orginal data (time to collect)
+
+
+:::
+
+## **Identifying the Best Data**
+### Secondary Data
+
+<br>
+
+Example: [**Gun Violence Archive**](https://www.gunviolencearchive.org/)
+
+<br>
+
+![](Images/mass.png){fig-align="center"}
+
+
+::: notes
+
+Walk through website
+
+Diagram of the number of mass shootings 
+
+Discuss operationaling of a "mass" shooting event is 
+
+:::
+
+## **Identifying the Best Data**
+
+Perhaps secondary data doesn't exist. 
+
+<br>
+
+::: {.fragment .fade-in}
+**What do we do?**
+:::
+
+<br>
+
+::: {.fragment .fade-in}
+**Collect our own data.**
+:::
+
+
+## **Identifying the Best Data**
+### Constructing Questions 
+<br>
+**Closed-Ended Questions**
+
+Respondents are offered explicit responses to choose from. 
+
+
+![](Images/vig.png){fig-align="center"}
+
+::: notes 
+
+Closed-ended questions reduce ambiguity and make it easier on respondents. 
+
+Make sure mutual exclusivity is present in categorical outcomes. 
+
+
+:::
+
+
+## **Identifying the Best Data**
+### Constructing Questions 
+<br>
+**Open-Ended Questions**
+
+Used when the range of responses cannot be anticipated. 
+
+Ex. How would you say alcohol use on UNO's campus compares with that of UNL's campus? 
+___________________________________________________
+___________________________________________________
+___________________________________________________
+
+
+
+## **Identifying the Best Data**
+### Making Observations
+
+Systematic Social Observation (SSO)
+
+* Was used in the seminal study of [*collective efficacy*](https://www.science.org/doi/10.1126/science.277.5328.918)
+* Drove in an SUV at 5mph down every street in a sample of Chicago neighborhoods
+* Video recordings were completed on over 15,000 blocks 
+* Trained observers completed over 23,000 logs of what they saw
+
+
+## **Identifying the Best Data**
+### Systematic Social Observation (SSO)
+
+![](Images/SSO.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Bold expert)
+:::
+
+
+## **Identifying the Best Data**
+### Collective Unobtrusive Measures 
+<br>
+Allow us to collect data about individuals or groups without their direct knowledge or participation.
+
+* Physical Trace Evidence 
+* Archives 
+* Simple Observation 
+* Contrived Observation
+
+::: notes 
+
+Physical Trace - measure drinking on a college campus by counting the beer bottles near a dumpster
+  Would these be valid results? 
+
+Archives - measure drinking on a college campus by using the local newspaperto look for reported incidents or party flyers posted in pubs 
+
+Contrived Observation  - measure drinking on a college campus by hidden camera or a similar device
+
+Additionally, we can also combine these methods. 
+
+:::
+
+
+## **Recap**
+
+- Conceptualization to Operalization 
+- Type of questions
+- Systematic Social Observation
+- Collective Unobtrusive Measures 
+
+
+## **Levels of Measurement**
+### Nominal Variables 
+
+* *Categorical* or *qualitative* levels of measurement
+
+* Values have no mathematical interpretation.
+
+* Vary in kind or quality, not in amount.
+
+
+![](Images/dogs.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Depositphotos )
+:::
+
+
+::: notes 
+
+Different kinds of dogs is a nominal variable. Even dog's name could be considered nominal. 
+
+Ex. Gender, ethnicity, occupation, religious affiliation, or region of the country. 
+
+:::
+
+## **Levels of Measurement**
+<br>
+
+**Mutually exclusive attributes**
+
+<br>
+
+**Exhaustive attributes**
+
+::: notes
+
+A variables attributes are mutually exclusive if every case can have only one attirbute 
+
+A variables attributes are exhaustive when every case can be classified into one of the categories. 
+
+When these are present, every case corresponds to one and only onne attribute 
+
+:::
+
+## **Levels of Measurement**
+### Ordinal Variables
+
+
+
+![](Images/HHI.png){fig-align="center"}
+
+::: notes 
+
+**Quantitative** level of measurement
+
+Numbers assigned to cases specify the order, and enable us to make "greater-than" and "less-than" comparisons.
+
+Household income displays a clear rank and values of less or more. 
+
+:::
+
+
+## **Levels of Measurement**
+### Interval Variables
+
+
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images/interval.png")
+```
+
+
+
+::: {style="font-size: 50%;"}
+(image: Research Method )
+:::
+
+
+::: notes 
+
+**Quantitative** level of measurement
+
+The numbers indicate the value of a variable represent fixed measurement units.
+
+That means the change in value from one unit to the next is equal and incremental. 
+
+However, there is no fixed zero point (i.e., be below 0 degrees Celsius and into negative temperatures)
+
+We can add and subtract these variables, but the ratios (i.e., "twice as hot") are not meaningful. 
+
+::: 
+
+## **Levels of Measurement**
+### Ratio Variables
+
+![](Images/ratio.png){fig-align="center"}
+
+
+
+::: notes 
+
+**Quantitative** level of measurement
+
+Let's revisit our doggo example. Dog's weight and age would be perfect examples of ratio variable. There is an absolute zero, we can say one dog is twice the weight of another dog or twice as old. 
+
+At the ratio level, numbers are fixed units AND there is an absolute zero point - where zero means there is none of the thing being measured.
+
+- So on a ratio scale, 10 is two points higher than 8, and twice as much as 5.
+- So we can add and subtract ratio numbers, as well as multiply and divide them.
+
+:::
+
+## **Levels of Measurement**
+### Dichotomous Variables
+
+![](Images/dichot.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: Research Method )
+:::
+
+::: notes
+
+If we consider biological sex at birth, this would be considered as a binary or dichot variable. 
+
+We do this to examine the presense or absence of a variable. 
+
+:::
+
+
+## **Levels of Measurement**
+### Comparison of Levels of Measurement 
+
+![](Images/compare.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch4/#1))
+:::
+
+
+## **Measurement Validity**
+### Face Validity
+
+
+![](Images/Fv.png){fig-align="center"}
+
+
+
+
+::: notes
+
+Bring up measurement validity (i.e., measuring what we think we've measured)
+
+
+Face validity - Does the measure seem appropriate on its face? 
+
+More formally, it is a superficial appearance or initial impression that a test or measurement instrument appears to measure what it is intended to measure, based on subjective judgment.
+
+Ex. We could ask how many drinks respondents had in the last week. That measure would have face validity. But heavy drinkers tend to underreport how much they drink, and so to the extent our sample had heavy drinkers, the resulting data might underestimate alcohol consumption.
+
+Similar story with juv delinquency/ antisocial behavior. We could use police records to examine this but we would see much underreporting becasue not every crime is reported. Also, police do overpolice in certain areas of cities. 
+
+:::
+
+
+## **Measurement Validity**
+### Content Validity
+
+
+
+![](Images/cont.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch4/#1))
+:::
+
+
+::: notes 
+
+Establishes that the measure covers the full range of the concept's meaning or dimensions.
+
+We can't say we've tested Routine Activities Theory if we don't measure all three dimensions.
+
+:::
+
+
+## **Measurement Validity**
+### Criterion Validity
+
+
+![](Images/crit.png){fig-align="center"}
+
+
+
+::: {style="font-size: 50%;"}
+(image: Resident Advisor)
+:::
+
+
+::: notes 
+
+Criterion validity is established when the scores obtained on one measure can be accurately compared to those obtained with a more direct, or already validated, measure of the same phenomenon
+
+
+We can measure alcohol consumption directly, via blood, urine, or breath samples. Asking someone on a survey about alcohol consumption is an indirect measure (i.e., we're banking that the respondent is being truthful). If our indirect measure lines up with a direct or already-validated measure, we can say it has criterion validity. 
+
+Does our indirect measure align with the direct measure.
+
+Basically, criterion validity offers evidence.
+
+:::
+
+## **Measurement Validity**
+### Construct Validity
+
+Used when *no clear* criterion exist for validation purposes. 
+
+<br>
+
+**For example:**  
+
+A study using an Addition Severity Index (ASI) would validate the scores by comparing it with other variables associated with addiction (e.g., employment, legal, family problems)
+
+
+
+::: notes 
+
+Construct validity is what we often turn to when there is no reasonable criterion to judge our measure against. We establish it by showing that our measure is related to a variety of other measures as specified in a theory.
+
+The distinction between construct and criterion validity, is often not clear. 
+
+
+:::
+
+## **Reliability**
+
+A measurement is producing a consistent score. 
+
+* As long the phenomena itself **does not change**
+
+
+
+::: notes 
+
+If a measure is reliable, it's less affected by random error/chance than if its unreliable.
+
+If we give students the same alcohol consumption survey 6 months apart, and got consistent results, it would indicate our measures were reliable.
+
+Unless of course, the sample's drinking habits had significantly changed!
+
+
+:::
+
+
+## **Reliability**
+### Test-Retest Reliability 
+
+If we observe X → Y at two points in time, this increases our confidence in the reliability of our measures. 
+
+
+::: notes 
+
+Use board if have time 
+
+If you take the GRE today, and again 2 months later, and get a very similar score, it indicates the GRE is a reliable measure of your verbal and quantitative reasoning skills.
+
+Of course, what might be the reason for a significantly better score two months later?
+
+::: 
+
+
+## **Reliability**
+### Interitem Reliability (Internal Consistency)
+
+
+![](Images/IRR.png){fig-align="center"}
+
+
+::: notes 
+
+If we use multiple items to measure a single concept, we should be concerned with interitem reliability, or internal consistency.
+
+The stronger the association amoung individual items, and the more items that are included, the higher the reliability. 
+
+The point: check how well individual items meant to measure a concept load together.
+
+:::
+
+## **Reliability**
+### Alternate-Forms Reliability
+
+![](Images/Alt.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch4/#1))
+:::
+
+::: notes 
+
+Researchers might reverse the ordering of response choices in an index 
+
+A related approach is the split-halves reliability approach. 
+
+- Divide your sample into two by flipping a coin and administer the two forms of questions. Here again, if responses are substantively similar, you've got an indication of reliability.
+
+:::
+
+
+## **Reliability**
+### Intra and Interobserver Reliability
+
+![](Images/Reli.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image:Relyence)
+:::
+
+
+::: notes 
+
+Intraobserver reliability is test-retest reliability for the observer/coder. If you're collecting data at 2+ points in time, you want to be sure that your observations are consistent.
+
+When using more than one observer or coder to rate the same persons, events, etc., interobserver reliability is the goal. Here, we want to be sure observers are using the same instrument, and that their ratings are similar.
+
+::: 
+
+# We want [**both**]{style="color:#FF0000;"} reliability and validity. 
+
+
+
+## Alright, see you next week!
+
+![](https://media.giphy.com/media/kGCuRgmbnO9EI/giphy.gif){fig-align="center"}
+
+
+
+
+
+
+
+
