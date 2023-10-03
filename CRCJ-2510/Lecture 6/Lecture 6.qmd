@@ -1,0 +1,527 @@
+---
+title: "Chapter 5 - Sampling"
+format: 
+  revealjs:
+    embed-resources: false
+    theme: night
+    incremental: true 
+    #chalkboard: true
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    pdf-separate-fragments: False
+    preview-links: auto
+    transition: fade
+---
+
+
+
+
+
+## Gallup Polls
+
+### Presidental Approval Polling
+
+<br>
+
+![](Images2/Gallup.png){fig-align="center"}
+
+::: notes
+Aim to represent the opinions of a sample of people representing the same opinions that would be obtained if it were possible to interview everyone in a given country.
+
+Based on interviews conducted by landline and cellular telephones. - random-digit-dial (RDD) telephone
+
+1,000 national adults
+
+Age 18 and over.
+
+**What jumps out at you?**
+:::
+
+## Gallup Polls
+
+### Black Adults Confidence in Police
+
+<br>
+
+![](Images2/Gallup2.png){fig-align="center"}
+
+::: notes
+**What jumps out at you?**
+
+National aduls has dropped. Why do you think?
+
+Black Americans has been low, what would explain that?
+
+Hispanic Americans too.
+:::
+
+## Gallup Polls
+
+### Gen Z Opinion on College Education
+
+<br>
+
+![](Images2/gallup3.png){fig-align="center"}
+
+::: notes
+**What jumps out at you?**
+
+It appears the younger the sample is the more important the variable being measured is.
+
+Age 19-21 is the college age, then after the typical graduation age (22+) there appears to be a dip. What would explain that?
+:::
+
+# Do you think these polls are *valid?*
+
+::: notes
+Sampling is a tricky science It requires a legit number to be representitave and the wording we choose in our questions can also lead to misleading inferences.
+:::
+
+## Sample Planning
+
+-   So let's say we are a university deciding what major will be the most important for the incoming 2024 freshman cohort.
+-   We don't have the **time** or **money** to survey the entire population (i.e., every high school student in the US)
+-   [**So what do we do?**]{style="color:#FFA500;"}
+
+::: notes
+Census is the method for entire population
+:::
+
+## Sample Planning
+
+### Define Sample Components
+
+-   We create a [**study sample**]{style="color:#FFA500;"} - which is a subset of elements from the population.
+-   [**Which districts do you think that would be?** ]{style="color:#FFA500;"}
+
+```{r}
+#| fig-align: "center"
+#| out-width: "40%"
+#| echo: false
+
+knitr::include_graphics("Images2/schools.png")
+```
+
+::: {style="font-size: 50%;"}
+(image: NebraskaMaps.gov)
+:::
+
+::: notes
+We could limit our research question to just the school districts in Nebraska (study sample).
+
+Let's say *3* of the most populated school districts in Nebraska.
+
+What would be the problem with selecting the most most populated school districts? - Likely only going to sample urban and not rural populations. - But that's a trade off that we can live with
+:::
+
+## Sample Planning
+
+### Define Sample Components
+
+So now we have our [**sampling frame**]{style="color:#FFA500;"}.
+
+So now we need to go one level deeper and define our [**sampling elements**]{style="color:#FFA500;"}.
+
+-   Which, is just the student that filled out the survey.
+-   But, what's the step before they fill out the survey? (hint: think of the Minneapolis domestic violence experiment)
+-   What would be another limitation to our sample elements?
+
+::: notes
+What is our sampling frame, again? - 3 of the most populated school districts
+
+Random sample does not select everyone
+
+Inevitably, some students will be absent on the day(s) we administer our survey.
+
+And inevitably, some students who are present won't complete our survey.
+:::
+
+## Sample Planning
+
+### Define Sample Components
+
+<br> <br>
+
+![](Images2/sampleprocess.png){fig-align="center"}
+
+::: notes
+Study population - high school stduents
+
+Study sample - nebraska high school students
+
+Sample frame - 3 of the most populated school districts - Random sample here - **Ask students where they would randomily sample.**
+
+Sample elements - students present in school, students who were selected, and students who took the survey (volutary survey )
+:::
+
+## Sample Planning
+
+### Evaluate Generalizabilty
+
+<br>
+
+[**Sampling error**]{style="color:#FFA500;"} is the difference between characteristics of the sample and characteristics of the population from which it was selected.
+
+<br>
+
+The larger the sampling error, the less representative the sample, and thus the less generalizable our findings.
+
+<br>
+
+::: notes
+Always keep in mind where the sample was drawn from.
+
+Ask yourself - DO the cases that were studied represent - in the aggregate - the population from which they were selected?
+
+Although sometimes there are limitations (e.g., money, time, who's in your network/connections) so you have to make due with what you have. But acknowledge that it is a limitation
+:::
+
+## Evaluating Generalizabilty
+
+Let's recall what we know about the psychopathy population
+
+-   What percent of individuals have psychopathy in prison?
+    -   **\~30%**
+-   What percent of individuals have psychopathy in community?
+    -   **\~2%**
+-   With this information, can you create a case with [**high**]{style="color:#FFA500;"} sample error?
+
+::: notes
+Use the board to walk through this
+:::
+
+## Sample Planning
+
+### Assess Population Diversity
+
+If all units in the population were identical, there'd be no need to sample.
+
+For example, if a chemist were examining several H2O molecules, they would not need to sample. They could measure the properties of the elements (since there are only two hydrogen and oxygen) and differentiate it that way.
+
+This is what makes [social science so difficult]{style="color:#FFA500;"}. We do have to [sample]{style="color:#FFA500;"}.
+
+::: notes
+Ultimately the goal of sampling is to study a representative subset of the population we're interested in.
+
+If our sample is unrepresentative, some characteristics are over- or under-represented in our sample, and this can introduce sampling error, which can skew our results.
+:::
+
+## Sample Planning
+
+### Consider a Census
+
+![](Images2/census.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: US Department of Commerce)
+:::
+
+::: notes
+In some situations you can bypass concerns about generalizability by studying your entire population of interest.
+:::
+
+## Recap
+
+**Sample Planning**
+
+* Study population
+
+* Study sample
+
+* Sample frame
+
+* Sample elements
+
+## Sample Methods
+### Probability Sampling Methods
+
+::: {style="font-size: 125%;"}
+[**Things to know:**]{style="color:#FFA500;"}
+:::
+
+* These methods [**require**]{style="color:#FFA500;"} that the probability of selection is *known* and is not zero.
+* Nothing but [**chance**]{style="color:#FFA500;"} determines which elements are included in the sample.
+* There is no [**systematic bias**]{style="color:#FFA500;"} due to random selection.
+
+* Do you think there will be sample error? 
+
+::: notes 
+
+There will be some sampling errorr due to chance. 
+
+For example,  if you flip a coin 10 times in a row, it is possible to get 7 heads and 3 tails or even 10 heads, which creates underrepresention of tails. 
+
+Another example, randomily selcting 10 men or women in a group of 100. It is entirely possible to randomily select 10 women in a row, which creates an underrepresenative sample of men. 
+
+::: 
+
+## Sample Methods
+### Probability Sampling Methods
+
+A couple other important things: 
+
+* [**Sample size**]{style="color:#FFA500;"} - The larger the sample, the more confidence we have in the representation of the population from which it was drawn. 
+* [**Homogeneity**]{style="color:#FFA500;"} (sameness) - The more homogeneous the population, the more confidence we can have in the representatives of a sample of any size. 
+
+
+::: notes 
+
+Use an example to break this down. 
+
+Russia has high degree of Slavic speaking people - high homogenity   
+
+US has a high degree of languages and therefore low homogenity 
+
+::: 
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Simple Random Sampling**]{style="color:#FFA500;"}
+
+![](Images2/Doug.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+::: notes 
+
+
+Simple Random Sample requires a procedure (random number table, digit dialer, or a software) that generate numbers or identifies cases strictly on the bases of chance. 
+
+The populationn of Douglas county is:
+
+80% white
+11% black
+1% American Indian/Alaskan Native
+4.5% Asian
+Less than 1% Native Hawaiian/PI
+3% two or more races
+
+:::
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Simple Random Sampling**]{style="color:#FFA500;"}
+
+![](Images2/doug2.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+::: notes 
+
+If we sample 10 residents, the sample isnt very representative. 
+
+:::
+
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Simple Random Sampling**]{style="color:#FFA500;"}
+
+![](Images2/doug3.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+::: notes 
+
+If we sample 100 residents, the sample starts to become representative (i.e., reflect the data from the census)
+
+:::
+
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Simple Random Sampling**]{style="color:#FFA500;"}
+
+![](Images2/doug4.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+
+::: notes 
+
+If we sample 1000 residents, the sample starts to become very representative (i.e., reflect the data from the census)
+
+:::
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Systematic Random Sampling**]{style="color:#FFA500;"}
+
+A sampling method where every [nth]{style="color:#FFA500;"} item in a population is selected after a random start, ensuring a representative sample.
+
+Population, or [**N**]{style="color:#FFA500;"}
+
+Random sample, or [**n**]{style="color:#FFA500;"}
+
+Systematic sampling interval, or [**k**]{style="color:#FFA500;"}
+
+$$ k = N/n$$ 
+
+## Probability Sampling Methods
+
+[**Systematic Random Sampling**]{style="color:#FFA500;"}
+
+Let's say we have a population, [**N**]{style="color:#FFA500;"}, of 1000, and we want to draw a random sample, [**n**]{style="color:#FFA500;"}, of 20.
+
+Our systematic sampling interval, or [**k**]{style="color:#FFA500;"}, is:
+
+$$k = N/n$$ 
+
+- $$ 50 = 1000/20$$ 
+- So here, we'd [pick a number at random](https://www.google.com/search?q=random+number+generator) between 1 and 50 as the starting point, then select every 50th observation. 
+
+::: notes 
+
+You would then sample the random number from 1-50 and draw that 20 times from the population 
+
+Click the pick a number then adjust the max to 50
+
+Props to Dr.Nix for throwing a pick a random number with in-line code on his slides, would have never thought to do that. Very creative. 
+
+:::
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Stratified Random Sampling**]{style="color:#FFA500;"}
+
+
+![](Images2/Doug.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Stratified Random Sampling**]{style="color:#FFA500;"}
+
+![](Images2/Dougstrat.png){fig-align="center"}
+
+
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+
+::: notes 
+
+Stratified random sample is a method where a population is divided into distinct subgroups or strata, and then random samples are taken from each subgroup to ensure representation of all groups in the sample.
+
+::: 
+
+## Sample Methods
+### Probability Sampling Methods
+
+[**Multistage Cluster Sampling**]{style="color:#FFA500;"}
+
+<br>
+
+![](Images2/multistag.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: Scribbr)
+:::
+
+
+::: notes 
+
+Randomly sample clusters of elements, then randomly sample the individual elements from the selected clusters. 
+
+Mention image 5.5 on page 99 
+
+:::
+
+## Sample Methods
+### Non-Probability Sampling Methods
+
+* [**Availability Sampling**]{style="color:#FFA500;"}
+
+* [**Quota Sampling**]{style="color:#FFA500;"}
+
+* [**Purposive Sampling**]{style="color:#FFA500;"}
+
+* [**Snowball Sampling**]{style="color:#FFA500;"}
+
+::: notes 
+
+This is non-random sampling 
+
+Availability Sampling - elements are selected because they are available and easy to find. (ex. college campus interviews)
+
+Quota Sampling - researchers intentionally select individuals from different predefined groups until they reach a predetermined quota for each group.
+
+Purposive Sampling - target individuals who are particularly knowledgeable about the issue you're studying
+
+Snowball Sampling - method where initial participants are used to identify and refer additional participants, creating a chain-like sampling process often used in hard-to-reach or hidden populations.
+
+::: 
+
+
+## Units of Analysis
+### Units of Analysis and Errors in Causal Reasoning 
+
+[**Ecological Fallacy**]{style="color:#FFA500;"}
+
+
+Drawing conclusions about individual-processes from group level data
+
+![](Images2/eco.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+
+
+## Units of Analysis
+### Units of Analysis and Errors in Causal Reasoning 
+
+[**Reductionism**]{style="color:#FFA500;"}
+
+
+Drawing conclusions about group-level processes from individual level data
+
+![](Images2/Reduce.png){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture 4](https://jnix.netlify.app/slides/crcj2510_ch5))
+:::
+
+
+
+## Have a great day!!
+
+<br>
+
+![](https://media.giphy.com/media/42D3CxaINsAFemFuId/giphy.gif){fig-align="center"}
+
+
+::: {style="font-size: 50%;"}
+(image: giphy.com)
+:::
+
+
+
+
