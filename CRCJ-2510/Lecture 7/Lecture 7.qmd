@@ -1,0 +1,539 @@
+---
+title: "Chapter 6 - Causation and Research Design"
+format: 
+  revealjs:
+    embed-resources: false
+    theme: serif
+    incremental: true 
+    #chalkboard: true
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    pdf-separate-fragments: False
+    preview-links: auto
+    transition: fade
+---
+
+## Cause and Effect
+### What do we mean by causation? 
+
+$$ X-> Y$$
+<br>
+
+$$ Cause-> Effect $$
+
+::: notes 
+
+This is another tricky part of social science research. We come across a lot of association between two variables, but just because there is an association, does this mean it is okay to assume causation? 
+
+Remember correlation is not causation. You'll see this mistake being made by people throughout your life. This is why it is so important to understand this now. 
+
+:::
+
+## Cause and Effect
+### What do we mean by causation? 
+
+A Causal effect is when **variation** in one phenomena [(*the independent variable*)]{style="color: #008080;"} leads to **variation** in another phenomena [(*the dependent variable*)]{style="color:#008080;"}.
+
+
+::: notes
+
+A student does well on an exam (effect) because they studied persistently throughout the course (cause). 
+
+- Ask what type of validity the above context is? (face validity)
+
+A student does not do well on an exam (effect) due to lack of studying (cause). 
+ 
+- ^ this could be the case but I suspect there could be a few lingering third IVs that are present.
+
+1.) Sometimes students don't know how to study (everyone learns differently) Discuss differently learning styles (e.g., Auditory, Visual, Tactile, kinesthetic). A lot of individuals who are highly intelligent and didn't have to study very hard in high school, often have problems in university where you have to apply yourself in a different way. 
+
+2.) poor teaching
+
+Any other examples? 
+
+Violent movies and video games and crime? 
+
+:::
+
+## Cause and Effect
+### **5 Criteria for Causality**
+
+* [**Association**]{style="color:#008080;"}
+* [**Time Order**]{style="color:#008080;"} or **Temporal Relationships**
+* [**Non-spuriousness**]{style="color:#008080;"} or **Controlling for Confounders**
+
+<br>
+
+* [**Mechanism**]{style="color:#008080;"}
+* [**Context**]{style="color:#008080;"}
+
+::: notes
+
+When a research design lacks one these then the interpretation should be doubted or questioned. 
+The first three are **required**, the following two can be thought of as extra that can help strengthen the case. 
+
+**Association** - in order for X -> Y, X and Y must be associated. In other words, if there is an change in one variable (X), there must be a change in anthoer variable (Y). 
+
+**Time Order** - Also called a temporal relationship. We must ensure that variation in the IV came before variation in the DV - the cause must become before the presumed effect. 
+
+**Non spurious** -  It might sometimes appear that X and Y are related - or even that X caused Y - when in reality, a third variable, Z is causing the change in both X and 
+
+**Mechanism** - A plausible mechanism or explanation should exist to describe how the cause leads to the effect. This criterion assesses whether there is a logical and biologically plausible connection between the cause and effect. 
+
+**Context** -When a relationship amoung variables differs across geographical units like countries or across different social settings or different types of individuals. 
+
+:::
+
+
+## Why Experiments?
+### Let's make sure we understand the difference between some concepts
+
+Let's check out some visual applications and clarify some concepts!
+
+[**Random sampling**](https://ellaudet.iq.harvard.edu/random_sampling){style="color:#008080;"} is different than [**random assignment**](https://ellaudet.iq.harvard.edu/random_treatment){style="color:#008080;"}. 
+
+But both are important to the [**Central Limit Theorem**](https://anilz.shinyapps.io/Central_Limit_Theorem/){style="color:#008080;"}.
+
+
+
+::: notes
+
+
+Links below if they don't work in slides
+
+https://ellaudet.iq.harvard.edu/random_sampling
+
+https://ellaudet.iq.harvard.edu/random_treatment
+
+https://anilz.shinyapps.io/Central_Limit_Theorem/
+
+::: 
+
+## Why Experiments?
+### Back to Causality 
+
+We use experiments because they are the most powerful design for causal hypothesis testing. 
+
+[**True experiments**]{style="color:#008080;"} have 3 features!
+
+* [Two or more]{style="color:#008080;"} comparison groups 
+
+* [Random Assignment]{style="color:#008080;"}
+
+* [Assessment of change]{style="color:#008080;"} in Y [*after*]{style="color:#008080;"} X (experimental condition) has been applied
+
+::: notes 
+
+**Treatment/intervention vs control groups**
+- We want to give one of the groups the treatment, or intervention, and withhold it from the other group (the control).
+- If we observe some change in the treatment group, but not the control group, this is stronger evidence that the change was **caused** by the treatment.
+  - Head to the baord (create a scenario)
+
+**Random assignemnt**
+If the only thing that influenced selection into treatment or control was chance, then we can rule out spurious effects. 
+Flip back to shiny apps to help with this
+
+In fact, random assignment does not help at all to ensure generalizability.
+
+Representativeness (a type of external validity) is the goal of random sampling. Random assignment help ensure internal validity by creating equivalent comparison groups.
+
+**Assessment of change**
+
+This obviously helps us ensure time ordering, so we can rule out reverse causality.
+
+If have time go over example in book p. 117 (6.4)
+
+::: 
+
+
+## Why Experiments?
+
+
+Let's run an experiment!
+
+Does prison classification affect inmate behavior?
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](Images2/adx.png)
+:::
+
+::: {.column width="60%"}
+![](Images2/adx2.png)
+:::
+
+::::
+
+::: {style="font-size: 50%;"}
+(images: Wikipedia & Wall Street Journal)
+:::
+
+::: notes
+
+
+Mention ADX - https://en.wikipedia.org/wiki/ADX_Florence
+
+Bench and Allen (2003) obtained a random sample of 200 inmates admitted to Utah State Prison who had been initially classified as maximum security
+
+From this group of 200, half were randomly assigned to get reclassified to medium-security status.
+
+So the independent variable here is security classification, and it was randomly assigned.
+
+The dependent variable was the number of disciplinary infractions committed by each group.
+
+Severity of infractions was weighted.
+
+What do you think happened? 
+
+
+:::
+
+
+## Why Experiments?
+### Field Experiments
+
+Check out [Pager (2003)](https://scholar.harvard.edu/files/pager/files/pager_ajs.pdf){style="color:#008080;"}
+
+
+![](Images2/pager.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: the Sociologist)
+:::
+
+
+::: notes
+
+Whenever studies use the the conditions of an experimental method in a real-world setting. 
+
+Discuss Pager Study 
+
+
+::: 
+
+
+## Recap 
+
+* **Cause-> Effect**
+
+* **5 Criteria for Causality**
+
+* **Why do use experimental design?**
+
+* **What is the difference between random assignment and random sampling?**
+
+
+
+## What if a True Experiment isn't Possible? 
+### Quasi-Experimental Designs 
+
+[**Non-equivalent Control Group Designs**]{style="color:#008080;"}
+
+1.) [Individual Matching]{style="color:#008080;"}
+
+<br>
+
+2.) [Aggregate Matching]{style="color:#008080;"}
+
+
+::: notes
+
+**Reasons why we couldn't do an experimental design**
+
+* Ethical concerns - this is a big one, common in correction studys
+
+* Cost prohibitive 
+
+* Insufficient time 
+
+The most important difference is that quasi designs do not have randomly assigned groups 
+
+**Non-equivalent Control Group Designs** designs that have exp and control groups that are before treatment occurs but are not created with random assignment
+
+*Individual matching:* individual cases in the treatment group are matched (on observables) with similar cases in the comparison group.
+
+*Aggregate matching:* same idea, but at the group level. Researchers find a comparison group that has similar distributions on key variables (e.g., age, gender, race, etc.).
+
+::: 
+
+
+## What if a True Experiment isn't Possible? 
+### Quasi-Experimental Designs 
+
+**Case Study: The Effectiveness of Drug Courts**
+
+![](Images2/dc.png){fig-align="center"}
+
+
+::: notes 
+
+Drug courts are an alternative to correctional prison and jail-based responses to addicted offenders and generally rely more on community-based treatment.
+
+The underlying assumption is that:
+- Drug users and their drug-related crimes will increasingly clog the court system and fill our jails and prisons if we don't treat their addictions.
+
+**Do you think drug courts reduce recividism**
+
+Listwan et al. (2003) evaluated the Hamilton County Drug Court program in Cincinnati.
+
+DVs: recidivism for drug-related and other offenses.
+
+Groups: those *who participated* in drug court and those *who were eligible but did not participate*
+
+The latter either **refused treatment** or were **denied treatment** by the drug court team.
+
+**Any Problems with this design?**
+
+The researchers demonstrated that the groups weren't significantly different in terms of age, race, education, or prior arrests...
+
+But the experimental group had more women and people with prior convictions unrelated to drugs.
+
+Results suggested that drug courts reduced recidivism for drug-related offenses, but not other offenses, for 4 years.
+
+
+:::
+
+
+
+## What if a True Experiment isn't Possible? 
+
+[**Before and After Designs**]{style="color:#008080;"}
+
+A design that has a pretest and postest but no comparison group. 
+
+![](Images2/ba.png){fig-align="center"}
+
+
+::: notes
+
+**Three types:**
+
+We discussed longitudinal designs breifly last lecture. This is a more formal look at them. 
+
+- **Fixed panel design** - the same individuals are simply studied over time, should contain one pretest and one posttest (i.e., at least two time points)
+
+- **Repeated Measure Design** - These include *several* pretest and posttest observations of one group (usually a birth cohort study). The most common reason to use this is to study effects over time or ageing. For example, if we would want to know how a different generations were affected by economic crisis. We could study early generation of the great depression (assuming there is data out there) and the millennial generation of the great recession. We would study before, during, after, and perhaps another time point to assess the effect it had on whatever our DV was. 
+
+- **Time series Design** - these include many (usually 30 +) in both the pre test and post test periods. 
+  - Basic idea, identify a trend in the dependent variable up to the date of the intervention, and then control for outside influences and project the trend on the post-intervention period. The projected trend is then compared to the actual trend of the DV after the intervention. 
+
+
+::: 
+
+## What if a True Experiment isn't Possible? 
+### **Time Series Designs**
+
+<br>
+
+![](Images2/ts2.png){fig-align="center"}
+
+
+
+
+::: {style="font-size: 50%;"}
+(image: researchgate  )
+:::
+
+::: notes 
+
+
+Notice there are several time points before and after. 
+
+Time series designs can be used for predictions or forecasting (e.g., how hedge funds figure where's the best point in a stock market to short or buy a stock). Although this requires a bit more advanced math/statistics. 
+
+:::
+
+## Threats to Validity 
+### **Causal Validity aka Internal Validity**
+
+<br>
+
+![](Images2/Threats.png){fig-align="center"}
+
+
+::: notes 
+
+Causal Validity - is the extent to which a piece of evidence supports a claim about cause and effect. 
+
+Head to the board!
+
+So there are five main threats to internal validity in experiments:
+
+ 1.) **Selection bias** when the characteristics of the experimental and control group subjects differ
+
+2.) **Endogenous change** when subjects develop or change during the course of the experiment as part of an ongoing process that is independent of the treatment
+
+**Testing** - taking the pretest can influence the post test scores. For example, if we are studying psychopathy in a sample of incarcerated individuals and it involves a panel design the subjects might be hesistant to report callous traits, especially if they are elegible for early release. 
+
+**Maturation** -  essentially subjects ageing over time. 
+
+**Regression** - People experiencing cyclical or episodic changees that reult in different posttest scores. 
+
+3.) **External events** or history effects means something significant occurs during the experiment, besides treatment, that influences scores on the outcome.
+
+For example, if we were collecting on policing during covid and then depolicing occured. If our design was about arrests or something similarm, covid would dramatically affect the DV
+
+4.) **Contamination**  when either the experimental group or the control group is aware of the other group, and is influenced in the posttest as a result
+
+5.) **Treatment misidentification** when variation in the (IV) treatment is associated with variation in the (DV) observed outcome, but the change occurs through a process that the resaercher has not identified
+
+
+::: 
+
+
+## Threats to Validity 
+### **Generalizability**
+
+
+The  need for generalizable findings is the "Achilles Heel" of true experimental design.    
+
+<br> 
+
+*The trade off for causal validity is:*
+
+
+* [**Sample Generalizabilty**]{style="color:#008080;"}
+
+
+
+* [**Cross-Population Generalizabilty**]{style="color:#008080;"}
+
+
+::: notes 
+
+Design components needed to maximize **causal validity** often come at the expense of sample generalizability or the ability to generalize to the larger population of interest. Similar story with cross-population generalizabilty (external validity)
+
+Ultimately, this is why we have to be careful in designing our study. We have to have clear goals. 
+
+
+::: 
+
+## Threats to Validity 
+### Interaction of Testing and Treatment
+
+Solution to the external valdity problem - [**Solomon four-group design**]{style="color:#008080;"}
+
+
+![](Images2/solomon.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture](https://jnix.netlify.app/slides/crcj2510_ch6/#1))
+:::
+
+::: notes 
+
+
+This is a variation of the external validity problem, *where the treatment is effective only under particular conditions created by the experiment.*
+
+For example, a pretest might sensitize subjects to a particular issue so that when they're exposed to treatment, their reaction is different from what it would have been absent the exposure to the pretest. 
+
+**In other words: testing and treatment interacted to produce the outcome.**
+
+
+**Solomon design:** random assignment to at least 2 experimental groups and at least 2 control groups. One experimental group and one control group receive the pretest, and the others do not. If testing and treatment do interact, the outcome scores will differ between those who took the pretest and those who didn't.
+
+::: 
+
+
+## The Element of Time in Research 
+
+[**Fixed Sample Panel Design**]{style="color:#008080;"}
+
+<br>
+
+Data collected at 2 or more time points from the same sample.
+
+**Although, susceptible to some problems** 
+
+* Expense and attrition 
+
+* Subject fatigue 
+
+::: notes
+
+Panel designs (i.e., longitudinal studies) are very difficult to maintain but are incredible useful for social science
+
+The problem is that tracking people for an extended period of time is expensive and participants inevitably drop out.
+
+::: 
+
+## The Element of Time in Research 
+
+[**Event-Based Designs**]{style="color:#008080;"}
+
+*Follow up samples* are selected from the same cohort, people who experienced a similar event on a common starting point. 
+
+![](Images2/FF.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [FFCWS](https://ffcws.princeton.edu/about))
+:::
+
+
+::: notes 
+
+Birth cohorts are the most common
+
+:::
+
+
+## Causality in Nonexperimental Designs 
+
+To reduce the risk **spuriousness**, researchers use [statistical controls.]{style="color:#008080;"} 
+
+
+![](Images2/JN.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture](https://jnix.netlify.app/slides/crcj2510_ch6/#1))
+:::
+
+::: notes 
+
+Consider this hypothetical: an agency purchases body-worn cameras and wants to know if they reduce misconduct. 
+
+Although they did not want to agree to a random control trial, so we would have to rely on volunteers. 
+
+::: 
+
+## Causality in Nonexperimental Designs 
+
+To reduce the risk **spuriousness**, researchers use [statistical controls.]{style="color:#008080;"} 
+
+
+![](Images2/JN2.png){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: [Justin Nix's Lecture](https://jnix.netlify.app/slides/crcj2510_ch6/#1))
+:::
+
+
+::: notes
+
+
+
+If the female officers are more likely to be selected into the treatment group, we would have to control for this. 
+
+
+::: 
+
+## Have a great day!!
+
+<br>
+
+![](https://media.giphy.com/media/8Bl0Gmc95WCsCOjS6V/giphy.gif){fig-align="center"}
+
+::: {style="font-size: 50%;"}
+(image: giphy.com)
+:::
+
+
+
+
+
+
+
+
+
