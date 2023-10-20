@@ -1,0 +1,20 @@
+---
+title: "Assignment 1 - Writing"
+author: "Nicholas Vietto"
+format: html
+editor: source
+toc: true
+theme: journal
+self-contained: true
+---
+
+For this assignment, I would like you to find an article from a reputable news source (e.g., Omaha World Herald) that discusses an event involving a crime. [Here](https://nscc.libguides.com/c.php?g=1119770&p=8168571) is a link that might be helpful in locating other reputable news sources (the diagram at the bottom is useful). Once you have the article, your task is to summarize it. Begin with an opening or introduction, followed by a description of the event and its resolution. Proceed to analyze the conclusions drawn by the author of the article, identifying and describing one potential error in reasoning. Recall the four types of errors we discussed in the lecture. Subsequently, provide your opinion on how this error could be corrected using scientific reasoning.
+
+Your summary should encompass the introduction, a depiction of the event, its resolution, the author's concluding remarks, and your own concluding thoughts on how this impacted your perspective. Following this, create a separate section that includes the elements mentioned in the previous paragraph. Finally, include an APA citation for the article at the end of write-up. 
+
+*APA Citation Example: Smith, J. (2023, August 28). New Developments in Local Crime Investigation. Omaha World-Herald. https://www.omaha.com/article/example-article-url*
+
+I do not believe in imposing page requirements on writing. In my opinion this inhibits your ability to find your voice as a writer. If you can write in a succinct fashion, then go for it. If you prefer to write verbosely, then go for it. I want you to turn in something you are proud of. 
+
+Let me know if you have any questions. 
+

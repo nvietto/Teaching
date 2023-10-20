@@ -1,0 +1,173 @@
+---
+title: "Assignment 2 - Data Analysis"
+author: "Nicholas Vietto"
+format: html
+editor: source
+toc: true
+toc-location: left
+toc-title: "Table of Contents"
+theme: journal
+self-contained: true
+---
+
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+```
+
+
+# Getting Started
+
+
+1.) [Head to Posit Cloud](https://posit.cloud/)
+
+2.) Click "Get Started"
+
+3.) Under "Cloud Free" click Learn more 
+
+4.) Click Sign Up then fill out the form 
+
+5.) Verify your email 
+
+6.) Once your in the posit Cloud, click "New Project" 
+
+![](Images/1.png)
+
+7.) Then "New RStudio Project" 
+
+![](Images/2.png)
+
+# Install and Load Libraries 
+
+*Write in each line below into the console then hit enter*
+
+You have to write these in, you can't copy and paste these. 
+
+
+![](Images/4.png)
+
+**You have to write these in, you can't copy and paste these.**
+
+install.packages("tidyverse")
+
+install.packages("devtools")
+
+install.packages("palmerpenguins")
+
+remotes::install_github("ddsjoberg/gtsummary")
+
+*Each install will take time to run, so wait until the red stop sign in the corner disappears* 
+
+![](Images/5.png)
+
+# Load the packages 
+
+*Once you finish installing, copy and paste this code below into the console and hit enter*
+
+```{r}
+#| message: false
+
+library(devtools)
+
+library(palmerpenguins)
+
+library(tidyverse)
+
+
+```
+
+
+# Views the data sets. 
+
+*Copy and paste each of the words below into the console to view the dataframes (i.e., the columns and rows of the data)*
+
+
+
+```{r, results='hide'}
+
+penguins
+
+starwars
+
+USArrests
+```
+
+# Analysis
+
+*Copy and paste each code block into the console and screenshot the result. Be sure to use include the blue cloud symbol in each screenshot.*
+
+![](Images/3.png)
+
+*1.) Run the following code (copy and paste and hit enter) in the console and screenshot the table (will appear in the viewer on the right)*
+
+
+
+
+```{r, results='hide'}
+
+
+library(gtsummary)
+
+tibble(penguins)
+
+summary(penguins)
+
+penguins |> 
+  select(species, island, sex) |> 
+  tbl_summary()
+
+
+
+```
+
+
+
+*2.) Run the following code in the console and screenshot the graph*
+
+
+```{r, fig.show='hide'}
+
+speciesmass <- starwars |> 
+  group_by(species) |> 
+  summarise(
+    n = n(),
+    mass = mean(mass, na.rm = TRUE)
+  ) %>%
+  filter(n > 1)
+
+speciesmass |> 
+ ggplot(mapping = aes(x = species, y = mass)) +
+  geom_point()
+
+
+```
+
+
+*3.) Run the following code in the console and screenshot the bar plot*
+
+``` {r, fig.show='hide'}
+
+USArrests |> 
+  ggplot(mapping = aes(x = UrbanPop, y = Murder)) +
+  geom_col() + 
+  labs(x = "Percent urban population", y = "Murder arrests (per 100,000)")
+
+
+```
+
+
+# Submit the screenshots on canvas. 
+
+## Congrats! Now you're a data scientist!
+
+![](https://media.giphy.com/media/g9582DNuQppxC/giphy-downsized-large.gif){fig-align="center"}
+
+
+
+
+
+
+
