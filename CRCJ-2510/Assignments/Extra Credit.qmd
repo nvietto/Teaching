@@ -1,0 +1,171 @@
+---
+title: "Extra Credit - Generative Art"
+author: "Nicholas Vietto"
+format: html
+editor: source
+toc: true
+toc-location: left
+toc-title: "Table of Contents"
+theme: journal
+self-contained: true
+---
+
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+
+```
+
+
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+```
+
+
+# Getting Started
+
+
+1.) [Head to Posit Cloud](https://posit.cloud/)
+
+2.) Click "Get Started"
+
+3.) Under "Cloud Free" click Learn more 
+
+4.) Click Sign Up then fill out the form 
+
+5.) Verify your email 
+
+6.) Once your in the posit Cloud, click "New Project" 
+
+![](Images/1.png)
+
+7.) Then "New RStudio Project" 
+
+![](Images/2.png)
+
+# Install and Load Libraries 
+
+*Write in each line below into the console then hit enter*
+
+**You have to write these in, you can't copy and paste these.**
+
+![](Images/image2.png)
+
+install.packages("aRtsy")
+
+*Each install will take time to run, so wait until the red stop sign in the corner disappears* 
+
+![](Images/5.png)
+
+# Load the packages 
+
+*Once you finish installing, copy and paste this code below into the console and hit enter*
+
+```{r}
+#| message: false
+
+library(aRtsy)
+
+```
+
+
+
+# Here is the fun part
+
+Pick any one of the code chunks below (i.e., **Collatz conjecture**, **Fractal flames**, or **Rainbow smoke**), copy and paste it into the console. 
+
+
+::: {.callout-tip title="Tip"}
+
+You can simply edit the value inside the set.seed(this number here) and hit enter. Although there are other options to. Feel free to explore.
+:::
+
+
+**Collatz conjecture**
+
+```{r}
+
+set.seed(1)  # place any number between the ( )
+canvas_collatz(colors = colorPalette("tuscany3"),
+               n = 700, # a positive integer, adds more density or lines, computational dependent though (keep under 1000)
+               side = FALSE) # If this is true it will flip to side
+
+
+
+
+
+
+
+```
+
+
+**Fractal flames**
+
+```{r}
+
+set.seed(1)      # place any number between the ( )
+canvas_flame(colors = colorPalette("dark2"),
+             iterations = 1000000,   # Using more iterations results in images of higher quality but also increases the computation time
+             symmetry = 0,
+              blend = TRUE,
+             resolution = 1000,  # 	resolution of the artwork in pixels per row/column
+             gamma = 5  # Larger values here make the image brighter 
+             )
+
+
+```
+
+
+
+**Rainbow smoke**
+
+```{r}
+
+
+
+set.seed(1)    # place any number between the ( )
+canvas_smoke(colors = colorPalette("random", 1024),
+             init = 1,
+             resolution = 150, # Increasing this, increases the quality of the artwork but also increases the computation time 
+             shape = "cloud"  # can also try "smoke"
+             )
+
+
+
+
+
+```
+
+
+
+
+
+
+# Submit 
+
+Once you have created your artwork, submit it on canvas. The best artwork will have it posted as an annocement so the entire class can see. 
+
+
+![](https://media.giphy.com/media/Ux9XDxUga9e80/giphy.gif){fig-align="center"}
+
+
+
+
+
+
+# References and Futher Reading
+
+
+[aRtsy: Generative Art with R and ggplot2](https://cran.r-project.org/web/packages/aRtsy/readme/README.html)
+
+
+
+
+
