@@ -1,6 +1,6 @@
 # Teaching
 
-This repo contains course material for the classes I have taught. Additionally, it also provides access to my R tutorials. 
+This repo contains course material for the classes I have taught. It also provides access to my R tutorials. 
 
 To recreate a syllabus document as a PDF you need to have TinyTex installed and loaded. 
 
