@@ -1,3 +1,3 @@
 # Data Visualization Series
 
-This is a series I'm developing that aims to help people utilize data viz in R. The best way to access these are to download the html files and open it in any browser. Then replicate the code using Rstudio or Posit Cloud. 
+This is a series I'm developing that aims to help people learn data viz techniques in R. I recommend downloading the HTML files and opening them in your preferred browser. Afterwards, you can easily replicate the provided code by using either RStudio or Posit Cloud.
