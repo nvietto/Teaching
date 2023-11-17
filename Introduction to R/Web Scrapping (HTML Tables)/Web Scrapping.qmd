@@ -153,7 +153,7 @@ career_stats2 <- career_stats1 |>
 
 
 
-Now, we have to do some major cleaning of this data. We are going to rename, slice, and mutate. Examples of these commands can be located [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf). 
+Now, we have to do some major cleaning of the data. We are going to rename, slice, and mutate. Examples of these commands can be located [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf). 
 
 
 ```{r}
