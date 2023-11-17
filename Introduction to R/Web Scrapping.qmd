@@ -1,0 +1,227 @@
+---
+title: "Web Scrapping HTML Tables"
+author: "Nicholas Vietto"
+format: html
+editor: source
+toc: true
+toc-location: left
+toc-title: "Table of Contents"
+theme: cerulean
+self-contained: true
+code-block-bg: true
+code-block-border-left: "#29C5F6"
+highlight-style: espresso
+---
+
+# Introduction
+
+
+In this tutorial we will learn how to scrape a HTML table from Wikipedia. 
+
+
+::: {.callout-warning}
+
+There are legalities to consider before scraping any website. Although if it is public domain like [Wikipedia](https://en.m.wikipedia.org/wiki/Wikipedia:Copyrights), you're probably ok. But please refer to [this](https://r4ds.hadley.nz/webscraping) section in the R4DS book for more information. They do a much better job explaining things than me. 
+
+:::
+
+
+Alright, let's begin. Today we will be scraping the career stats of a player from the Detroit Lions 🦁 - Jared Goff. 
+
+
+
+# Scrape
+
+
+First we need to install and load some libraries. 
+
+
+We will need the [**tidyverse**](https://www.tidyverse.org/) and [**janitor**](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html) packages. 
+
+
+
+```{r}
+#| message: false
+
+# install.packages("tidyverse")
+# install.packages("rvest")
+# install.packages("janitor")
+
+
+library(tidyverse)
+library(rvest)
+library(janitor)
+
+
+
+```
+
+
+
+Next we need to get the webpage URL [here](https://en.wikipedia.org/wiki/Jared_Goff). And copy it and create an object. 
+
+
+
+```{r}
+
+goffstats_url <- 'https://en.wikipedia.org/wiki/Jared_Goff' # here we are creating the URL object
+
+
+
+goffstats <- read_html(goffstats_url) |> # this reads the html and passes it through the html_table function
+  html_table()
+
+
+```
+
+::: {.callout-note}
+
+
+If you're curious what html_table() does copy and paste the following code into your console and press enter.
+
+
+?html_table
+
+
+:::
+
+
+There are many tricks to locating the correct html table. Pulling up the object (i.e., goffstats) from the environment and then examining the value column to find the correct dimensions of the table you want from the website you scraped (i.e., the wiki page) is my preferred method. 
+
+For example, head [here](https://en.wikipedia.org/wiki/Jared_Goff) and scroll down to NFL career statistics then regular season and count the rows and columns. After you have a decent idea of the dimensions, head to your object (i.e., goff_stats) and try to match the dimensions. Object **[[6]]** with the **value 10 x 23** is the one we want so we create a new object with that information. 
+
+
+
+```{r}
+#| warning: false
+
+career_stats <- goffstats[[6]]
+
+career_stats
+
+```
+
+
+
+🎉 Alright, we have officially scraped the website and got our HTML table! 🎉
+
+
+# Cleaning 
+
+
+Alright, here's were it gets tricky. We want to use the {janitor} package and its function clean_names(), which tranforms all the columns into a data friendly format. 
+
+
+```{r}
+#| warning: false
+
+career_stats1 <- career_stats |>
+  clean_names() |> 
+  as.tibble() |> # I preder to look at things in tibble format, it's just a bit nicer
+  select(- c(rushing, rushing_2, rushing_4, sacked_2)) # this removes the columns that I don't really find important for the QB position
+
+career_stats1
+
+
+```
+
+Next, we are going to rearrange some of our data table so the character variables are in front of our tibble. 
+
+
+```{r}
+#| warning: false
+
+# here I'm creating an object that holds the columns I want to move up front
+# we will find out soon why I want these up front
+
+career_statsM <- c("year",
+                   "team", 
+                   "games_3")
+
+
+# this create a new object with the non-numerical columns in the front and everything else after it
+career_stats2 <- career_stats1 |> 
+  select(all_of(career_statsM), everything())
+
+
+
+
+
+
+
+```
+
+
+
+Now, we have to do some major cleaning of this data. We are going to rename, slice, and mutate. Examples of these commands can be located [here](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf). 
+
+
+```{r}
+
+
+
+career_stats3 <- career_stats2 |>
+  rename(games_played = games,  # making these columns a bit easier to understand and work with
+         games_started = games_2,
+         record = games_3,
+         completions = passing,
+         attempts = passing_2,
+         comp_pct = passing_3,
+         yards = passing_4, 
+         ypera = passing_5,
+         longest_pass = passing_6,
+         tds = passing_7,
+         intercept = passing_8,
+         pass_rate = passing_9,
+         rush_ypera = rushing_3,
+         rush_td = rushing_5,
+         fumbles_lost = fumbles_2) |> 
+  slice_tail(n = -1) |> # this slices the top row out of our data frame (i.e., the extra row of column names)
+  slice_head(n = -1) |> # this slices the bottem row (i.e., career stats)
+  mutate(yards = str_remove_all(yards, ",")) |>  # we don't want a " , " in our variable bc R considers it a string or a character
+  mutate(across(4:19, as.numeric)) # Heres why we moved those other columns to the front, so we can easily convert the others to numerics
+
+
+# this creates a fun interactive table within the html file
+interactivetable <- career_stats3 |> 
+  knitr::kable()
+
+interactivetable
+
+
+
+```
+That's it! the data is clean and now we can analyze it! 🏈
+
+# Analysis 
+
+You can do anything with the data now, but make sure you are using the numeric values. 
+
+
+```{r}
+
+
+
+mean(career_stats3$yards)
+
+mean(career_stats3$tds)
+
+
+
+
+
+```
+
+
+
+![](https://media.giphy.com/media/ysuapgxHI7hzfxMjU3/giphy.gif){fig-align="center"}
+
+
+
+# References 
+
+
+
+[R for Data Science (2e)](https://r4ds.hadley.nz/)
+
+
