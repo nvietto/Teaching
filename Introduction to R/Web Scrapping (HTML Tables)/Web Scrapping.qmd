@@ -109,7 +109,7 @@ career_stats
 # Cleaning 
 
 
-Alright, here's were it gets tricky. We want to use the {janitor} package and its function clean_names(), which tranforms all the columns into a data friendly format. 
+Alright, here's where it gets tricky. We want to use the {janitor} package and its function clean_names(), which tranforms all the columns into a data friendly format. 
 
 
 ```{r}
