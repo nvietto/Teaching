@@ -1,0 +1,24 @@
+---
+title: "Assignment 3 - Policy Evaluation"
+author: "Nicholas Vietto"
+format: html
+editor: source
+theme: journal
+self-contained: true
+---
+
+For this assignment, I would like you to describe and design an evaluation study for a program, policy, or law that you find interesting. A good resource for locating policies can be found [here](https://www.politico.com/). For example, you could discuss policies that involve [abortion rights](https://www.aclu.org/wp-content/uploads/document/ACFF1D.pdf), [gun control](https://www.aclu.org/news/civil-liberties/aclus-position-gun-control#:~:text=We%20recognize%2C%20as%20the%20Supreme,encroach%20unnecessarily%20on%20civil%20liberties.), [marijuana legilization](https://www.aclu.org/issues/criminal-law-reform/drug-law-reform/marijuana-law-reform), or **anything** that you find important and/or interesting. 
+
+1.) Once selected, describe the program/policy/law and why it is important to society and **your** place in it.  
+
+2.) Next, identify a **dependent variable** that you think could be used to measure this policy’s relevance in society. For example, if you were measurng a gun control policy like [consitutional carry](https://en.wikipedia.org/wiki/Constitutional_carry) and its effect on safety in the United States, your dependent variable might be something like the number of mass shooting incidents within states that have enacted constitutional carry laws, both before and after the law's implementation.
+
+3.) Finally, describe how you would perform an evaluation of this program/policy/law. Would you prefer a qualitative, quantitative, or mixed-method design? How would you collect data to measure your dependent variable (e.g., survey, interviews)?
+
+Provide the citations you used for this assignment. For example:
+
+*APA Citation Example: Smith, J. (2023, August 28). New Developments in Local Crime Investigation. Omaha World-Herald. https://www.omaha.com/article/example-article-url*
+
+
+You all know my policy on writing: there is no page requirement, but I expect you to submit something **you** are proud of. Once you have this complete, submit it on Canvas.
+
