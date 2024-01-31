@@ -1,4 +1,2 @@
 
-This will be an undergraduate applied statistics course. 
-
-🚧 Currently under construction 🚧 
+This is an undergraduate criminology and criminal justice applied statistics course. 
