@@ -1,0 +1,257 @@
+---
+title: "Chapter 1"
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+# Introduction to Statistics 
+
+
+::: notes 
+
+Engage class in asking "What do statistics have to do with criminal justice?"
+
+:::
+
+## Why do we care? 
+
+Statistics is the *backbone* of criminology and criminal justice. 
+
+* Number of arrests **per** year
+* Number of crimes in each city 
+* Number of officers within a precinct
+* [Bureau of Justice Statistics (BJS)](https://bjs.ojp.gov/)
+* [FBI's Uniform Crime Report](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019)
+* [**What and/or where else in criminology and criminal justice ?**]{style="color:#859ab2;"} 
+
+::: notes 
+
+Discuss why statistics matters in crcj
+
+Break down arrest per year on the board. 
+
+* any time you see "per" in a sentence I want you to think of *division*
+
+* For example, miles **per** hour. 
+
+Links are clickable 
+
+::: 
+
+# But Even More Important!
+
+## {auto-animate=true}
+
+::: {style="margin-top: 5px;"}
+Statistics is everywhere!!!
+:::
+
+## {auto-animate=true}
+
+::: {style="margin-top: 500px; font-size: 2.5em; color: #859ab2;"}
+Statistics is everywhere!!!
+:::
+
+## Arrests Rate 
+
+One of the most common statistics used in criminology and criminal justice. 
+
+<br>
+
+It signifies the number of people arrested within a population during a certain time frame - usually in a given year. 
+
+<br>
+
+
+$$Arrest Rate = (Number of Arrest/Total Population) x Multiplier$$ 
+
+::: notes 
+
+A crime rate is calculated by dividing the number of reported crimes by the total population. The result is then multiplied by 100,000.
+
+For example, in 2014 there were 48,000 robberies in California and the population was 38,000,000. Then we take 0.00126 and multiple it by our multiplier (100,000). This then equals a robbery crime rate of 126.4 per 100,000
+
+* Our multiplier is determined by our **population size**. For example, if we have a large population (millions) we'd use 100,000
+
+* If you city is smaller (e.g., a rural town) we would likely use 1,000. 
+
+::: 
+
+# Where else do you see or use statistics? 
+
+::: notes 
+
+Let them answer. Encourage with maybe fantasy football or something
+
+::: 
+
+# Let's review some basic terms 
+
+
+## {background-image="images/science.png"}
+
+[is the process of gathering and analyzing data in a systematic way using procedures (i.e., [methods]{style="color:#859ab2;"}) that are accepted across a discipline.]{.absolute bottom=0.05}
+
+
+
+::: footer
+
+photo by South Failsworth Community
+
+::: 
+
+
+## Sample vs. Population
+
+* Any guesses? 
+
+<br>
+
+* A [Population]{style="color:#859ab2;"} is the universe of people, objects, or locations that researchers wish to study. 
+
+<br>
+
+* A [Sample]{style="color:#859ab2;"} is a subset pulled from the population in order to make generalizations about the universe of people, objects, or locations within that population. 
+
+
+## Pop Quiz! 
+
+Which of the following is a sample? 
+
+<br>
+
+a.) The number of women in the University  
+
+b.) The number of prisoners within a prison
+
+c.) All of the people in the state of Michigan.
+
+d.) A group of 100 police officers pull from a department
+
+
+## Replication 
+
+Thoughts? 
+
+<br>
+
+Why would a statistics book emphasize [replication]{style="color:#859ab2;"}? 
+
+<br>
+
+* [Replication]{style="color:#859ab2;"} is conducted for the purpose of determining if a study's results hold when a new sample measures a previous study's findings.  
+
+::: notes 
+
+Allow them to have time for input before final point reveal 
+
+::: 
+
+## Hypothesis and Theories 
+
+
+[Theory]{style="color:#859ab2;"} is a set of **proposed and testable** explanations about reality that are bound together by evidence.  
+
+<br>
+
+[Hypothesis]{style="color:#859ab2;"} a **single proposition** deduced from a theory, that must hold true in order for the theory itself to be considered valid. 
+
+
+::: notes 
+
+Expand on this with strain theory
+
+**Strain theory** posits that individuals engage in criminal behavior when they experience a disjunction between cultural goals and the legitimate means available to achieve those goals.
+
+Hypothesis 1: "Individuals experiencing economic strain are more likely to engage in property crimes than those with stable economic conditions."
+
+This **hypothesis** is specific and can be tested through empirical research to examine the relationship between economic strain and property crime rates.
+
+::: 
+
+## Types of Scientific Research
+
+[Evaluation Research]{style="color:#859ab2;"} 
+
+* Examines the results of program to assess whether the programs are effective
+
+[Exploratory Research]{style="color:#859ab2;"} 
+
+* Examines issues that have been understudied and thus lack theoretical or empirical grounding
+
+[Descriptive Research]{style="color:#859ab2;"}   
+
+* Studies done for the purpose of describing a phenomena that occurs in a population 
+
+
+
+::: notes 
+
+Let them guess what each is then expand on it 
+
+**Eval**
+
+* Why would we care if programs are effective or not?  
+
+**Explore**
+
+* What are some examples of an unstudied phenomena? 
+
+
+**Descriptive** 
+
+* This is common within victimization research, e.g., describing the tragedy of missing and murdered indigenous women each year. 
+
+::: 
+
+
+## {background-image="images/dice.png"}
+
+[**Probability Sampling** is a sampling technique in which all people, objects, or areas in a population have a known chance of being selected into a sample.]{.absolute top=0.05}
+
+
+::: footer
+
+photo by Popular Mechanics
+
+::: 
+
+
+
+## Software for Statisitical Analysis 
+
+We will touch lightly on software in this class. 
+
+Specifically, we will be using R through Posit Cloud. 
+
+But we won't dive into that until later in the semester. 
+
+<br>
+
+![](Images/posit.png){.absolute bottom=0 left=25 width="40%"}  
+
+![](Images/R.png){.absolute bottom=0 right=105 height="35%"}
+
+
+## Have a great day! 
+
+
+![](https://media.giphy.com/media/ClZxQjtI4XqdJnW3yR/giphy.gif){fig-align="center"}
+
+
+::: footer
+
+image by giphy
+
+::: 
+
+
+
+
