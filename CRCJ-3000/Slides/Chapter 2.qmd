@@ -25,7 +25,7 @@ library(countdown)
 
 ## [Variable]{.grey}
 
-[A characteristic that describes people, objects, or places and takes on [multiple]{.grey} values in a sample or a population]{style="color:#859ab2;"}.
+[A characteristic that describes people, objects, or places and takes on [multiple]{.orange} values in a sample or a population]{style="color:#859ab2;"}.
 
 <br> 
 
@@ -42,7 +42,7 @@ Examples? Any guesses?
 
 ## [Constant]{.grey}
 
-[A characteristic that describes people, objects, or places and takes on [only one]{.grey} value in a sample or a population]{style="color:#859ab2;"}.
+[A characteristic that describes people, objects, or places and takes on [only one]{.orange} value in a sample or a population]{style="color:#859ab2;"}.
 
 <br>
 
