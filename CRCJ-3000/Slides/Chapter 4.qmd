@@ -1,0 +1,623 @@
+---
+title: "Chapter 4"
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+# Measures of Central Tendency
+
+## Measures of Central Tendency
+
+Descriptive statistics that offer information on where the scores in a data set tend to cluster.
+
+<br>
+
+Examples: [Mean]{.orange}, [Median]{.orange}, [Mode]{.orange}.
+
+<br>
+
+![](Images/CT.png){fig-align="center"}
+
+::: footer
+image: Corporate Finance Institute
+:::
+
+::: notes
+
+Describes where the majority of scores within a data set reside.
+
+Often summarized by asking, "Where is the middle?"
+
+:::
+
+## The Mean
+
+[The arithmetic average of a variable within a set of data.]{.aqua}
+
+<br>
+
+$$\bar{x} = \frac{\sum x}{n}$$
+
+$\bar{x}$ = Mean
+
+$\sum$ = Summation
+
+$x$ = Values in a column
+
+$n$ = Sample size
+
+## A Mean Example
+
+We have five college student's test scores on a particular exam:
+
+
+```{r}
+
+data <- data.frame(
+  grades = c(
+  student_1 = 85,
+  student_2 = 90,
+  student_3 = 75,
+  student_4 = 86,
+  student_5 = 91
+))
+
+data
+
+```
+
+$$\bar{x} = \frac{(85 + 90 + 75 + 86 +91)}{5}$$
+<br>
+
+$$\bar{x} = ?$$
+
+
+
+## The Median
+
+A score that cuts a distribution in half, or more simply, the true [middle number]{.orange}.
+
+<p style="text-align:center;"><u>Steps to Find the Median</u></p>
+
+
+::: {#fig-simple}
+
+```{dot}
+
+graph {
+  rankdir=LR;
+  Sort -- Count;
+  Count -- Odd;
+  Count -- Even;
+  Odd -- Method_One;
+  Even -- Method_Two;
+}
+```
+
+:::
+
+
+
+::: notes
+
+
+Describe why you'd use a median
+
+1.) Sort the values in ascending order
+
+2.) Count the number of values
+
+
+:::
+
+## Odd Number (Method One)
+
+<br>
+
+We only need one step for this!
+
+<br>
+
+$$Median = \frac {n + 1}{2} $$
+
+$n$ = Sample size
+
+
+## Even Number (Method Two)
+
+LM and UM are numbers within the column.
+
+Step 1
+
+$$Lower Middle (LM) = \frac {n}{2} $$
+
+
+Step 2
+
+$$Upper Middle (UM) = \frac {n}{2} +1 $$
+
+Step 3
+
+$$Median = \frac {LM + UM}{2}$$
+
+## Method One Example
+
+We have nine college student's test scores on a particular exam:
+
+<br>
+
+
+```{r}
+
+data <- data.frame(
+  grades = c(
+  student_1 = 85,
+  student_2 = 90,
+  student_3 = 75,
+  student_4 = 86,
+  student_5 = 62,
+  student_6 = 79,
+  student_7 = 96
+))
+
+data
+
+```
+
+$$Median = \frac {? + 1}{2} $$
+
+::: notes
+
+Have them work this out but if they forget to put in order, let them figure it out on their own but slightly lead them to it. 
+
+
+:::
+
+
+## Method Two Example
+
+We have four college student's test scores on a particular exam:
+
+
+```{r}
+
+data <- data.frame(
+  grades = c(
+  student_1 = 85,
+  student_2 = 90,
+  student_3 = 75,
+  student_4 = 86
+))
+
+data
+
+
+```
+
+$$(LM) = \frac {?}{2} $$
+$$(UM) = \frac {?}{2} +1 $$
+$$ Median = \frac {(? + ?)}{2}$$
+
+
+
+
+
+
+
+## The Mode
+
+[The most frequent number in a set of scores or column]{.grey}.
+
+<br>
+
+Simply sort your values in ascending order, then count and compare [(Hint: Look for numbers that repeat)]{.aqua}.
+
+<br> 
+
+![](Images/mode.png){fig-align="center"}
+
+
+::: footer
+
+image: wikiHow
+
+:::
+
+
+## A Mode Example
+
+
+We have seven college student's test scores on a particular exam:
+
+<br>
+
+
+```{r}
+
+data <- data.frame(
+  grades = c(
+  student_1 = 85,
+  student_2 = 90,
+  student_3 = 75,
+  student_4 = 85,
+  student_5 = 62,
+  student_6 = 79,
+  student_7 = 96
+))
+
+data
+
+```
+
+
+
+$$ Mode = ?$$
+
+
+
+## Normal Distribution
+
+A set of scores that cluster in the center and tapers off to the left and right sides of the number line.
+
+![](Images/normal.png){fig-align="center"}
+
+::: notes
+The shape of the right and left sides will look identical most of the time.
+:::
+
+## Outliers
+
+
+[Extreme values that pull the distribution which leads to a [positive]{.green} or [negative]{.red} skew.]{.aqua}
+
+<br>
+
+
+![](Images/outlier.png){fig-align="center"}
+
+
+::: footer
+
+image: Medium
+
+::: 
+
+## Positive Skew
+
+A clustering of scores in a distribution with some large scores pulled (or [skewed]{.green}) toward the [positive]{.green} side of the x-axis
+
+![](Images/posskew.png){fig-align="center"}
+
+::: notes
+
+This occurs because of large scores (or outliers) along x-axis.
+
+For example, the 150 - 200 number of sunspots.
+
+:::
+
+## Negative Skew
+
+A clustering of scores in a distribution with some small scores that pulled (or [skewed]{.red})the towards the [negative]{.red} side of the x-axis.
+
+![](Images/negskew.png){fig-align="center"}
+
+::: notes
+This occurs because of small scores (or outliers) along x-axis.
+
+For example, the lower scores (e.g., 30) on the zoology test score.
+
+Imagine on the other side (the left) of the 0 on the x-axis there are negative numbers.
+:::
+
+
+## Mnemonic Devices
+
+::: columns
+::: {.column width="50%"}
+These are [memory techniques]{.aqua} that aid in memory retention and retrieval.
+
+<br>
+
+Dates back to the early Greeks.
+
+<br>
+
+Helps transition short term to long term memory more quickly.
+:::
+
+::: {.column width="50%"}
+![](Images/mnemonic.png)
+:::
+:::
+
+::: footer
+image: ShowMe
+:::
+
+## Skew Mnemonic
+
+When you hear the word ["skew"]{.blue} think of laying on a beach and putting your feet together while looking at the horizon.
+
+<br>
+
+Your r[i]{.green}ght foot is the pos[i]{.green}tive skew.
+
+<br>
+
+Your l[e]{.red}ft foot in the n[e]{.red}gative skew.
+
+<br>
+
+![](Images/skew.png){fig-align="center"}
+
+::: footer
+image: Michael Britt
+:::
+
+
+## Pop Quiz
+
+<br>
+
+Using the data below, calculate the mean, median, and mode. 
+
+<br>
+
+
+```{r}
+
+data <- data.frame(
+  "Wins_Under_Scott_Frost" = c(
+  "2018" = 4,
+  "2019"= 5,
+  "2020" = 3,
+  "2021" = 3,
+  "2022" = 4
+))
+
+data
+
+```
+
+<br>
+
+Mean = ?
+
+Median = ?
+
+Mode = ? 
+
+
+
+
+
+```{r}
+countdown::countdown(minutes = 1,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+
+::: notes
+
+3.8, 4, 3
+
+
+
+::: 
+
+## Recap
+
+
+
+* Measure of central tendency
+
+<br> 
+
+* Outliers
+
+<br> 
+
+* Distributions and Skews
+
+
+## The Mean and Median to Determine Distribution Shape 
+
+[Right skew]{.green} occurs when our Mean > Median.
+
+<br>
+
+[Left skew]{.red} occurs when our Mean < Median.
+
+
+
+![](Images/meanmeddis.png){fig-align="center"}
+
+::: footer
+
+Image: Emory University
+
+:::
+
+
+::: notes
+
+Right skew occurs when tail of the distribution extends towards **higher** values, pulling the mean in that direction. 
+
+Left skew occurs when the tail of the distribution extends towards **lower** values, dragging the mean down. 
+
+When these are equal (or near equal), a normal distribution occurs.
+
+:::
+
+
+## Deviation Score
+
+
+The [deviation score]{.grey} is the distance between the mean of a variable and any given raw score in that variable. 
+
+<br> 
+
+
+$$d_i = x_i - \bar{x}$$
+
+<br>
+
+$d_i$ = deviation score 
+
+$x_i$ = a given raw score (i.e., data point)  
+
+$\bar{x}$ = the mean  
+
+::: notes 
+
+Focus on  the raw score here, make sure they understand it. Use the board
+
+
+
+:::
+
+## Deviation Score
+
+This tells us two important things: 
+
+1.) How far the raw score is from the mean ($\bar{x}$)
+
+2.) Whether the raw score is greater or less than the mean ($\bar{x}$)
+
+<br>
+
+[Positive]{.green} deviation scores represent raw scores that greater than the mean.
+
+<br>
+
+[Negative]{.red} deviation scores represent raw scores that less than the mean.
+
+
+## Deviation Score Example 
+
+1.) Calculate the ($\bar{x}$)
+
+<br>
+
+2.) Calculate the $d_i = x_i - \bar{x}$ for each student 
+
+
+```{r}
+
+data <- data.frame(
+  grades = c(
+  student_1 = 85,
+  student_2 = 90,
+  student_3 = 75,
+  student_4 = 85,
+  student_5 = 62,
+  student_6 = 79,
+  student_7 = 96
+))
+
+data
+
+```
+
+
+
+::: notes 
+
+$\bar{x}$ = 81.71
+ 
+$d_i$ = 3.28, 8.28, -6.71, 3.28, -19.71, -2.71, 14.28  
+
+Reiterate this again: 
+
+[Positive]{.green} deviation scores represent raw scores that greater than the mean.
+
+[Negative]{.red} deviation scores represent raw scores that less than the mean.
+
+::: 
+
+
+## Posit Cloud
+
+[Head to Posit Cloud](https://posit.cloud/)
+
+
+
+
+
+## Pop quiz 
+
+<br>
+
+You are a researcher at a think tank and you are about to present new findings regarding the DARE program. Your data has a ($\bar{x}$) of 45, a median that is 35, what type of skew will your sample have? And what direction does it point? 
+
+<br>
+
+A.) Positive Skew, Right  
+B.) Positive Skew, Left  
+C.) Negative Skew, Left   
+D.) Positive Skew, Right   
+
+
+
+```{r}
+countdown::countdown(minutes = 1,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+
+
+
+## Review
+
+Any question about the exam?
+
+<br>
+
+Bring a calculator.
+
+
+
+## Good Luck Studying 
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWU4ejM4bmJ5MGd6eTJvZDF6cHV4enZtcGhkbG9zOTZkOHphYzdrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oeSAz6FqXCKuNFX6o/giphy.gif){fig-align="center"}
+
+
+
+
+::: footer
+
+Giphy
+
+:::
+
+
+
+
+
+
+
+
