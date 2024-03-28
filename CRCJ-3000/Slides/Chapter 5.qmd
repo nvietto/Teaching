@@ -1,0 +1,854 @@
+---
+title: "Chapter 5"
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+# Measures of Dispersion 
+
+
+## What is Dispersion as a Concept?
+
+
+![](Images2/disper.png){fig-align="center"}
+
+
+::: footer
+
+image:geeksforgeeks
+
+::: 
+
+
+::: notes
+
+White light is composed of all the visible colors and upon passing through a glass prism, each color will travel with a different wavelengths and thus create a dispersion pattern. 
+
+**Do demonstration with the glass prism.** 
+
+This dispersion pattern can also help us understand dispersion patterns in statistics.
+
+:::
+
+## What is Dispersion within Statistics?
+
+[It is the amount of spread or variability among raw scores in a distribution.]{.blue}
+
+![](Images2/disper2.png){fig-align="center"}
+
+
+
+::: footer
+
+image:geeksforgeeks
+
+::: 
+
+::: notes
+ 
+Like white light passing through a prism, creating a distribution pattern, raw values within our variables can also create dispersion patterns. 
+
+In fact, if we use our imagination, they even look like wavelengths. 
+
+
+:::
+
+## Kurtosis - the Cousin of Skewness
+
+[The 'sharpness' of the peak of a frequency-distribution curve.]{.blue}
+
+<br>
+
+The 'sharpness' of the peak occurs due to the [tailedness (i.e., how often outliers occur)]{.blue} with the distribution.  
+
+
+![](Images2/kurt.png){fig-align="center"}
+
+
+::: footer
+
+image:Dynamics
+
+::: 
+
+
+## Types of Kurtosis 
+
+::: columns
+
+::: {.column width="60%"}
+
+
+[Leptokurtosis]{.blue} 
+
+#### data clustered around the mean and fewer data points in the tails compared to a normal distribution
+
+
+
+[Mesokurtosis]{.blue}
+
+#### data closely resembles that of a normal distribution
+
+
+
+[Platykurtosis]{.blue}
+
+#### data points are more spread out, with fewer values clustered around the mean and more values in the tails
+
+:::
+
+::: {.column width="40%"}
+
+![](Images2/kurt2.png){.absolute top=100 right=5 width="420" height="500"}
+
+::: 
+
+:::
+
+::: footer
+
+image:Bogleheads
+
+::: 
+
+
+
+::: notes
+
+
+Greek notation to help break down terms:
+
+Lepto means "narrow" or "slender"
+
+Meso mean "middle"
+
+Platy means "broad" 
+
+
+::: 
+
+## Measures of Dispersion for Categorical Variables
+
+[The Variation Ratio]{.blue}
+
+<br>
+
+* [A measure of dispersion.]{.grey}
+
+
+
+* [The proportion of cases which are not in the mode category.]{.grey}
+
+
+
+* [The only measure of dispersion that can be used with categorical variables]{.grey}
+
+
+
+## The Variation Ratio
+
+
+
+$$v = 1 - \frac{fm}{n}$$ 
+
+<br>
+
+$fm$ = the frequency (number of cases) of the mode
+
+$n$ = sample size
+
+::: notes
+
+Remember our mode is just the most frequent number in a set of scores or column
+
+::: 
+
+
+
+## Varition Ratio Example
+
+We asked 1,984 individuals at the University what their favorite color was. We were left with four colors: red, orange, green, and blue. What is the variation score? 
+
+<br>
+
+
+```{r}
+
+
+data <- data.frame(
+  "colors" = c(
+  "Red" = 43,
+  "Orange"= 211,
+  "Green"= 341,
+  "Blue"= 1389)
+)
+
+data
+
+```
+
+$$v = 1 - \frac{fm}{n}$$ 
+
+
+::: notes
+
+
+$$v = 1 - \frac{1389}{1984}$$ 
+$$v = 1 - 0.70}$$ 
+$$v = 0.30$$ 
+
+
+**What does this mean?**
+
+30% of our sample falls *outside* of our mode category. In other words, 70% of our group prefers blue and the remaining 30% prefer the other colors.
+
+::: 
+
+
+## Recap
+
+[Dispersion]{.blue}
+
+<br> 
+
+[Kurtosis]{.blue}
+
+* Leptokurtosis
+
+* Mesokurtosis
+
+* Platykurtosis
+
+
+[The Variation Ratio]{.blue}
+
+
+## Measures of Dispersion for Continious Variables
+
+[Range]{.blue}
+
+<br> 
+
+[Variance]{.blue}
+
+
+<br>
+
+[Standard Deviation]{.blue}
+
+
+::: notes
+
+All three of these are just different ways to describe how spread out our data is
+
+::: 
+
+
+## Range
+
+[A measure of the span of data.]{.blue}
+
+<br> 
+
+A high range value indicates there is more dispersion, and the lower the range, the less the dispersion
+
+<br> 
+
+$$Range = The \, Maximum  \, Value - The  \, Minimum  \, Value$$
+
+
+::: notes
+
+Use an intuitive explanation to explain like 10 to 1 and then 5 to 1.
+
+
+:::
+
+## Range Example 
+
+Below is a data frame that contains the average salary within each district. Find the range. 
+
+<br>
+
+
+```{r}
+
+
+data <- data.frame(
+  "Salary" = c(
+  "District1" = 87000,
+  "District2"= 91000,
+  "District3"= 66500,
+  "District4"= 98500, 
+  "District5" = 96500,
+  "District6"= 97550,
+  "District7"= 97900,
+  "District8"= 97990)
+)
+
+data
+
+```
+
+$$?$$
+
+
+::: notes
+
+98500 - 66500 = 32000
+
+Disadvantages: 
+
+* Often too simple 
+
+* Doesn't really offer any valuable information about the distribution 
+
+* For example, doesn't show that the salaries are cluster at the top end. So this range value can often be inflated and thus unreliable
+
+
+:::
+
+
+
+
+## Variance 
+
+[A measure of how spread the observed values are from the mean.]{.blue}
+
+
+$$s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$$ 
+
+$s^2$ = sample variance  
+$x_i$ = raw value   
+$\bar{x}$ = mean values of all raw scores  
+$n$ = number of observations  
+
+
+
+::: notes 
+
+Or more formally, the average squared distance from the true mean.
+
+Bring up deviation score, break that out of the equation 
+
+A high variance indicates the values are far from the mean, while a low variance indicates that the values are huddled around the mean.
+
+
+:::
+
+## Break Down of Equation 
+
+::: columns
+
+:::{.column width="50%"}
+
+1. Find the $\bar{x}$ 
+
+2. Subtract the mean from each score $(x_i - \bar{x})$
+
+3. Square the deviation score $(x_i - \bar{x})^2$
+
+4. Add the squared deviations ${\sum(x_i - \bar{x})^2}$
+
+5. Divide by ${n-1}$
+
+
+::: 
+
+:::{.column width="50%"}
+
+$$s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$$ 
+
+
+:::
+
+:::
+
+
+## Why n-1?
+
+Suppose we draw [n independent observations]{.blue} from a [population (N)]{.blue}, with a [unknown]{.grey} population mean $(\mu)$ and [unknown]{.grey} variance $(s^2)$. 
+
+
+Ideally we would use $(s^2)$ to find the average squared distance from the true mean,
+
+
+$$s^2 = \frac{\sum(x_i - \mu)^2}{n}$$
+
+Although we can't! 😢   
+
+Because we don't know our $(\mu)$. 
+
+
+
+::: notes
+
+So what do we do? 
+
+How do we generally make inferences about a population? What type of method do we rely on in order to make generalizations about a population? 
+
+:::
+
+
+## We Sample it!
+
+Since we don't know $(\mu)$, [we use our best estimate of it which is the sample mean $\bar{x}$]{.blue}.
+
+So let's pull out the population variable $(\mu)$ and plug in our [sample variables ($\bar{x}$). 
+
+$$s^2 = \frac{\sum(x_i - \bar{x})^2}{n}$$ 
+
+Although another small problems pops up! 
+
+::: notes 
+
+The sample mean will tend to underestimate the variance value, because $\bar{x}$ is the center point of our sample and not of a population. 
+
+This will result in an biased estimator of $(\sigma)^2$
+
+To compensate for this problem, we use n-1. But why? 
+
+::: 
+
+## The Problem (Population)
+
+<br>
+
+Population and the true ${\mu}$
+
+<br>
+
+$$(-5,0)*--*-*-*----(0,0)--\stackrel{\mu}{|}--*--*--*--- (5,0)$$
+
+## The Problem (Sample)
+
+<br>
+
+Sample and the $\bar{x}$
+
+<br>
+
+$$(-5,0)*--*-*-----(0,0)--\stackrel{\mu}{|}--------- (5,0)$$
+
+<br>
+
+The sample mean can tend to underestimate or even overestimate the true ${\mu}$ 
+
+
+::: notes 
+
+That random sample's mean would be under the true population mean
+
+:::
+
+## The Solution
+
+::: columns
+
+:::{.column width="50%"}
+
+We modify $s^2 = \frac{\sum(x_i - \bar{x})^2}{n}$ to $s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$
+
+<br>
+
+And this provides an [unbiased estimator of the population variance when using a sample]{.blue}.
+
+:::
+
+:::{.column width="50%"}
+
+
+![](Images2/n1.png){fig-align="center"}
+
+
+
+:::
+
+:::
+
+::: footer
+image: khan academy
+::: 
+
+## In Sum
+
+When we are measuring a population, [divide by n]{.blue}. (hint: There will be a $\mu$ in the deviation score.)
+
+<br>
+
+When we are measuring a sample, [divide by n-1]{.blue}. (hint: There will be a $\bar{x}$ in the deviation score.)
+
+
+## Variance Example 1
+
+
+::: columns
+
+:::{.column width="50%"}
+
+#### 1) Find the $\bar{x}$ 
+
+#### 2) Subtract the mean from each score $(x_i - \bar{x})$
+
+#### 3) Square the deviation score $(x_i - \bar{x})^2$
+
+#### 4)  Add the squared deviations ${\sum(x_i - \bar{x})^2}$
+
+#### 5) Divide by ${n-1}$
+
+
+::: 
+
+
+:::{.column width="50%"}
+
+
+```{r}
+
+
+mean_salary <- 1000
+sd_salary <- 300
+
+set.seed(123)
+salaries <- rnorm(8, mean_salary, sd_salary)
+
+data <- data.frame(
+  "District" = paste0("District", 1:8),
+  "Salary" = round(salaries, 0)
+)
+
+data
+
+```
+
+
+$$s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$$ 
+
+
+:::
+
+:::
+
+::: notes
+
+var(data$Salary)
+
+[1] 91689.3
+
+High variance, which indicates the data points are widely scattered around the mean.
+
+This makes sense because it was simulated with a random normal distribution. 
+
+If the value was lower, the values would be clustered tightly around the mean
+
+::: 
+
+
+## Variance Example 2
+
+
+
+::: columns
+
+:::{.column width="50%"}
+
+#### 1) Find the $\bar{x}$ 
+
+#### 2) Subtract the mean from each score $(x_i - \bar{x})$
+
+#### 3) Square the deviation score $(x_i - \bar{x})^2$
+
+#### 4)  Add the squared deviations ${\sum(x_i - \bar{x})^2}$
+
+#### 5) Divide by ${n-1}$
+
+
+::: 
+
+
+:::{.column width="50%"}
+
+
+```{r}
+
+
+mean_salary <- 1000
+sd_salary <- 30
+
+set.seed(123)
+salaries <- rnorm(8, mean_salary, sd_salary)
+
+data <- data.frame(
+  "District" = paste0("District", 1:8),
+  "Salary" = round(salaries, 0)
+)
+
+data
+
+
+```
+
+
+$$s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$$ 
+
+
+:::
+
+:::
+
+
+::: notes 
+
+var(data$Salary)
+
+[1] 916.5714
+
+This time the variance is much smaller, this is because I reduced the sd in our simulation and thus the distribution went from being mesokurtic to leptokurtic. 
+
+
+:::
+
+## Standard Deviation 
+
+[A measure of how far observed values are from the mean]{.blue}.
+
+It's simply the square root of our variance! 
+
+
+$$\sigma=\sqrt{\frac{\sum_{} (x_{i} - \bar{x})^2}{n-1}}$$ 
+$\sigma$ = standard deviation   
+$x_i$ = raw value     
+$\bar{x}$ = mean values of all raw scores    
+$n$ = number of observations    
+
+::: notes
+
+The advantage of a standard deviation, is that it tells us exactly how far, on average, the raw scores are from the mean.  
+
+Rather than the variance just offering information regarding the likely shape of a distribution. 
+
+
+:::
+
+## Why square root it?
+
+In our variance equation, we squared the sum of the deviation score $(x_i - \bar{x})$ to [get rid of our negative values]{.blue}.  
+
+
+$$s^2 = \frac{\sum(x_i - \bar{x})^2}{n-1}$$
+But by doing that we created an output that is nonsensical to our data and thus our interpretation.
+
+
+
+$$\sigma=\sqrt{\frac{\sum_{} (x_{i} - \bar{x})^2}{n-1}}$$ 
+
+
+So by [squaring it]{.blue}, we normalize the sum of the deviation score, and thus the values make sense. 
+
+## Standard Deviation Example 
+
+
+::: columns
+
+:::{.column width="50%"}
+
+Take our calculation from variance example 1 and square it. 
+
+```{r}
+
+
+mean_salary <- 1000
+sd_salary <- 300
+
+set.seed(123)
+salaries <- rnorm(8, mean_salary, sd_salary)
+
+data <- data.frame(
+  "District" = paste0("District", 1:8),
+  "Salary" = round(salaries, 0)
+)
+
+data
+
+
+```
+
+:::
+
+:::{.column width="50%"}
+
+$$\sigma=\sqrt{\frac{\sum_{} (x_{i} - \bar{x})^2}{n-1}}$$ 
+
+:::
+
+:::
+
+
+::: notes
+
+[1] 303.0507
+
+::: 
+
+## Vizualize a Standard Deviation  
+
+
+```{r}
+#| layout: [[100]]
+
+library(tidyverse)
+
+mean_salary <- 1000
+sd_salary <- 300
+
+set.seed(123)
+salaries <- rnorm(1000, mean_salary, sd_salary)
+
+data <- data.frame(
+  "District" = paste0("District", 1:1000),
+  "Salary" = round(salaries, 0)
+)
+
+mean_val <- mean(data$Salary)
+sd_val <- sd(data$Salary)
+
+ggplot(data, aes(x = Salary)) +
+  geom_histogram(aes(y = ..density..), binwidth = 50, color = "black", fill = "lightblue") +
+  geom_density(alpha = 0.2, fill = "honeydew") +
+  geom_vline(xintercept = mean_val, color = "orange", linetype = "dashed", size = 1) +
+  geom_vline(xintercept = c(mean_val - sd_val, mean_val + sd_val), color = "#f05133", linetype = "dashed", size = 1) +
+  annotate("text", x = mean_val, y = 0.0005, label = "Mean", color = "black", vjust = -24.3) +
+  annotate("text", x = mean_val - sd_val, y = 0.0005, label = "Mean - SD", color = "black", vjust = -15) +
+  annotate("text", x = mean_val + sd_val, y = 0.0005, label = "Mean + SD", color = "black", vjust = -15) +
+  labs(x = "Salary", y = "Density", title = "Distribution of Salaries") 
+
+
+
+```
+
+
+::: notes 
+
+Mean = 1004.812   
+
+1 SD to the right = 1004.812 + 297.5121   
+
+1 SD to the left = 1004.812 - 297.512   
+
+
+
+:::
+
+## Vizualize a Standard Deviation  (Large)
+
+
+```{r}
+#| layout: [[100]]
+
+library(tidyverse)
+
+mean_salary <- 1000
+sd_salary <- 700
+
+set.seed(123)
+salaries <- rnorm(1000, mean_salary, sd_salary)
+
+data <- data.frame(
+  "District" = paste0("District", 1:1000),
+  "Salary" = round(salaries, 0)
+)
+
+mean_val <- mean(data$Salary)
+sd_val <- sd(data$Salary)
+
+ggplot(data, aes(x = Salary)) +
+  geom_histogram(aes(y = ..density..), binwidth = 50, color = "black", fill = "lightblue") +
+  geom_density(alpha = 0.2, fill = "honeydew") +
+  geom_vline(xintercept = mean_val, color = "orange", linetype = "dashed", size = 1) +
+  geom_vline(xintercept = c(mean_val - sd_val, mean_val + sd_val), color = "#f05133", linetype = "dashed", size = 1) +
+  annotate("text", x = mean_val, y = 0.0005, label = "Mean", color = "black", vjust = -24.3) +
+  annotate("text", x = mean_val - sd_val, y = 0.0005, label = "Mean - SD", color = "black", vjust = -15) +
+  annotate("text", x = mean_val + sd_val, y = 0.0005, label = "Mean + SD", color = "black", vjust = -15) +
+  labs(x = "Salary", y = "Density", title = "Distribution of Salaries") 
+
+
+
+```
+
+
+## Vizualize a Standard Deviation  (Small)
+
+
+```{r}
+#| layout: [[100]]
+
+library(tidyverse)
+
+mean_salary <- 1000
+sd_salary <- 100
+
+set.seed(123)
+salaries <- rnorm(1000, mean_salary, sd_salary)
+
+data <- data.frame(
+  "District" = paste0("District", 1:1000),
+  "Salary" = round(salaries, 0)
+)
+
+mean_val <- mean(data$Salary)
+sd_val <- sd(data$Salary)
+
+ggplot(data, aes(x = Salary)) +
+  geom_histogram(aes(y = ..density..), binwidth = 50, color = "black", fill = "lightblue") +
+  geom_density(alpha = 0.2, fill = "honeydew") +
+  geom_vline(xintercept = mean_val, color = "orange", linetype = "dashed", size = 1) +
+  geom_vline(xintercept = c(mean_val - sd_val, mean_val + sd_val), color = "#f05133", linetype = "dashed", size = 1) +
+  annotate("text", x = mean_val, y = 0.0005, label = "Mean", color = "black", vjust = -24.3) +
+  annotate("text", x = mean_val - sd_val, y = 0.0005, label = "Mean - SD", color = "black", vjust = -15) +
+  annotate("text", x = mean_val + sd_val, y = 0.0005, label = "Mean + SD", color = "black", vjust = -15) +
+  labs(x = "Salary", y = "Density", title = "Distribution of Salaries") 
+
+
+
+```
+
+
+
+## The Normal Curve
+
+On average, [68% of the sample will fall within 1 standard deviation of the mean]{.red}, [95% at 2 standard deviations]{.violet}, and [99.7% will fall within 3 standard deviations]{.forest}.
+
+
+![](Images2/normal.png){fig-align="center"}
+
+::: footer
+
+image: medium
+
+:::
+
+
+## Have Wonderful Day!
+
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGk4ZmE1NWdxbnRsenByeG0xZ2hydTRwaDRuM3FzMHd4N3JkZWNoNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BoHCeLmEKytt7oFxyR/giphy.gif){fig-align="center"}
+
+
+::: footer
+
+Giphy
+
+:::
+
+
+
+
+
+
