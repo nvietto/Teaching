@@ -1,0 +1,40 @@
+---
+title: "Chapter 6 Homework"
+format: pdf
+editor: source
+---
+
+1.) Let's imagine there are 6 football matches scheduled to occur in June and July, 3 of these matches will be outdoor and 3 indoor. Lionel Messi has both 75% chance of scoring inside and a 60% chance of scoring outside in each match.
+
+Assuming that the matches are independent of each other, what is the probability that he will score in 0, 1, 2, or 3 matches both indoor and outdoor? Be sure to summarize each like I did in the slides. 
+
+
+
+
+
+\pagebreak
+
+
+2.) Using the data below calculate the standard deviation. Once you've calculated the standard deviation, you need to determine the z-score for a student who scored 77 points on the test using the calculated standard deviation and mean score of the data set.
+
+
+```{r}
+#| echo: false
+
+mean_crime <- 71
+sd_crime <- 15
+
+set.seed(0525)
+crime <- rnorm(10, mean_crime, sd_crime)
+
+data <- data.frame(
+  "Student" = paste0("Student", 1:10),
+  "Grades" = round(crime, 0)
+)
+
+data
+
+```
+
+
+

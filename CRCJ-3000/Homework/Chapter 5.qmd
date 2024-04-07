@@ -1,0 +1,69 @@
+---
+title: "Chapter 5 Questions"
+format: pdf
+editor: source
+---
+
+## For each question, answer in full and **show your work**.
+
+1.) Using the data below calculate the variance.
+
+
+```{r}
+#| echo: false
+
+mean_crime <- 55
+sd_crime <- 15
+
+set.seed(123)
+crime <- rnorm(8, mean_crime, sd_crime)
+
+data <- data.frame(
+  "District" = paste0("District", 1:8),
+  "Crimes" = round(crime, 0)
+)
+
+data
+
+```
+
+
+\pagebreak
+
+
+
+2.) Using the data below calculate the standard deviation. 
+
+
+
+
+```{r}
+#| echo: false
+
+mean_crime <- 55
+sd_crime <- 15
+
+set.seed(2024)
+crime <- rnorm(10, mean_crime, sd_crime)
+
+data <- data.frame(
+  "District" = paste0("District", 1:10),
+  "Crimes" = round(crime, 0)
+)
+
+data
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
