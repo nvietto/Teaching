@@ -1,0 +1,774 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    #transition: fade
+    filters:
+      - webr
+---
+
+# {background-image="Images2/prob.png"}
+
+:::{.titlebox style="text-align:center; font-size: 3em;"}
+
+[Probability]{.red}
+
+:::
+
+
+## Probability
+
+[A number that represents the likelihood an event will occur.]{.blue}
+
+<br>
+
+
+
+$$p(A) = \frac {The \, number \, of \, times \, A \, can \, occur}{The \, total \, number \, of \, possible \, outcomes}$$
+
+## Probabiltity vs Proportion 
+
+
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+[Probability]{.blue} 
+
+::: {.nonincremental}
+- [Represents the chance of some event occurring]{.blue2}
+- Theoretical 
+- Event has not occurred
+:::
+
+
+:::
+
+::: {.column width="60%"}
+
+[Proportion]{.blue} 
+
+::: {.nonincremental}
+- [Summarizes how frequently some event actually occurred]{.blue2}
+- Empirical
+- Event has occurred
+:::
+
+:::
+
+:::
+
+
+::: notes
+
+A theoretical prediction is a prediction, grounded in logic, about whether or not a certain event will occur.
+
+
+A empirical outcome (i.e., observed outcome) is a numerical result from a sample, such as a mean or a frequency.
+
+
+:::
+
+
+## Probabiltity vs Proportion Coin Example
+
+::: columns
+
+:::{.column width="50%"}
+
+If we flip a fair coin, the [probability]{.blue} that it lands on heads is 1/2 or 50%. 
+
+<br> 
+
+But if we flip a coin 20 times and count the number of times it lands on heads, lets say 12 times, then our [proportion]{.blue} is 12/20 or 60%. 
+
+:::
+
+
+:::{.column width="50%"}
+
+![](Images2/coin.png){fig-align="center"}
+
+
+:::
+
+
+:::
+
+## Coin Example
+
+
+Let's flip some coins!
+
+<br>
+
+```{webr-r}
+
+coin_flip <- function(i = NULL) {
+      flip <- rbinom(1, 1, 0.5) # (# of random numbers, # of trials, probability)
+      flip <- ifelse(flip == 1, "Tails", "Heads")
+      return(flip)
+  }
+
+coin_flip()
+
+```
+
+
+
+
+::: notes
+
+Work through this. Probability verse proportion. 
+
+Flip multiple trials. Then do two coins at once 
+
+
+:::
+
+
+
+## Card Example 
+
+![](Images2/card.png){fig-align="center"}
+
+
+
+::: notes
+
+Work through this. Probability verse proportion. 
+
+**There are 52 cards in the deck, with 4 suits and two colors**
+
+What is the probability that I pull a red card? 
+
+**26/52**
+
+What is the probabilty that I pull a diamond card? 
+
+**13/52 or 1/4**
+
+What is the probability that I pull a 10 card? 
+
+**4/52 or 1/13 or 7%**
+
+When you predict that a card will be the 9 of spades, what is the probability that the card you pull will be anything except the 9 of spades?
+ 
+ $\frac{52 - 1} {52}$
+
+When you predict that a card will be the jack of diamonds, what is the probability that you will actually pull the ace of hearts instead?
+
+**Each card in the deck has an equal chance of being drawn, so the probability of drawing any specific card is 1/52.**
+
+Then do a proportion with the actual cards, playing high or low. 
+
+:::
+
+
+
+
+# Discrete Probability
+
+
+## Discrete Probability
+
+A type of probability that deals with the likelihood an event will occur within a [finite (limited) possible outcomes]{.blue}. 
+
+[Binomials]{.blue} 
+
+::: {.nonincremental}
+
+Trials (i.e., an act with an different outcomes) that have [exactly]{.blue} two possible outcomes.
+
+- Coin flips
+
+- Chances of success for a free-throw shooter in basketball, where 1 = a basket made and 0 = a miss.
+
+:::
+
+[Binomial probability distribution]{.aqua} contains all the possible results over a set of trials and lists the probability of each result.
+
+
+
+
+
+
+
+::: notes
+
+Binomials are sometimes referred to as dichotomous or binary. 
+
+
+To use a binomial probability distribution we need to calculate the binomial coefficient.
+
+
+:::
+
+
+## The Binomial Coefficient and the Probability Distribution 
+
+[Criteria]{.blue}
+
+<br>
+
+1.) Fixed Trials
+
+<br>
+
+2.) Independent Trials 
+
+<br>
+
+3.) Fixed Probability of Success
+
+<br>
+
+4.) Two Mutuallly Exclusive Outcomes
+
+
+
+## The Binomial Coefficient and the Probability Distribution 
+
+$$ p(x) = \binom{n}{x}p^xq^{n-x}$$
+
+
+p(x) = probability of x occurring
+
+x = number of successes
+
+n = sample size
+
+p = probability event will occur
+
+q = probability event will not occur
+
+
+::: notes 
+
+$\binom{n}{x}$ this simply mean "n choose x", in other words, how many different ways there are to pick x items from a set of 𝑛 elements.
+
+
+
+::: 
+
+
+## Breakdown of "n choose x"
+
+$$\binom{n}{x} = \frac{n!}{x!(n-x)!}$$
+
+<br>
+
+n = sample size   
+x = number of successes   
+! = factorial 
+
+
+
+
+## What is q? 
+
+
+$$q = (p - 1)$$
+
+<br>
+
+p = probability event will occur  
+q = probability event will [not]{.blue} occur
+
+## Example 
+
+Do people prefer Qdoba or Chipotle? Let's say asked three people what they prefer. 
+
+![](images2/chip.png){.absolute bottom=100 right=100 width="300" height="300"}
+
+
+![](images2/qdob.png){.absolute bottom=100 left=100 width="300" height="300"}
+
+
+::: notes
+
+If there is no difference between choice, then each Qdoba and Chipotle have a 50% chance of being selected.
+
+0.5, 0.5, 0.5 on the board. 
+
+So if we say the first 2 will go with Qdoba and the final will go to Chipotle the probability is: 
+
+0.5 * 0.5 * 0.5 = 0.125
+
+But we are conditioning on order as well. 
+
+
+::: 
+
+## Example
+
+
+::: columns
+
+:::{.column width="50%"}
+
+But we are conditioning on order here. 
+
+<br>
+
+0.5 * 0.5 * [0.5]{.blue} = 0.125
+
+0.5 * [0.5]{.blue} * 0.5 = 0.125
+
+[0.5]{.blue} * 0.5 * 0.5 = 0.125
+
+<br>
+
+0.125 + 0.125 + 0.125 = ?
+
+
+:::
+
+:::{.column width="50%"}
+
+![](images2/chip.png){.absolute bottom=400 right=70 width="100" height="100"}
+
+
+![](images2/qdob.png){.absolute bottom=400 right=200 width="100" height="100"}
+
+![](images2/qdob.png){.absolute bottom=400 right=330 width="100" height="100"}
+
+
+
+![](images2/qdob.png){.absolute bottom=300 right=70 width="100" height="100"}
+
+
+![](images2/chip.png){.absolute bottom=300 right=200 width="100" height="100"}
+
+![](images2/qdob.png){.absolute bottom=300 right=330 width="100" height="100"}
+
+
+
+
+
+![](images2/qdob.png){.absolute bottom=200 right=70 width="100" height="100"}
+
+
+![](images2/qdob.png){.absolute bottom=200 right=200 width="100" height="100"}
+
+![](images2/chip.png){.absolute bottom=200 right=330 width="100" height="100"}
+
+
+:::
+
+::: 
+
+::: notes
+
+0.125 + 0.125 + 0.125 = .375
+
+There is 0.375 probability that 2 out of 3 people would randomly prefer Qboda. 
+
+
+::: 
+
+
+
+
+## Let's work the formula 
+
+Do people choose Qdoba or Chipotle? Let's say asked [3]{.blue} people what they prefer (with a probability (p) of 0.50 for choosing Qdoba) - [2]{.blue2} people chose Qdoba and [1]{.aqua} chose Chipotle. 
+
+<br>
+
+What is the probability that people preferred Qdoba? 
+
+$$p(x) = (\frac{n!}{x!(n-x)!})p^x(1-p)^{n-x}$$
+x = ?
+
+n = ?
+
+p = ?
+
+
+
+## Let's attack our 'n choose x' first
+
+
+$$\binom{n}{x} = \frac{n!}{x!(n-x)!}$$
+
+$$\binom{3}{2} = \frac{3!}{2!(3-2)!}$$
+
+
+$$\frac{6}{2}=3$$
+
+::: notes
+
+3 ways that 2 out of 3 people could prefer x instead of y
+
+xxy, xyx, yxx
+
+::: 
+
+## Let's continue 
+
+$$ p(x) = (3)p^xq^{n-x}$$
+
+<br>
+
+$p^x$ is the probability that Qdoba was chosen 2 out of 3 times.  
+
+
+
+
+
+::: notes
+
+It consolidates the 0.5 * 0.5 for x
+
+:::
+
+## Let's continue 
+
+
+$$p(x) = (3)0.5^2(1-p)^{n-x}$$
+
+<br>
+
+1.) This is the probability that someone will prefer Chipolte
+
+$$(1 - 0.50) = 0.50$$
+
+
+<br>
+
+2.) This corresponds to the one person that preferred Chipotle 
+
+$$(3 - 2) = 1$$
+
+
+
+## Final Version
+
+Before simplified: 
+
+$$p(x) = (\frac{3!}{2!(3-2)!})0.5^2(1-0.5)^{3-2}$$
+
+Simplified:
+
+$$p(x) = (3)(0.25)(0.5)$$
+
+
+$$p(x) = 0.375$$
+
+::: notes 
+
+PEMDAS means parentheses, exponents, multiplication, division, addition, and subtraction.
+
+
+p(x) = 0.375
+
+There is a 37% chance that two people would pick Qdoba. 
+
+::: 
+
+
+## Recap
+
+The Binomial Coefficient or 'n choose k' 
+
+$$\binom{n}{x} = \frac{n!}{x!(n-x)!}$$
+
+
+
+The Binomial Probability Distribution 
+
+$$p(x) = (\frac{n!}{x!(n-x)!})p^x(1-p)^{n-x}$$
+
+Now that we covered the surface of binomial distributions, let's dig a little deeper, with [multiple binomial coefficient calculations]{.blue}. 
+
+
+## Lets review exponent rules 
+
+
+![](images2/expo.png){fig-align="center"}
+
+::: footer
+
+image: online math learning
+:::
+
+## Example 2 
+
+Let's imagine there are [4 Formula-1 races]{.blue} that will occur in June and July, Max Verstappen of Red Bull Racing has a [60% chance of winning]{.blue}.
+
+Assuming that the races are independent of each other, what is the probability that he will win [0 races, 1 race, 2 races, 3 races, or all 4 races]{.blue}?
+
+
+
+$$p(x) = (\frac{n!}{x!(n-x)!})p^x(1-p)^{n-x}$$
+
+
+
+
+
+# Let's break this down with 4 steps
+
+## Step 1
+
+[What do we know?]{.blue}
+
+<br>
+
+n = 4 races
+
+<br>
+
+x = He will win: 0, 1, 2, 3, 4 races
+
+<br>
+
+p = 0.60
+
+<br>
+
+
+* Since x has multiple outcomes, we must calculate the binomial coefficient for each.
+
+
+
+## Step 2
+
+
+::: columns
+
+:::{.column width="50%"}
+
+[Calculate 'n choose x' for each x]{.blue}
+
+* 0 $\binom{4}{0} = \frac{4!}{0!(4-0)!} = 1$
+
+* 1 $\binom{4}{1} = \frac{4!}{1!(4-1)!} = 4$
+
+* 2 $\binom{4}{2} = \frac{4!}{2!(4-2)!} = 6$
+
+* 3 $\binom{4}{3} = \frac{4!}{3!(4-3)!} = 4$
+
+* 4 $\binom{4}{4} = \frac{4!}{4!(4-4)!} = 1$
+
+:::
+
+:::{.column width="50%"}
+
+
+$$\binom{n}{x} = \frac{n!}{x!(n-x)!}$$
+
+
+:::
+
+:::
+
+
+
+
+
+::: notes 
+
+
+
+Remember this just tells us how many different ways there are for 'n to choose x'.
+
+So for 0, 1 makes sense because. All four races can only have the order of 0, 0, 0, 0. 
+
+Same idea for 1 - 1,0,0,0 or 0,1,0,0 or 0,0,1,0 or 0,0,0,1. 
+
+
+:::
+
+
+## Step 3
+
+
+::: columns
+
+:::{.column width="50%"}
+
+[Plug in and solve the rest]{.blue}
+
+* $(1)0.60^0(1-0.60)^{4-0} = 0.0256$
+
+* $(4)0.60^1(1-0.60)^{4-1} = 0.1536$
+
+* $(6)0.60^2(1-0.60)^{4-2} = 0.3456$
+
+* $(4)0.60^3(1-0.60)^{4-3} = 0.3456$
+
+* $(1)0.60^4(1-0.60)^{4-4} = 0.1296$
+
+:::
+
+
+:::{.column width="50%"}
+
+
+$$(Step\,2)\,p^xq^{n-x}$$
+
+
+:::
+
+:::
+
+::: notes 
+
+Since 0 raised to any power except 0 equals 1, this term is equal to 1.
+
+:::
+
+## Step 4 
+
+
+::: columns
+
+:::{.column width="50%"}
+
+[Summarize the result]{.blue}
+
+<br>
+
+Max Verstappen has a ...
+
+<br>
+
+2.56% chance to win 0 races.
+
+
+
+15.36% chance to win 1 races.
+
+
+
+34.56% chance to win 2 races.
+
+
+34.56% chance to win 3 races.
+
+
+
+ 12.96% chance to win 4 races.
+
+:::
+
+:::{.column width="50%"}
+
+![](images2/max.png){.absolute right=30 width="300" height="400"}
+
+
+:::
+
+
+:::
+
+::: footer
+
+Image: NBC Sports
+
+:::
+
+
+
+# Continuous Probability: The Standard Normal Curve
+
+## Standard Normal Curve
+
+Sometimes our distribution can have a lot of variance and thus can result in varying levels of kurtosis.
+
+
+To compensate for this, we can standardize our scores by apply a [z-score]{.blue}. 
+
+
+
+![](images2/stand.png){fig-align="center"}
+
+
+::: footer
+
+image: Math is fun
+
+::: 
+
+
+
+## Z-Score
+
+Tells you how many [standard deviations]{.blue} a specific point is away from the mean of a distribution.
+
+<br>
+
+
+[Positive z-score]{.green}: A positive z-score indicates that the value (x) lies [above the mean]{.green} by a certain number of standard deviations. 
+
+<br>
+
+[Negative z-score]{.red}: A negative z-score indicates that the value (x) lies [below the mean]{.red} by a certain number of standard deviations. 
+
+<br>
+
+[Zero z-score]{.grey}: A z-score of 0 means the value (x) is exactly [equal to the mean]{.grey} of the data set.
+
+::: notes
+
+(+) A z-score of +1.5 signifies that the value is 1.5 standard deviations higher than the mean.
+
+(-) A z-score of -2.0 signifies that the value is 2 standard deviations lower than the mean.
+
+:::
+
+
+## Z-Score
+
+$$z = \frac{x - \bar{x}}{\sigma}$$
+
+ 
+$x$ = Raw score  
+${\bar{x}}$ = Sample mean   
+${\sigma}$ = Standard deviation  
+
+
+
+## Z-Score Example 
+
+Imagine you have a class of 20 students and you give them a math test. The mean was 75 points, and the standard deviation (SD) is (+/-) 10 points.
+
+<br>
+
+One student scored 88 points on the test. Calculate the z-score for the student.
+
+
+$$z = \frac{x - \bar{x}}{\sigma}$$
+
+## Z-Score Example 
+
+
+$$z = \frac{88 - 75}{10}$$
+$$z = 1.30 $$
+
+
+The score is [1.30 standard deviations above the mean]{.blue}. 
+
+<br>
+
+In other words, the student preformed better than 1.30 standard deviations compared to the average score in the class.
+
+
+
+## Have a Great Weekend!
+
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXFsMnFzZGpsNzFkcXEzeXZ5ZGZ2NDg3NXJwc3ZsNzF5emsxdHFsZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2Sq5L1byCRgztEZi/giphy.gif){fig-align="center"}
+
+::: footer
+
+giphy
+
+:::
