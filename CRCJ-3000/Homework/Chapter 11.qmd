@@ -1,0 +1,58 @@
+---
+title: "Chapter 11 Homework"
+format: pdf
+editor: source
+---
+
+
+
+1) **Chi Square** 
+
+Suppose we're examining the relationship between age groups and smartphone ownership among a group of individuals. We want to determine if there's a significant relationship between age groups and smartphone ownership at a 5% level of significance. Is there a relationship between age group and smartphone ownership among these individuals? State your null and alternative hypothesis then after completing the calculations, tell me if you accepted or reject the null. 
+
+
+|  | Under 30| 30-50 | Over 50 | Total
+|:------:|:------:|:------:|:------:|:------:|
+| Smartphone Owner    | 120   |  90 |   60   | 270
+| Non-Smartphone Owner     | 80  |   60 |  40   | 180
+| Total    | 200  | 150 |   100  | 450
+
+
+
+\pagebreak
+
+2) **Student's t-test** 
+
+
+Suppose we have two groups of students - Group A and Group B. We want to know if there is a significant difference (95% confidence level or 0.05 significance level) in their quiz scores. Is there a significant difference in the quiz scores between Group A and Group B? State your null and alternative hypothesis then after completing the calculations, tell me if you accepted or reject the null. 
+
+**Group A:**
+
+Number of students (n): 15  
+Mean quiz score: 80  
+Standard deviation of quiz scores: 5  
+
+**Group B:**
+
+Number of students (n): 15  
+Mean quiz score: 85  
+Standard deviation of quiz scores: 6  
+
+ 
+
+\pagebreak
+
+
+3) **ANOVA**
+
+Suppose we're examining the frequency of petty thefts in three different areas of a city over a one-week period. Is there a significant difference in the frequency of petty thefts among these three areas. State your null and alternative hypothesis then after completing the calculations, tell me if you accepted or reject the null. 
+
+| Downtown| Suburbia | Urban Residential | 
+|:------:|:------:|:------:|
+| 5   |  3 |   6   | 
+| 4  |   4 |  4   | 
+| 5  | 2 |   1  
+
+
+
+
