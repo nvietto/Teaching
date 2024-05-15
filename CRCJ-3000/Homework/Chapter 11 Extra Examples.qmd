@@ -1,0 +1,208 @@
+---
+title: "Chapter 11 Extra Examples"
+format: pdf
+editor: source
+---
+
+**t test**
+
+Suppose we have two groups of students - Group A and Group B. Both groups took the same exam but one group studied together on zoom and the other group studied together at the library. We want to know if there is a significant difference (95% or 0.05) in their exam scores.
+
+
+**Group A:**
+
+Sample size (n): 25
+Mean (x̄): 72
+Standard deviation (σ): 9
+
+**Group B:**
+Sample size (n): 25
+Mean (x̄): 78
+Standard deviation (σ): 11
+
+**Null Hypothesis H0**: There is no significant difference in the mean exam scores between Group A and Group B.
+**Alternative Hypothesis HA**: There is a significant difference in the mean exam scores between Group A and Group B.
+
+
+**How to solve:**
+
+We use a t-distribution (p. 373) and we calculate the degrees of freedom to find our critical value.
+
+$(25 + 25)-2 = 48$
+
+We use df value closest to our calculated df value (i.e., 48 is closer to 40 than 60) -  so we use *2.021.* 
+
+Head to slide 10 in chapter 11 and follow the steps like so: 
+
+**Pooled $\sigma$**
+
+$$\sigma_p = \sqrt{\frac{{(n_1 - 1) \cdot \sigma^2_1 + (n_2 - 1) \cdot \sigma^2_2}}{{n_1 + n_2 - 2}}}$$
+
+
+$\sigma_p = \sqrt{\frac{{(25 - 1) \cdot (9^2) + (25 - 1) \cdot (11^2)}}{{25 + 25 - 2}}}$
+
+$\sigma_p =\sqrt{\frac {1944 + 2904}{48}}$
+
+$\sigma_p =\sqrt{\frac{4848}{48}}$
+
+$\sigma_p =\sqrt{101}$
+
+$\sigma_p = 10.04$
+
+
+**t-statistic**
+
+$$t = \frac{{\bar{X}_1 - \bar{X}_2}}{{\sigma_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}}$$
+
+$t = \frac{{72- 78}}{{10.04 \sqrt{\frac{1}{25} + \frac{1}{25}}}}$
+
+$t = \frac{{-6}}{{10.04 \sqrt{0.08}}}$
+
+$t = \frac{{-6}}{{10.04(0.28)}}$
+
+$t = \frac{{-6}}{2.81}$
+
+$t = -2.13$
+
+**Put it all together** 
+
+Our critical value was $\pm$ 2.021. 
+
+Our $t = |-2.13|$
+
+Our $t = 2.13$
+
+$2.13 > 2.021$
+
+Since the absolute value of the t-statistic (2.108) exceeds the critical value (2.021), **we reject the null hypothesis**. *This implies that there is a significant difference in the mean exam scores between Group A and Group B*.
+
+\pagebreak
+
+**ANOVA**
+
+
+Suppose we want to test if there's a significant difference in the mean scores of students from three different schools (School A, School B, and School C) on a standardized test.
+
+| School A| School B | School C| 
+|:------:|:------:|:------:|
+| 85  | 78 |   92   | 
+| 90 |  82 |  87  | 
+| 88 | 80 |   89 |
+
+
+**Null Hypothesis H0**: There is no significant difference in the mean scores of students among the three schools.
+
+**Alternative Hypothesis HA**: There is a significant difference in the mean scores of students among the three schools.
+
+
+**Let's solve this**
+
+Remember to record your "recipe" values on a ingredientes board. 
+
+
+**Group Mean**
+
+ $$\bar{X}_{\text{overall}} = \frac{\sum_{i=1}^{n} X_i}{n}$$
+
+(85 + 90 + 88)/3 = 87.66
+
+(78 + 82 + 80)/3 = 80
+
+(92 + 87 + 89)/3 = 89.33
+
+(87.66 + 80 + 89)/3 = **85.55**
+
+
+
+**SSB**
+
+$$SSB = \sum_{i=1}^{n} n_i (\bar{X}_i - \bar{X}_{\text{overall}})^2$$
+
+
+
+$3(87.66 - 85.55)^2$ = 13.35
+
+$3(80 - 85.55)^2$ = 92.40
+
+$3(89.33 - 85.55)^2$ = 50.40
+
+SSB = (13.35) + (92.40) + (50.40) = **156.15**
+
+\pagebreak
+
+**SSW**
+
+
+$$SSW = \sum_{i=1}^{n} \sum_{j=1}^{n_i} (X_{ij} - \bar{X}_i)^2$$
+
+
+$(85 - 87.66)^2 + (90 - 87.66)^2 + (88 - 87.66)^2 = 12.66$
+
+$(78 - 80)^2 + (82 - 80)^2 + (80 - 80)^2 = 8$
+
+$(92 - 89.33)^2 + (87 - 89.33)^2 + (89 - 89.33)^2 = 12.66$
+
+
+12.66 + 8 + 12.66 = 33.32
+
+SSW = **33.32**
+
+
+**MSB and MSW**
+
+MSB = 156.15/2 = **78.07**
+
+MSW = 33.32/ 6 = **5.55**
+
+**F Statistic**
+
+F = 78.07/5.55 = **14.06**
+
+
+**Ingredientes Board**
+
+| School A| School B | School C| 
+|:------:|:------:|:------:|
+| 85  | 78 |   92   | 
+| 90 |  82 |  87  | 
+| 88 | 80 |   89 |
+
+School A Mean =  **87.66**
+
+School B Mean =  **80**
+
+School C Mean =  **89.33**
+
+Group Mean = **85.55**
+
+SSB = **156.15**
+
+SSW = **33.32**
+
+$df_B$(i.e., the number of groups - 1) = **2**
+
+$df_W$(i.e., the total number of observations - the total number of groups) = **6**
+
+MSB = **78.07**
+
+MSW = **5.55**
+
+
+
+**Final Values**
+
+F = 14.06
+
+Critical Value = 5.14
+
+
+**14.06 > 5.14**
+
+We reject the null, there *is* difference in mean scores among the three schools
+
+
+
+
+
+
+
