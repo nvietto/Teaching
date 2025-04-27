@@ -64,13 +64,6 @@ wrongdoings.]{.blue}
 
 * Any parallels with our current time? 
 
-* [Conspiracy Theories and Climate Change](https://www.sciencedirect.com/science/article/pii/S0272494423001779)
-
-::: notes
-
-The parallel between Spiritualism in the 1600s and modern times in conspiracy theories for climate events
-
-::: 
 
 ## Spiritulaism
 
@@ -100,14 +93,7 @@ image: giphy
 :::
 
 
-::: notes
 
-One important reason for this particular development is that, originally, crime was a private matter between the victim (or the family of the victim) and the offender(s). Unfortunately, this means of responding to offenses tended to create long blood feuds that could destroy
-entire families.
-
-A guilty offender with a strong family might never be punished.
-
-:::
 
 
 ## Trial by Ordeal 
@@ -333,24 +319,7 @@ For simplicity in your argument, consider the crime of capital murder.
 Elect one speaker to present your point.
 
 
-::: notes
 
-
-Put definition of CM on board:
-
-Premeditation: The murder is intentional and premeditated 
-
-Aggravating factors: The murder involves extreme brutality or is committed during another violent crime 
-
-Financial motivation: The murder is committed for payment or the promise of payment 
-
-Multiple victims: The murder involves more than one victim 
-
-Killing a law enforcement officer: The murder involves killing a police officer or fireman who was lawfully engaged in their duties 
-
-
-
-::: 
 
 ## The Death Penality 
 
@@ -379,7 +348,7 @@ Brought by European settlers; first recorded execution was Captain George Kendal
 
 ::: notes
 
-Nearly 4,000 years old and we still are uncertain of use. 
+Nearly 4,000 years old and we still are uncertain of use
 
 ::: 
 
@@ -424,11 +393,7 @@ Nearly 4,000 years old and we still are uncertain of use.
 :::
 
 
-::: notes
 
-Make point that the individual discussed on Tuesday, no one asked or made the point if they were convicted of it
-
-:::
 
 ## Beccaria and the Death Penality
 
@@ -564,18 +529,7 @@ Recognizes the importance of context and individual circumstances
 
 [Allows punishment to be tailored—either increased or reduced—based on the specifics of the offense and the offender]{.orange}
 
-::: notes
 
-The major change was introducing more flexibility, accounting for individual differences and mitigating circumstances (e.g., mental illness).
-
-* Allowed for the creation of the insanity offense.
-
-The Neoclassical School emphasized the potential for rehabilitation. It argued that some offenders could be reformed and reintegrated into society.
-
-* Created a Juvenile Justice System 
-
-
-::: 
 
 
 ## Policy Implications 

@@ -444,22 +444,6 @@ The Classical School emphasizes the [importance of deterrence and the role of ra
 
 * Any problems with this perspective? 
 
-::: notes
-
-This theory implies that every individual is capable of a "rational choice." 
-
-Although, mental health, desperate economic conditions, and other factors can dissuade individuals from having a rational viewpoint, either wihtin a moment or over an extended period of time. 
-
-With this framework in mind, what's one massive problem that occurred in the 80s and 90s due to deterrence theory? 
-
-The "Tough on Crime" and "War on Drugs" policies of the 1980s and 1990s in the United States, fueled by deterrence theory.
-
-Policymakers assumed that harsher penalties, mandatory minimums, and long prison sentences would “deter” potential criminals from breaking the law by making the costs of getting caught seem prohibitively high.
-
-The result was an era of mass incarceration, particularly in communities of color, **without a corresponding decrease in crime.**
-
-
-:::
 
 
 ## Positivism
@@ -478,15 +462,7 @@ Crime is attributed to factors [beyond an individual’s control, such as geneti
 * Any problems with this perspective? 
 
 
-::: notes
 
-Can lead to loss of individual agency, undermines accountability, increase stigma and discrimination.
-
-Specifically, early positivist criminologists like Cesare Lombroso argued that criminals had “atavistic” (primitive) traits and could often be identified by physical or biological markers. This played a role in the Social Darwinism movement and Eugenics. However, the eugenics movement was much broader, **fueled by racism, classism, and the misuse of evolutionary theory**. 
-
-Thus, positivism was a catalyst, but not the sole driving force behind eugenics policies.
-
-:::
 
 ## Conflict or Critical Perspectives
 
@@ -508,17 +484,6 @@ Includes Marxist theories, feminist theories, and perspectives on the experience
 * Any problems with this perspective? 
 
 
-::: notes
-
-Marxist theories stem from the broader work of Karl Marx, who argued that capitalist societies are characterized by an ongoing struggle between those who own the means of production (the ruling class or “bourgeoisie”) and the working class (“proletariat”). 
-
-Marxist theories emphasize how the **capitalist structure creates and labels crime in ways that benefit the powerful and harm the less powerful**, urging us to see crime less as an individual failing and more as a byproduct of systematic inequality. (Could mention what we are seeing today in the new administration).
-
-These perspectives can sometimes downplay the role of individual agency and decision-making. 
-
-Not all criminal behavior is purely a reaction to oppression; personal choices and moral considerations still matter.
-
-:::
 
 
 ## Integrated Theories
@@ -533,15 +498,7 @@ Integrated theories [merge key elements from different explanatory models into a
 
 * Any problems with this perspective? 
 
-::: notes
 
-Makes theories overly complex, and threatens parsimony. 
-
-Leads to contradictions when theories are aggregated. 
-
-Aim to capture the multifaceted nature of crime, but in doing so, they can become unwieldy, internally inconsistent, or difficult to apply in practice.
-
-:::
 
   
 ## Additional Classifications 
