@@ -1,0 +1,154 @@
+---
+title: "CRCJ 3350-Criminology"
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+    filters:
+      - snow
+---
+
+# Introductions
+
+# I'm Nick!
+
+A PhD Candidate in the College of Criminology and Criminal Justice at UNO.
+
+[**Research Interests:**]{style="color:#859ab2;"} Biopsychosocial criminology and quantitative methods
+
+[**Teaching Interests:**]{style="color:#859ab2;"} Research methods and statistics
+
+[**Where I'm from:**]{style="color:#859ab2;"} Detroit, Michigan
+
+[**Fun fact:**]{style="color:#859ab2;"} I'm a Detroit Lion's fan 😭
+
+
+# Your turn!
+
+**Your name?**
+
+**Where you're from?**
+
+**Year and Career Interests?**
+
+**Fun fact?**
+
+
+
+# Syllabus
+
+Tues., Thurs. / 10:00 AM – 11:15 AM / CPACS 222
+
+::: r-stack
+
+
+![](Images/page1.png){.fragment width="400"}
+
+![](Images/page2.png){.fragment width="400"}
+
+![](Images/page3.png){.fragment width="400"}
+
+:::
+
+
+## Class Structure
+
+- Slides will be available on Canvas (Files/Lecture Slides) after we cover each chapter. 
+- Everything you [*need*]{style="color:#859ab2;"} to know is **not** in the slides
+- Each lecture will be conducted with open discussion and participation is expected. 
+- We will have group discussion ~ 2 times a chapter!
+
+## How will you be Graded?
+
+-  Exams (multiple-choice and writing) (50%)
+
+-  Pop Quizzes (multiple-choice) (25%)
+
+-  Discussion Groups (25%)
+
+- Hint: if you see something in [color]{.aqua} in a lecture slide, it's likely important to your exam
+
+## My Expectations
+
+-   [**Read**]{style="color:#859ab2;"}
+
+-   [**Show up to class**]{style="color:#859ab2;"}
+
+    -   This material is cumulative (i.e., it snowballs) and missing lectures will impede your understanding of the material  
+    
+    -   If missing class is unavoidable, let me know.
+
+-   [**Participate**]{style="color:#859ab2;"}
+
+
+
+## Participation & Climate
+
+-   Inclusive environment
+    -   This class can & should be a place for [*active*]{style="color:#859ab2;"} discussions. This is where learning ['comes to life.']{style="color:#859ab2;"}
+-   Consider the discussion ['space']{style="color:#859ab2;"} you take up
+    -   Allow others to speak.
+        -   If you find yourself taking up most of the discussion, take a break & give room for others to participate.
+    -   This space is for all of us.
+
+## Office Hours
+
+-   A couple options:
+
+    -   Talk to me after class
+
+    -   We can set up a time on Zoom
+
+## Technology in the Classroom
+
+[Attention is Key]{.blue}
+
+::: {.small-text}
+
+[Learning requires intense focus.]{.violet} Concentrating without distractions strengthens specific brain circuits, which helps solidify skills.
+    
+Engaging in multitasking or 'task switching' can hinder learning by overloading your brain with competing stimuli.
+
+:::
+
+[Note-Taking Practices]{.blue}
+
+::: {.small-text}
+
+While computers are permitted for note-taking, [I strongly encourage using a notebook]{.orange}. Handwriting notes can [enhance focus and retention]{.green}.
+
+:::
+
+[Device Etiquette]{.blue}
+
+
+::: {.small-text}
+
+Phones should be [turned off or kept in your bag]{.aqua} during lectures to avoid distractions.
+
+During group discussions, [neither computers nor phones]{.red} will be allowed to ensure active participation and engagement.
+
+:::
+
+
+
+## Questions? {style="text-align: center"}
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHZtbTlsYnpwaWhzY25sMTdpOHB5YTZzaTV0anU5dXZwNnk0ZWN6NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3EiNpweH34XGoQcq9Q/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+
+# Have a great day! 
+
+
