@@ -1,0 +1,119 @@
+---
+title: "Data Viz"
+format: 
+  revealjs:
+    theme: moon
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+# Let's check out some of the submissions
+
+
+# Dylan's Submission (Winner)
+
+![](sub/1.png){fig-align="center" height=400}
+
+
+# Delaney's Submission 
+
+![](sub/4.png){fig-align="center" height=400}
+
+
+
+
+# Madi's Submission
+
+![](sub/2.png){fig-align="center" height=400}
+
+
+# Leo's Submission
+
+![](sub/8.png){fig-align="center" height=400}
+
+
+
+# Chiara's Submission
+
+![](sub/6.png){fig-align="center" height=400}
+
+
+# Eric's Submission 
+
+![](sub/3.png){fig-align="center" height=400}
+
+
+# Nick's Submission 
+
+![](sub/5.png){fig-align="center" height=400}
+
+# Molly's Submission
+
+
+![](sub/11.png){fig-align="center" height=400}
+
+
+# JD's Submission
+
+
+![](sub/9.png){fig-align="center" height=400}
+
+
+# Cate's Submission 
+
+![](sub/10.png){fig-align="center" height=400}
+
+
+# Data Visualization and Careers 
+
+If you're interested in learning more about data viz, check out [this course](https://catalog.unomaha.edu/search/?P=STAT%204420). 
+
+Or there are free options, such as [R4DS Online Learning Community](https://rfordatasci.com/). This is honestly one of the best options for getting your feet wet in data viz. 
+
+There is also the [R Ladies](https://rladies.org/), who's mission is to promote gender diversity in data science communities. 
+
+**You can make a career out of it.**
+
+
+
+## The Rise and Fall of Big Tech in 2022 
+### [Tanya Shapiro](https://github.com/tashapiro/TidyTuesday)
+
+
+![](sub/shapiro.png){fig-align="center" height=550}
+
+
+## The Rise of Adobe Inc. 
+### [Nicola Rennie](https://nrennie.rbind.io/portfolio/)
+
+
+![](sub/rennie.png){fig-align="center" height=550}
+
+
+## The Great British Bake Off
+### [Cara Thompson](https://www.cararthompson.com/)
+
+
+![](sub/thompson.png){fig-align="center" height=550}
+
+## Palmer Penguins
+### [Georgios Karamanis](https://karaman.is/)
+
+
+![](sub/penguins.png){fig-align="center" height=550}
+
+
+
+
+
+
+
+
+
+
+

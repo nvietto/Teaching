@@ -1,0 +1,384 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    #transition: fade
+   # filters:
+      #- webr
+---
+
+
+
+# Confidence Intervals 
+
+## Terms 
+
+[Point Estimate]{.blue} is a single value calculated from a sample of data that is used to estimate the value of [an unknown parameter of a population]{.blue}.
+
+<br>
+
+[Confidence Interval]{.blue} is a range of values that likely contains the true population parameter with a certain level of confidence.
+
+<br>
+
+[Level of Confidence]{.blue} is a probability that the confidence interval actually captures a true value. 
+
+
+
+
+::: notes
+
+Point estimates can really be any type of statistic but for today we will just think of it as our mean. 
+
+A confidence interval is a range of values that likely contains the true population parameter (like the average height of all women in Nebraska) with a certain level of confidence. 
+
+* It's like saying "we are 95% confident that the real average height falls somewhere between this low value and this high value."
+
+Higher confidence levels lead to wider intervals.
+
+::: 
+
+# Before we discuss confidence intervals, we need to learn about bootstrapping 🥾
+
+
+## Bootstrapping 
+
+This is a technique used to estimate the sampling distribution of a statistic by [repeatedly re-sampling from the observed data with replacement]{.orange}
+
+![](Images3/boot.png){fig-align="center"}
+
+::: notes
+
+The term bootstrapping comes from the phrase "pull yourself up by your bootstraps."
+
+Imagine taking your original data set and creating new samples by randomly drawing observations (with replacement) from the original data. 
+
+Think of it like creating new samples by drawing data points out of a card deck then using that as data (finding a mean), then reshuffling, redrawing, plotting the data (e.g.m our mean), and repeating. 
+
+::: 
+
+
+
+## Bootstrap Example 
+
+This is our sample.
+
+$$(-5,0)*--*-*-*-*---(0,0)--\stackrel{\mu}{|}--*--*--*-*-- (5,0)$$
+
+Then randomly pull 3 values, which becomes our data. 
+
+$$(-5,0)---*-----(0,0) \stackrel{\mu}{|}----*-----*-- (5,0)$$
+
+[Plot our mean]{.blue} then throw those values back in (i.e., replacement) and pull another 3. 
+
+
+$$(-5,0)--------(0,0)----*--*-\stackrel{\mu}{|}-*---- (5,0)$$
+
+Plot that mean and repeat! 
+
+::: notes
+
+This is usually done hundreds or thousands of times, each of which we are calculating a mean and recording it. 
+
+
+::: 
+
+
+## Bootstrap Example 
+
+Eventually we will have tons of means (we only have 9 in our example here) but in reality we would have hundreds or even thousands huddled around a similar point on our number line. 
+
+<br>
+
+
+$$(-5,0)-\stackrel{\mu}{|}----\stackrel{\mu}{|}---(0,0)---\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}---\stackrel{\mu}{|}- (5,0)$$
+
+<br>
+
+Once we have these, we have robust estimates of a true mean within a sample. 
+
+# Great, but what does this have to do with confidence intervals? 
+
+## Confidence Intervals 
+
+Well, when we bootstrapped we essentially created an [empirical]{.blue} sampling distribution.
+
+<br>
+
+
+$$(-5,0)-\stackrel{\mu}{|}----\stackrel{\mu}{|}---(0,0)---\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}---\stackrel{\mu}{|}- (5,0)$$
+
+<br>
+
+And as a result we can identify the [percentiles]{.orange} that corresponds to your desired [confidence level]{.orange}.
+
+<br>
+
+These percentiles from the bootstrap replicates become the [lower and upper bounds]{.blue} of what we will call a [confidence interval]{.green}.
+
+
+## Confidence Intervals 
+
+
+Now that we have this sampling distribution we can calculate our 95% confidence interval.
+
+<br> 
+
+Which simply means, we have a 95% certainty that our population mean will fall between the two [red]{.red} lines. 
+
+<br>
+
+And 5% of the time, our population mean could fall outside of that zone. 
+
+<br>
+
+$$(-5,0)-\stackrel{\mu}{|}--\stackrel{\mu}{|}---(0,0)---\color{red}\vert-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\color{red}\vert--\stackrel{\mu}{|}- (5,0)$$
+
+
+::: notes
+
+95% is the industry standard, although sometimes we use a 99% confidence interval. 
+
+The red line closest to the zero will be our **lower bound** and the other red line will be our **upper bound** interval.
+
+:::
+
+
+# Time for Math! 🧮
+
+## Confidence Interval
+
+
+$$\text{CI} = \bar{x} \pm z \frac{s}{\sqrt{n}}$$
+
+<br>
+
+$\bar{x}$ = sample mean
+
+$z$ = confidence level 
+
+$s$ = sample standard deviation
+
+$n$ = sample size 
+
+::: {.nonincremental}
+- Large sample are $\geq 30$ 
+- Small samples are $<30$
+:::
+
+
+::: notes
+
+Mention that the  $SE_{\bar{x}} = \frac{s}{\sqrt{n}}$ is just the standard error
+
+::: 
+
+
+## Confidence Levels
+
+<br>
+
+![](Images3/z.png){fig-align="center"}
+
+<br>
+
+::: footer
+
+image: Boston University
+
+::: 
+
+
+## Confidence Level Example 
+
+A researcher wants to estimate the average number of hours per week spent by employees in a certain company on remote work activities. 
+
+They take a random sample of [80 employees]{.blue} and find that the average number of hours spent on remote work per week in the sample is [12 hours]{.blue}, with a standard deviation of [2 hours]{.blue}.
+
+Calculate the [95% confidence interval]{.blue} for the average number of hours spent on remote work activities per week by all employees in the company.
+
+## Confidence Interval Example 
+
+
+::: columns
+
+:::{.column width="50%"}
+
+#### 1) Find the z score
+
+#### 2) Add known values to equation
+
+#### 3) Calculate the SE or $$\frac{s}{\sqrt{n}}$$
+
+#### 4) Multiple value from step 3 by our z value
+
+#### 5) Subtract that from our $\bar{x}$ for our Lower Bound CI
+
+#### 6) Add that from our $\bar{x}$ for our Upper Bound CI
+
+:::
+
+:::{.column width="50%"}
+
+$$\text{CI} = \bar{x} \pm z \frac{s}{\sqrt{n}}$$
+
+<br>
+
+* [95% CI: 11.5613 $\leq$ $\bar{x}$ $\leq$ 12.4387]{.blue}
+
+:::
+
+
+:::
+
+
+::: notes 
+
+Sample size = 80
+
+Sample mean = 12 hours
+
+Sample standard deviation = 2 hours
+
+Confidence level = 95% so the z score is 1.96
+
+2/8.94 =  0.2238
+
+SE = 1.96 * 0.2238
+
+0.438648
+
+95% CI: 11.5613 $\leq$ $\bar{x}$ $\leq$ 12.4387
+
+::: 
+
+## Confidence Interval for Small Samples
+
+With smaller samples (n< 30) the [Central Limit Theorem does not apply]{.blue},so we use a different distribution called the [t distribution]{.orange}. 
+
+<br> 
+
+In order to locate our t-value, we have to locate the [degrees of freedom]{.blue}. 
+
+
+## Degrees of Freedom
+
+[The number of independent values that are simple allowed to vary within the calculation of a parameter]{.blue}. 
+
+<br>
+
+$$df = n - 1$$
+
+n = sample size
+
+<br> 
+
+But why n-1? 
+
+## n-1 with respect to Degrees of Freedom
+
+Let's consider an example where 4 people are asked to pick a number that, when combined with the other members, will equal 50. 
+
+* Person 1 chooses [10]{.orange}
+
+* Person 2 chooses [20]{.orange}
+
+* Person 3 chooses [10]{.orange}
+
+* Person 4 chooses...... Oof they can't choose anything! They are [no longer free to vary]{.blue}. 
+
+* They have to choose [10]{.blue} because the we want a sum that equals 50. 
+
+
+## Confidence Interval for Small Samples
+
+Once we have a df and our confidence level, we head to page 373 in our book or head to this [link](https://www.sjsu.edu/faculty/gerstman/StatPrimer/t-table.pdf). 
+
+
+![](Images3/t.png){fig-align="center"}
+
+
+
+
+## Confidence Interval for Small Samples Example
+
+
+A biology class wants to estimate the average length of a certain species of fish in a lake. 
+
+They take a random sample of [15 fish]{.blue} and measure their lengths. The sample [mean length is 30 cm]{.blue}, and the sample [standard deviation is 4 cm]{.blue}.
+
+Calculate the [95% confidence interval]{.blue} for the average length of this species of fish in the lake.
+
+
+## Confidence Interval Example 
+
+
+::: columns
+
+:::{.column width="50%"}
+
+
+#### 1) Find the df and our confidence interval and locate the t value
+
+#### 2) Add known values to equation
+
+#### 3) Calculate the SE or $$\frac{s}{\sqrt{n}}$$
+
+#### 4) Multiple value from step 3 by our t value
+
+#### 5) Subtract that from our $\bar{x}$ for our Lower Bound CI
+
+#### 6) Add that from our $\bar{x}$ for our Upper Bound CI
+
+:::
+
+:::{.column width="50%"}
+
+$$\text{CI} = \bar{x} \pm t \frac{s}{\sqrt{n}}$$
+
+* [95% CI: 27.781 $\leq$ $\bar{x}$ $\leq$ 32.219]{.blue}
+
+
+
+:::
+
+:::
+
+
+::: notes 
+
+Sample size  = 15
+
+Mean = 30 cm
+
+Standard deviation = 4 cm
+
+Confidence level = 95% or 0.05
+
+df = 14 and CL is 0.05 which leads to a t of 2.145
+
+SE = 4/3.872 ≈ 1.0334
+
+2.145 * 1.0334 = 2.219 
+
+95% CI: 27.781 $\leq$ $\bar{x}$ $\leq$ 32.219
+
+::: 
+
+
+
+## That's all folks! Have a great weekend!
+
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHBnaTJvZDVpOGphZTlwaHFxaWtyeDN6NWJpaGQ2MjV2emRrcmVsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7yojoQtevjOCI/giphy.gif)
+
+::: footer
+
+Image: giphy
+
+:::

@@ -1,0 +1,714 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+# Hypothesis testing with two population means
+
+
+## Let's break down the steps 
+
+* State our null and alternative hypothesis 
+
+* Identify the distribution and compute the degrees of freedom 
+
+* Find the critical value using what we know in step 2  
+
+* Compute student's t test or our ANOVA (we'll get here this week)
+
+* Accept or reject our null hypothesis 
+
+
+## One-tailed or two-tailed 
+
+We use a one-tailed if our hypothesis involves [one direction]{.blue} {e.g.,., greater than, less than, bigger, smaller, etc.).
+
+<br>
+
+We use a two-tailed (most common) if we are looking into [differences between two group without predicting the direction]{.orange}. 
+
+<br>
+
+![](images3/tail.png){fig-align="center"}
+
+::: footer
+
+image: toward data science
+
+:::
+
+# Newish Equations Incoming 🧮
+
+## Pooled Standard Deviation 
+
+[A measure of dispersion obtained by pooling multiple sample data sets (in our case two) into one large data set to calculate an grouped standard deviation.]{.blue}
+
+<br>
+
+$$\sigma_p = \sqrt{\frac{{(n_1 - 1) \cdot \sigma^2_1 + (n_2 - 1) \cdot \sigma^2_2}}{{n_1 + n_2 - 2}}}$$
+$n$ = sample size 
+
+$\sigma$ = standard deviation
+
+
+
+
+## T-Statistic for Independent Samples
+
+[We use this value to compare with our critical value in order to accept or reject our null.]{.blue} 
+
+$$t = \frac{{\bar{X}_1 - \bar{X}_2}}{{\sigma_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}}$$
+$\bar{x}$ = Sample mean
+
+$n$ = Sample size
+
+$\sigma_p$ = pooled standard deviation
+
+
+
+
+## Student's t Test 
+
+A test that is used to compare the means of [two groups]{.orange}, where the independent variable is [categorical]{.blue} and our dependent variable is [continuous]{.orange}.
+
+<br>
+
+Helps determine if the differences between means are [reliably]{.blue} different or just due to chance. 
+
+<br>
+
+We use the t-distribution here and we calculate the degrees of freedom by: 
+
+$$df = (n_1 + n_2) - 2$$
+
+ 
+ 
+## Example 
+
+Suppose we have two groups of students - [Group A]{.orange} and [Group B]{.violet}. We want to know if there is a significant difference (95% or 0.05) in their exam scores.
+
+
+
+
+::: columns 
+
+:::{.column width="50%"}
+
+[Group A]{.orange}
+
+n = 20
+
+$\bar{x}$ = 75
+
+$\sigma$ = 10
+
+:::
+
+:::{.column width="50%"}
+
+[Group B]{.violet}
+
+n = 20
+
+$\bar{x}$ = 80
+ 
+$\sigma$ = 12
+
+:::
+
+::: 
+
+
+
+#### [Null Hypothesis $H_0$]{.aqua}: There is no [meaningful]{.blue} difference in the mean exam scores between Group A and Group B.
+
+#### [Alternative Hypothesis $H_A$]{.aqua}: There is a [meaningful]{.blue} difference in the mean exam scores between Group A and Group B.
+ 
+ 
+  
+## Example 
+
+We use a t-distribution (p. 373) and we calculate the degrees of freedom to find our critical value. 
+
+<br>
+
+$(n + n)- 2$ 
+
+<br>
+
+
+$(20 + 20) - 2 = 38$
+
+* Uh oh! There's no 38 on the table! When this occurs we just use the value closest to our df. So here, we use 40.
+* 2.021
+
+## Example 
+
+::: columns
+
+:::{.column width="50%"}
+
+#### 1) Plug in our knowns
+
+<br>
+
+#### 2) Calulate the numerator with our Order of Operations in mind
+
+<br>
+
+#### 3) Calulate the denominator
+
+<br>
+
+#### 4) Divide
+
+<br>
+
+#### 5) Square root it
+
+:::
+
+:::{.column width="50%"}
+
+$$\sigma_p = \sqrt{\frac{{(n_1 - 1) \cdot \sigma^2_1 + (n_2 - 1) \cdot \sigma^2_2}}{{n_1 + n_2 - 2}}}$$
+
+
+:::
+
+:::
+
+
+::: notes
+
+n = 20
+
+$\bar{x}$ = 75
+
+$\sigma$ = 10
+
+n = 20
+
+$\bar{x}$ = 80
+ 
+$\sigma$ = 12
+
+
+~11.04
+
+:::
+ 
+## Example 
+
+::: columns
+
+:::{.column width="50%"}
+
+#### 1) Plug in our knowns
+
+<br>
+
+#### 2) Calulate the numerator
+
+<br>
+
+#### 3) Calulate the denominator (work the values underneath the $\sqrt{}$ first)
+
+<br>
+
+#### 4) Multiple by the $\sigma$
+
+<br>
+
+#### 5) Divide
+
+:::
+
+
+:::{.column width="50%"}
+
+$$t = \frac{{\bar{X}_1 - \bar{X}_2}}{{\sigma_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}}$$
+
+ 
+
+ 
+:::
+
+:::
+
+::: notes 
+
+-1.43
+
+::: 
+
+## Example 
+
+Our critical value was $\pm$ 2.021. 
+
+<br>
+
+If the t-value is [greater than the critical t-value]{.blue}, we [reject the null hypothesis]{.green} and conclude that there is a significant difference between the means of the two groups.
+
+<br>
+
+
+$|-1.43| < 2.021$ 
+
+#### (you don't have to use an absolute value here but it helps with interpreting)
+
+$1.43 < 2.021$
+ 
+Therefore, *🥁 drum roll 🥁*...
+
+
+## Example 
+ 
+ 
+We fail to reject the null hypothesis!
+
+<br>
+
+There is not enough evidence to conclude that there is a [meaningful]{.blue} difference in the mean exam scores between Group A and Group B.
+ 
+ 
+ 
+
+## Analysis of Variance (ANOVA)
+
+<br>
+
+Used to examine a [meaningful]{.blue} relationship between the means of [more than two groups]{.orange}. 
+
+<br>
+ 
+The independent variable must be categorical (e.g., ) and the dependent variable [continuous]{.orange}.
+ 
+
+ 
+ 
+## Different Types of Variance in ANOVA
+
+::: columns
+
+:::{.column width="50%"}
+
+[Between-group]{.blue} variance 
+
+::: {.nonincremental}
+
+* Measures the extent each group is similar or different from other groups within the sample 
+
+* The larger the variance, the more likely the groups are distinct from each other
+
+:::
+
+:::
+
+:::{.column width="50%"}
+
+[Within-group]{.blue} variance 
+
+::: {.nonincremental}
+
+* Measures the spread of data within each group
+
+* Considered to be the error or residual 
+
+* Focuses on how much the values within deviate from the group's mean
+
+
+
+:::
+
+:::
+
+:::
+
+# Many more equations incoming 🧮
+
+
+## The Overall Mean 
+
+$$\bar{X}_{\text{overall}} = \frac{\sum_{i=1}^{n} X_i}{n}$$
+
+
+<br>
+
+#### ${\sum_{i=1}^{n}}$: [The sum of a series of terms]{.orange}, where $n$ is the [upper bound]{.blue} (which tells us how many terms to include) and $i = 1$ is our [lower bound]{.blue} which represents our [starting point]{.green} (i.e., our first group), also called our starting index
+
+<br>
+
+#### $X_i$: each individual data point (i.e., our group means)
+
+<br>
+
+#### $n$: Total number of observations
+
+
+## Sum of Squares Between (SSB)
+
+$$SSB = \sum_{i=1}^{n} n_i (\bar{X}_i - \bar{X}_{\text{overall}})^2$$
+
+
+#### ${\sum_{i=1}^{n}}$: The sum of a series of terms
+
+#### $n$: upper bound or the total number of groups
+
+#### $i$: lower bound index of summation or our starting point
+
+#### $n_i$: This represents the number of data points in each group (e.g., if there are 4 data points used to calc a mean, you'd use 4)
+
+#### $x_i$: This is the mean of the the data points each group. 
+
+#### $\bar{X}_{\text{overall}}$: The overall mean
+
+
+
+
+## Sum of Squares Within (SSW)
+
+
+$$SSW = \sum_{i=1}^{n} \sum_{j=1}^{n_i} (X_{ij} - \bar{X}_i)^2$$
+
+<br>
+
+#### ${\sum_{i=1}^{n}}$: The sum of a series of terms (i.e., summing across all groups) where $n$: upper bound or the total number of groups and $i$: lower bound index of summation or our starting point
+
+#### ${\sum_{j=1}^{n_i}}$:Within each group $i$, we are summing across all $n_i$ observations in that group (where $j$ is our starting point like $i$)
+
+#### $X_{ij}$: Each data point within each group or $jth$ observation in the $ith$ group.
+
+#### $\bar{X}_i$: The group's mean
+
+
+## Mean Square Between Groups
+
+$$MSB = \frac{SSB}{df_B}$$
+
+<br>
+
+#### $SSB$: The sum of square between value
+
+#### $df_B$: The degrees of freedom between groups (i.e., the number of groups - 1)
+
+
+## Mean Square Within Groups
+
+
+$$MSW = \frac{SSW}{df_W}$$
+
+<br>
+
+#### $SSB$: The sum of square within value
+
+#### $df_B$: The degrees of freedom within groups (i.e., the total number of observations - the total number of groups)
+
+
+
+
+## The F Statisiic 
+
+
+$$F = \frac{MSB}{MSW}$$
+
+<br>
+
+#### MSB: Mean Square Between
+
+#### MSW: Mean Square Within
+ 
+ 
+ 
+## Example
+ 
+A clinical trial is run to compare weight loss programs and participants are randomly assigned to one of the comparison programs and are counseled on the details of the assigned program. Participants follow the assigned program for 4 weeks. The outcome of interest is weight loss in pounds.
+
+
+
+| Low Calorie| Low Fat | Low Carb | 
+|:------:|:------:|:------:|
+| 5   |  3 |   6   | 
+| 4  |   4 |  4   | 
+| 5  | 2 |   1  
+
+
+$H_0$ There is [no difference]{.blue} between the diet programs. 
+
+$H_A$ There is [a difference]{.blue} between the diet programs.
+
+
+ 
+## Step 1 
+
+
+::: columns
+
+:::{.column width="50%"}
+
+
+1 Find our within group means 
+
+
+#### Low calorie = $4.66$
+
+#### Low fat = $3$
+
+#### Low carb = $3.66$
+
+<br>
+
+2 Find our $\bar{X}_{\text{overall}}$
+
+$\frac{4.66 + 3 + 3.66}{3} =$
+
+::: incremental
+
+* $3.77$
+
+:::
+
+::: 
+ 
+:::{.column width="50%"}
+ 
+ $$\bar{X}_{\text{overall}} = \frac{\sum_{i=1}^{n} X_i}{n}$$
+ 
+:::
+ 
+:::
+
+## Step 2 Find SSB
+
+
+::: columns
+
+:::{.column width="50%"}
+
+
+::: incremental
+
+* #### Low calorie = $3(4.66 - 3.77)^2$
+
+:::
+
+::: incremental
+
+* #### Low fat = $3(3 - 3.77)^2$
+
+:::
+
+::: incremental
+
+* #### Low carb = $3(3.66 - 3.77)^2$
+
+:::
+
+
+:::
+
+
+:::{.column width="50%"}
+
+$$SSB = \sum_{i=1}^{n} n_i (\bar{X}_i - \bar{X}_{\text{overall}})^2$$
+<br>
+
+::: incremental
+
+* #### $2.37 + 1.77 + 0.036 =$
+
+:::
+
+::: incremental
+
+* #### $SSB = 4.176$
+
+:::
+
+
+:::
+
+::: 
+
+
+## Step 3 Find SSW
+
+
+::: columns
+
+:::{.column width="50%"}
+
+
+
+#### Low calorie
+
+<br> 
+
+::: incremental
+
+* #### $(5 - 4.66)^2 + (4 - 4.66)^2 + (5 - 4.66)^2$
+
+* #### $0.66$
+
+:::
+
+#### Low fat
+
+::: incremental
+
+* #### $(3 - 3)^2 + (4 - 3)^2 + (2 - 3)^2$
+
+* #### $2$
+
+:::
+
+#### Low carb
+
+::: incremental
+
+* #### $(6 - 3.66)^2 + (4 - 3.66 )^2 + (1 - 3.66)^2$
+
+* #### $12.66$
+
+:::
+
+:::
+
+:::{.column width="50%"}
+
+
+$$SSW = \sum_{i=1}^{n} \sum_{j=1}^{n_i} (X_{ij} - \bar{X}_i)^2$$
+
+<br>
+
+
+::: incremental
+
+* #### $0.66 + 2 + 12.66 = 15.32$
+
+:::
+
+
+
+
+:::
+
+:::
+
+
+## Step 4
+
+
+::: columns
+
+:::{.column width="50%"}
+
+#### $df_B$: The degrees of freedom between groups (i.e., the number of groups - 1)
+
+::: incremental
+
+
+* #### $3 - 1 = 2$
+
+:::
+
+#### $df_W$: The degrees of freedom within groups (i.e., the total number of observations - the total number of groups)
+
+
+
+::: incremental
+
+* #### $9 - 3 = 6$
+
+::: 
+
+:::
+
+
+:::{.column width="50%"}
+
+$$MSB = \frac{SSB}{df_B}$$
+
+::: incremental 
+
+* #### $\frac{4.176}{2} = 2.088$
+
+
+::: 
+
+
+
+
+$$MSW = \frac{SSW}{df_W}$$
+
+::: incremental 
+
+* #### $\frac{15.32}{6} = 2.55$
+
+
+::: 
+
+
+::: 
+
+::: 
+
+
+## Step 5 
+
+<br>
+
+$$F = \frac{MSB}{MSW}$$
+
+<br>
+
+$$ F = \frac {2.08}{2.55} = 0.81$$
+
+
+## Step 6
+
+Head to the F Distribution Table on p. 377 
+
+<br>
+
+$df_B = 2$
+
+$df_W = 6$
+
+<br>
+
+$$Critical \, value = 5.14$$
+
+
+
+::: incremental 
+
+* #### $$0.81 < 5.14$$
+
+* [We fail to reject the null, there is no difference in mean weight loss among the three diets.]{.blue}  
+
+
+::: 
+
+
+
+
+## Thank you for being a great class! 
+
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Fnemk0bWVjNzUxbHY0NDE0dDI4cWk5aTZqbnR4dGQ1ODU3cHoyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LTFbyWuELIlqlXGLeZ/giphy.gif){fig-align="center"}
+
+::: footer
+
+Image: giphy
+
+:::
+
+
+

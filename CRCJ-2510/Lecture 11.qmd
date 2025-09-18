@@ -1,0 +1,469 @@
+---
+title: "Evaluation and Policy Analysis"
+format: 
+  revealjs:
+    theme: moon
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+
+## The D.A.R.E. Program
+
+What do we know about the [D.A.R.E. Program](https://dare.org/)?
+
+[Program Evaluation Results](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1448384/)
+
+[RTI's Evaluation Results](https://www.rti.org/publication/how-effective-drug-abuse-resistance-education-meta-analysis-project-dare-outcome-evaluations)
+
+
+
+![](Images3/dare.png){fig-align="center" height=400}
+
+::: {style="text-align:center;"}
+::: {style="font-size: 30%;"}
+(images: wikipedia)
+:::
+::: 
+
+
+
+::: notes 
+
+**Objectives** We provide an updated meta-analysis on the effectiveness of Project D.A.R.E. in preventing alcohol, tobacco, and illicit drug use among school-aged youths.
+
+**Methods** We used meta-analytic techniques to create an overall effect size for D.A.R.E. outcome evaluations reported in scientific journals.
+
+**Results** The overall weighted effect size for the included D.A.R.E. studies was extremely small (correlation coefficient = 0.011; Cohen d = 0.023; 95% confidence interval = −0.04, 0.08) and nonsignificant (z = 0.73, NS).
+
+**Conclusions** Our study supports previous findings indicating that D.A.R.E. is ineffective.
+
+:::
+
+
+
+## A Brief History of Evaluation Research 
+
+<br>
+
+<br>
+
+![](Images3/eval.png){fig-align="center" height=300}
+
+::: {style="text-align:center;"}
+::: {style="font-size: 30%;"}
+(images: City of Columbus)
+:::
+::: 
+
+
+::: notes 
+
+**Evaluation research** is social research that is conducted for a distinct purpose - to investigate social programs (e.g., drug treatment programs)  
+
+The definition of evaluation research is "the systematic of social research procedures for assessing the conceptualization, design, implementation, and utility of social intervention programs."   
+
+For each project, an evaluation researcher mus select a research design and a method of data collection that are useful for answering the particular research questions posed and appropriate for the program being investigated. 
+
+*Walk through an example on the board*
+
+* drug treatment program - residential treatment program 
+
+:::
+
+
+
+## Joint Committee's Standards of Evaluation
+
+4 Features all evaluations should have:
+
+* [**Utility**]{style="color:#007BB8;"} - ensures that an evaluation will serve the practical information needs of intended users.  
+
+* [**Feasibility**]{style="color:#007BB8;"} - ensures that all evaluation will be realistic, prudent, diplomatic, and frugality
+
+* [**Propriety**]{style="color:#007BB8;"} - ensures that an evaluation will be conducted legally, ethically, and with due regard for the welfare of those involved in the evaluation
+
+* [**Accuracy**]{style="color:#007BB8;"} - ensures that an evaluation will reveal and convey technically adequate information about the features that determine worth of the program
+
+
+
+## Evaluation Basics
+
+
+![](Images3/modeleval.png){fig-align="center" height=600}
+
+::: notes
+
+**Inputs** - Resources, raw materials, clients, and staff that go into a program
+
+**Program Process** - the complete treatment or service delivered by the program
+* e.g., assitance with health, or housing
+
+**Outputs** - the services delivered or new products produced by the program process
+* e.g., food delivered, arrests made
+
+**Outcomes** the impact of the program process on the cases processed
+ * e.g., lower rates of poverty, fewer criminal offenses
+
+**Feedback** - information about service delivery system outputs, outcomes, or operations that is available to any program inputs
+* e.g., if not enough clients are being served, recruitment of new clients may be implemented
+
+**Stakeholders** - individuals groups who have some bases of concern with the program
+* e.g., clients, staff, funders
+
+:::
+
+
+## Evaluation Alternatives
+
+All evaluation is empirical and data driven. Objective and empitical assemnets of policies and programs are the corner stone of the evaluation field.
+
+<br>
+
+[**Evaluation of need**]{style="color:#007BB8;"} (Is the program needed?)   
+
+[**Evaluability assessment**]{style="color:#007BB8;"} (Can the program be evaluated?)   
+
+[**Evaluation process**]{style="color:#007BB8;"} (How does the program operate?)
+
+[**Evaluation of impact**]{style="color:#007BB8;"} (What is the program's impact?)
+
+[**Evaluation of efficiency**]{style="color:#007BB8;"} (How efficient is the program?)
+
+::: notes 
+
+Do we need the program? - Utilize a needs assessment to answer this question 
+
+Can the program be evaluated? -Evaluability assessment, usually time restricts this or other resources
+
+Is the prgram working? program monitoring, which is a systematic attempt to evaluate program coverage and delivery
+
+
+:::
+
+## Evaluation Alternatives
+
+<br>
+
+[**Impact Evaluation**]{style="color:#007BB8;"} - Analysis of the extent to which a treatment or another service has an effect
+
+<br>
+
+[**Efficiency Analysis**]{style="color:#007BB8;"} - a type of analysis that compares program cost, with program effects. 
+  
+    1.) Cost-benefit analysis - Compares program cost with the economic value of the program 
+    
+    
+    2.) Cost effectivness analysis - comapres cost with actual program outcomes.
+
+
+
+::: notes
+
+**Impact Evaluation** - essentially, did the DV change? Most times we need an experimental groups but sometimes there are limits on we have access to. So we may have to rely on quasi experimental designs. *Briefly discuss propensity score matching*   
+
+**Efficiency Analysis**- since resources are finite, we have to find an appropriate balance between cost and effect. 
+
+
+:::
+
+## Case Study
+### Cost-Benefit Analysis of Therapeutic Communities 
+
+[**Sacks et al., (2002)**]{style="color:#007BB8;"} conducted a cost-benefit analysis of modified therapeutic communities (TC).
+
+![](Images3/comm.png){fig-align="center" height=400}
+
+::: {style="text-align:center;"}
+::: {style="font-size: 30%;"}
+(images: ENSO Recovery)
+:::
+::: 
+
+
+::: notes
+
+
+A therpeuatic community is an alternation to the traditional correctional response to drug addiction, which typically involves incarceration for those possessing or trafficking of illegal substances. 
+
+Within the communities, abusers participate in an intensive, structure living experience with other addicts who are attempting to stay sober. 
+
+Although these program are expensive. 
+
+**Design**
+
+They assessed 342 homeless, mentally ill chemical absuers who were randomly assigned into the treatment center group or the treatment as usual group.
+
+The Dvs were employment status, criminal activity, and utilization of health services. 
+
+**Results**
+
+The average cost of TC treatment was 20,361, compared to the traditional economic cost of normal TC which was 305,273. 
+
+The cost benefit ration was 13:1. Suggesting the TC program had beneficially results for its cost.
+
+:::
+
+
+## Design Decisions
+### Black Box Evaluations or Program Theory 
+
+[**Black Box Evaluations**]{style="color:#007BB8;"} 
+
+* The focus is on whether cases seem to have changed as a result of the exposure to the program. 
+
+
+
+![](Images3/bb.png){fig-align="center" height=400}
+
+::: {style="text-align:center;"}
+::: {style="font-size: 30%;"}
+(images: SlidePlayer)
+:::
+::: 
+
+
+
+
+::: notes 
+
+The 'meat and potatoes' of most ecaluation research involves determining whether a program has the **intended effect**
+
+If the **intended effect** occured, the program can be classified as a success, and if it does not, the program should be abandoned.
+
+
+
+:::
+
+
+## Design Decisions
+### Black Box Evaluations or Program Theory 
+
+[**Program Theory**]{style="color:#007BB8;"} 
+
+* Describes what has been learned about how the program is effective. 
+
+![](https://media.giphy.com/media/kyrd72DC2Iwfu/giphy.gif){fig-align="center"}
+
+
+::: {style="text-align:center;"}
+::: {style="font-size: 30%;"}
+(images: giphy)
+:::
+::: 
+
+
+::: notes 
+
+
+Essentially, we have learned a program may or may not be effect, but now we want to learn how and why. 
+
+:::
+
+
+## Design Decisions
+### Researcher or Stakehold Orientation 
+
+[**Stakeholder Approach**]{style="color:#007BB8;"}
+
+* Encourages researchers to be responsive to program stakeholders. 
+
+* Issues for study are centered on the views of people involved with the program, and reports are made for the participants. 
+
+* [*Utilization-focused evaluation*]{style="color:#007BB8;"} the evaluator forms a task force that help to shape the evaluation project so they are more likely to get successful results. 
+
+
+
+
+## Design Decisions
+### Researcher or Stakehold Orientation 
+
+
+[**Social Science Approach**]{style="color:#007BB8;"}
+
+* Emphasizes the importance of researcher expertise and maintenance of some autonmy to develop the most trustworthy unbiased program evaluation. 
+
+[**Integrated Approaches**]{style="color:#007BB8;"}
+
+* Attempt to cover issues of conern to both stakeholders and evaluators. 
+
+
+
+## Evaluation in Action 
+### Case-Study 
+
+Problem-Oriented Policing in Violent Crime Areas
+
+::: columns
+
+::: {.column}
+
+[**Braga et al., (1999)**](https://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1999.tb00496.x)
+
+Randomized experimental design study used to evaluate Problem-Oriented Policing 
+
+
+:::
+
+
+::: {.column}
+
+![](Images3/pop.png){fig-align="center" height=400}
+:::
+
+:::
+
+
+
+
+::: notes 
+
+* Studies have found that over half of all crimes in a city are committed within a few criminogenic places. These places are termed **hot spots**.   
+* The strategies are to reduce crim in these high-activity crime places. It challenges officers to identify and analyze the *causes of problems* behind a string of criminal incidents. Once the problem is known, police can implement a response and thus reduce crime overall. 
+
+**Braga et al., (1999)**
+
+**Study Design**
+
+Use the diagram on p. 239 to describe the experiment design from Braga on the board. 
+
+* examined the efficacy of the POP strategies, by using three separate DVs - incident report data, 911 calls, and physical observation (e.g., physical disorder like trash on the street, drinking in public, graffiti.
+* if the POP strategies were effect, they should be a decrease in these DVs
+
+**Results:** 
+
+* The POP strategies examined in the evaluation, were shown to be successful at reducing the DVs. 
+
+
+::: 
+
+
+
+## Strength of Randomized Experimental Designs in Impact Evaluations
+
+<br>
+
+[**Braga et al., (1999)**]{style="color:#007BB8;"} used a true experimental design. 
+
+<br>
+
+
+* What are the three elements of experimental design? 
+
+<br>
+
+
+
+* Are these finding generalizable? In other words, can we apply them to a larger population? 
+
+
+
+::: notes 
+
+1.) two comparison groups -experimental and comparison/control
+2.) time order, recall the before and after design 
+3.) random assignment - controls for confounding 
+
+
+Not necessarily. We can interpret causality but not generalization, since we did not randomly sample. 
+
+::: 
+
+
+
+## Qualitative and Quantitative Methods
+
+<br>
+
+Traditionally, evaluation methods are quantitative.   
+
+<br>
+
+Although, qualitative methods can often offer more depth in understanding the program effectiveness. For example, figuring out what inside 'the black box.' This can be completed with intense interviewing of staff or clients.
+
+<br>
+
+Usually, [the more complex the program, the more effective qualitative methods are.]{style="color:#007BB8;"}
+
+<br>
+
+
+
+## Increasing Demand for Evidence-Based Policy
+
+<br>
+
+![](Images3/evi.png){fig-align="center" height=500}
+
+::: notes 
+
+
+Learning what works should rely o more than one study,  this is why the Evidence-Based Policy idea is growing. 
+
+The use of **systematic reviews** and **meta-analysis** methods are the means at which Evidence-Based Policy is conducted. 
+
+
+
+:::
+
+## Increasing Demand for Evidence-Based Policy
+
+<br>
+
+The [**Campbell Collaboration**]{style="color:#007BB8;"}
+
+* An international research network
+
+* Purpose is to prepare and disseminate systamic reviews of social science evidence in three fields - criminal justice, education, and social welfare. 
+
+* For more information click [here](https://www.campbellcollaboration.org/)
+
+
+
+## Ethics 
+
+<br>
+
+These programs directly affect people's lives. Therefore we must be honest and transparent with *how* the studies are conducted. 
+
+<br>
+
+Furthermore, letting programs continue that have no evidence of working (e.g., the D.A.R.E. program) takes money away from other programs that may benefit people's lives. 
+
+<br>
+
+This is why policy and evaluation research is so important. 
+
+
+
+## Thanks for coming! Have a good weekend!
+
+<br>
+
+
+![](https://media.giphy.com/media/JSkNl4eenYyC0PC7bQ/giphy.gif){fig-align="center"}
+
+
+::: {style="text-align:center;"}
+::: {style="font-size: 30%;"}
+(images: giphy)
+:::
+::: 
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+
+# Hypothesis Testing
+
+
+## Inferential Analysis
+
+[Inferential statistics]{.blue} is the use of a sample to make reasonable guesses about the larger population.
+
+![](images3/inf.png){fig-align="center"}
+
+::: footer
+
+image: brainalyst
+
+:::
+
+::: notes 
+
+As I mentioned in many lectures, you can only acquire data from samples, because it is too difficult or expensive to collect data from the whole population
+
+
+
+:::
+
+## Confidence Intervals
+
+Let's refresh our what we know about CIs.
+
+<br>
+
+Recall we have a 95% certainty that our population mean will fall between the two [red]{.red} lines. 
+
+And 5% of the time, our population mean could fall outside of that zone.
+
+
+$$(-5,0)-\stackrel{\mu}{|}--\stackrel{\mu}{|}---(0,0)---\color{red}\vert-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\stackrel{\mu}{|}-\color{red}\vert--\stackrel{\mu}{|}- (5,0)$$
+
+
+Any values within the confidence intervals were [reasonable estimates of the population parameter]{.blue} and any values outside of the confidence intervals [were not reasonable estimates]{.orange}. 
+
+
+
+::: notes 
+
+Although, there's a more formal method for testing whether a given value is a reasonable value of a population parameter
+
+:::
+
+
+## Hypothesis Testing 
+
+We'll spend some time on both of these concepts, as they can be difficult to understand.
+
+<br>
+
+[[N]{.aqua}ull Hypothesis]{.blue} there is [n]{.aqua}o difference in the populations parameter you are testing within your sample. 
+
+<br>
+
+[Alternative Hypothesis]{.blue} there is a difference in the population parameter you are testing within your sample.  
+
+
+
+## Null Hypothesis $H_0$
+
+If this is true, it suggests that [any changes are because of random chance]{.blue} and not because of a relationship between variables. 
+
+<br>
+
+If this is false, it suggests that we can [reject the $H_0$]{.blue2} and [accept our alternative hypothesis]{.blue}.
+
+<br>
+
+It's important to understand, that we are only [[reject the $H_0$]{.blue2} , and [not confirming anything]{.orange}, other than the relationship expressed in the null is not occurring within our sample.]{.blue}
+
+
+## Alternative Hypothesis $H_A$
+
+This is essentially what we are looking (the goal of the study) for within our sample.
+
+
+<br>
+
+We only adopt the this, if [we have rejected the $H_0$]{.blue} hypothesis. 
+
+<br>
+
+## Steps in Hypothesis Testing
+
+1.) [Define or frame]{.orange} our null and alternative hypothesis 
+
+<br>
+
+2.) [Decide on our test statistic and significance level]{.blue} (We'll get here over the upcoming weeks)
+
+<br>
+
+3.) Decide on our [sampling distribution]{.blue}
+
+<br>
+
+4.) Do the math 🧮
+
+<br>
+
+5.) Then ask, [do we reject or retain the null?]{.blue2} 
+
+
+## Framing our Hypothesis Example 1
+
+Let's consider an example involving the mean weight [loss]{.orange} of a new diet program that suggest a 5 pound weight loss within a three days.
+
+<br>
+
+$H_0$: The [mean (our population parameter)]{.blue} weight loss for the individuals within our sample will have [no]{.red} change or they'll add on weight. 
+
+<br>
+
+$H_A$: The mean weight loss for the individuals within our [sample will be 5 pounds or greater]{.green}. 
+
+
+
+::: notes
+
+$H_0$: In other words, after completing the diet program (three days later), the weight will either be the same or they will have gained more weight. 
+
+$H_A$: In other words, after completing the diet program (three days later), the weight will either be 5 pounds or greater. 
+::: 
+
+## Framing our Hypothesis Example 2
+
+Let's consider a new medication that is alleging to reduce blood pressure in men a week after taking it. 
+
+<br>
+
+$H_0$: The mean reduction in blood pressure for patients taking the new medication is [equal to 0 mmHg (no change) or worsen blood pressure]{.blue}.
+
+<br>
+
+
+$H_A$: The mean [reduction]{.green} in blood pressure for patients taking the new medication is [greater]{.green} than 0 mmHg.
+
+
+## Type 1 & Type 2 Error
+
+Type [I]{.orange} = False [P]{.orange}ositive 
+
+#### Rejecting a true null hypothesis 
+
+
+
+Type [II]{.aqua} = False [N]{.aqua}egative
+
+#### Retaining a false null hypothesis 
+
+
+![](images3/t3.png){fig-align="center"}
+
+
+
+## Type 1 & Type 2 Error
+
+
+![](images3/t1.png){fig-align="center"}
+
+::: footer
+
+image: Reddit
+
+:::
+
+## Type 1 & Type 2 Error
+
+![](images3/t2.png){fig-align="center"}
+
+::: footer
+
+image: twitter
+
+:::
+
+

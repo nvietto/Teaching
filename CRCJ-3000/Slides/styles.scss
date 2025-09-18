@@ -1,0 +1,113 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Chewy|Permanent+Marker');
+
+// font family
+$font-family-sans-serif: 'Chewy', sans-serif !default;
+$presentation-heading-font: 'Permanent Marker', sans-serif !default;
+
+// font size
+$presentation-h1-font-size: 2.6em;
+$presentation-h2-font-size: 1.7em;
+$presentation-h3-font-size: 1.4em;
+$presentation-h4-font-size: 0.7em;
+$presentation-font-size-root: 40px;
+$presentation-line-height: 1.0em;
+
+// font color
+$presentation-heading-color: #000000 !default;
+$theme-grey:#859ab2;
+$theme-orange: #FF7F50;
+$theme-green: #88E032;
+$theme-blue1: #0b1e38;
+$theme-blue2: #4988BF;
+$theme-blue3: #82C9D9;
+$theme-aqua: #12a79d;
+$theme-white: #FFFFFF;
+$theme-black: #373038;
+$theme-red: #f05133;
+$theme-violet: #8F00FF;
+$theme-forest: #4F9153;
+
+// bg color
+$body-color: #000000;
+$link-color: #98b0cc;
+$body-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+
+.titlebox {
+  padding: 0.2em 0.4em;
+  backdrop-filter: invert(80%);
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+}
+
+
+.blue2 {
+  color: $theme-blue2;
+}
+
+.forest { 
+  color: $theme-forest
+}
+
+
+.violet { 
+  color: $theme-violet;
+}
+
+.blue {
+  color: $theme-blue3;
+}
+
+.aqua {
+  color: $theme-aqua;
+}
+
+
+.green {
+  color: $theme-green;
+}
+
+
+.red {
+  color: $theme-red;
+}
+
+.grey {
+  color: $theme-grey;
+}
+
+.orange {
+  color: $theme-orange;
+}
+
+.math.display {
+  font-size: 75%;
+  color: #000000;
+}
+
+h2 {
+  padding-bottom: 35px;
+}
+
+.center {
+  text-align: center !important
+}
+
+.reveal .slide-menu-button {
+    left: 5px;
+    top: 15px;
+    padding-left: 10px;
+    color: #859ab2;
+  }
+
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #859ab2;
+  height: 2%;
+}
+

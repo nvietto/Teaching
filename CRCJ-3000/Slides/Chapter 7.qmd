@@ -1,0 +1,205 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: true
+    preview-links: true
+    #transition: fade
+   # filters:
+      #- webr
+---
+
+# Population, Sample, and Sampling Distributions
+
+
+
+## Empircal Distributions and Theoretical Distributions
+
+Empirical is [a distribution from a random sample used for the estimation of a true distribution]{.blue}.
+
+<br>
+
+Theoretical is [a distribution received by a set of logical and mathematical reasoning from given principles or assumptions]{.blue}.
+
+
+![](images2/em.png){fig-align="center"}
+
+
+::: notes
+
+Empirical 
+
+* Based on observation 
+
+* Specific to the sample
+
+Theoretical 
+
+* Based on mathematical models
+
+
+::: 
+
+
+## Population Distributions and Sample Distributions
+
+
+[Population Distributions]{.blue}  
+
+<br>
+
+[Sample Distributions]{.blue}
+
+
+![](images2/popsam.png){fig-align="center"}
+
+::: footer
+
+image: medium 
+
+::: 
+
+::: notes
+
+Contrast these. 
+
+Population encapsulates the entire group. Largely theoretical because it is difficult to measure. 
+
+
+Sample distributions are representations of the population and thus more empirical. 
+
+
+::: 
+
+## Population Distributions and Sample Distributions
+
+![](images2/sam.png){fig-align="center"}
+
+::: footer
+
+image: youtube
+
+::: 
+
+## Distribution Terms
+
+[Representativeness]{.blue} is how closely the characteristics of a sample match the population
+
+<br>
+
+[Statistic]{.blue} is a numerical characteristic or measure that describes a sample.
+
+<br>
+
+[Parameter]{.blue} is a variable that appears in an [equation or function]{.orange} but remains [constant]{.orange} within a specific context. For example, means or standard deviations. 
+
+
+::: notes
+
+**Parameter**
+
+In the equation for a straight line (y = mx + b), m (slope) and b (y-intercept) are parameters. Changing their values creates different lines.
+
+
+:::
+
+## Sampling Error
+
+The [difference between]{.orange} a sample statistic (such as the sample mean) and the corresponding population parameter (such as the population mean).
+
+![](images2/error1.png){fig-align="center"}
+
+
+
+::: footer
+
+image: qualtrics & simplilearn
+
+::: 
+
+
+## Central Limit Theorom 
+
+States that the sampling distribution of the sample mean [approaches a normal distribution as the sample size increases]{.blue}, [regardless of the shape of the population distribution]{.orange}, provided that the sample size is sufficiently large.
+
+Let's look at another fun visual [here](https://anilz.shinyapps.io/Central_Limit_Theorem/)
+
+![](images2/clt.png){.absolute bottom=30 right=600 width="400" height="300"}
+
+![](images2/sam2.png){.absolute bottom=30 right=100 width="400" height="300"}
+
+
+## Standard Error
+
+A measure of how much the sample statistic is expected to vary from [one sample to another]{.blue}. 
+ 
+[A high standard error indicates a less precise estimate]{.orange}, which means that if you were to repeat the study and draw another sample, the results (like the mean) might be further away from the population mean on average.
+ 
+<br>
+ 
+ $$SE_{\bar{x}} = \frac{s}{\sqrt{n}}$$
+
+ s = standard deviation
+ 
+ n = the sample size
+ 
+::: notes
+
+Quantifies the variation in the means from multiple sets measurements. 
+
+Standard Deviation - the variation within a set of measures 
+
+Standard Error - variation across multiple separate sample measures from one population. 
+
+
+:::
+ 
+
+
+## The z Distribution 
+
+The z-distribution, (i.e., a standard normal distribution), is characterized by a [bell-shaped curve]{.blue} that is symmetric around its mean.
+
+Used when we have a [large]{.blue} sample size. 
+
+
+![](images2/z.png){fig-align="center"}
+
+
+
+
+
+## The t Distribution 
+
+Is a probability distribution that arises in statistics when estimating the population mean from a sample with a [small sample size]{.orange} or [when the population standard deviation is unknown]{.orange}.
+
+<br>
+
+![](images2/t.png){fig-align="center"}
+
+::: notes
+
+The t-distribution has heavier tails, meaning it's more likely to produce extreme values compared to the normal distribution, which reflects the increased uncertainty that arises when estimating population parameters from smaller samples. 
+
+Depends on a parameter called degrees of freedom (df). The df reflects the sample size minus one. As the sample size increases, the t-distribution with more degrees of freedom gets closer and closer to the standard normal distribution.
+
+
+:::
+
+
+## Have a great day!
+
+<br>
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2Q4MWI2b2Y5NHU5bzdiYnJ5anI3NGUyeXFkZ2M3Z2xjaWlsNDB2NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GLEppek0U6LFA37je3/giphy.gif){fig-align="center"}
+
+
+::: footer
+
+image: giphy
+
+
+::: 

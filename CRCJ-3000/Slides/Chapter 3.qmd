@@ -1,0 +1,648 @@
+---
+title: "Chapter 3"
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+# Organizing, Displaying, and Presenting Data
+
+# Let's Introduce Some Terms
+
+## Univariate vs. Bivariate 
+
+
+::: columns
+
+::: {.column width="50%"}
+
+[Univariate Statistics]{.grey} involves only [one]{.orange} variable. 
+
+
+![](Images/uni.png){fig-align="center"}
+
+
+
+
+:::
+
+
+::: {.column width="50%"}
+
+
+[Bivariate Statistics]{.grey} involves only [two]{.orange} variables. 
+
+
+
+![](Images/bi.png){fig-align="center"}
+
+
+
+:::
+
+:::
+
+
+::: footer
+
+photos by Vecteezy
+
+:::
+
+::: notes
+
+
+
+
+
+::: 
+
+## Examples of a Univariate Statistic 
+
+[Frequency distribution]{.grey}
+
+
+![](Images/Univar.png){fig-align="center"}
+
+::: notes
+
+This is a **frequency distribution**, which is a raw count of the # of times a particular characteristic appears in a data set. 
+
+How many variable do you see? 
+
+Hint: Variable will be located on the x and y axis. Since this is a frequency distribution, we only have one variable. 
+
+
+
+::: 
+
+
+
+## Examples of a Univariate Statistic 
+
+[Proportion (p)]{.grey}
+
+<br>
+
+[$p = f / n$]{.absolute top=300 left=400 width="350" height="300"}
+
+<br>
+
+<br>
+
+f = raw frequency 
+
+n = total sample size
+
+::: notes
+
+A standardized form of a frequency that ranges from 0 to 1. 
+
+We use standardized forms in statistics for a number of reasons, but the most common is to improve interpretability. Taking a raw score and converting it to a 0-1 scale just makes the picture (i.e., the model's results) clearer. We will get into this more-so in Chapter 4. 
+
+When a proportion score is 0.00, this indicates a complete absence of a given characteristics (i.e., f = 0.)  
+
+Conversely, when the proportion score is reflection of the denominator (i.e., the exact number of N), a given characteristic will have a proportion of 1.00 and therefore consume the entire sample.  
+
+Although, these are the extremes of the situations, and a sample will likely be somewhere in between. 
+
+:::
+
+
+## Examples of a Univariate Statistic 
+
+[Percentage (pct)]{.grey}
+
+<br>
+
+[$p = (f / n)100$]{.absolute top=300 left=400 width="350" height="300"}
+
+<br>
+
+<br>
+
+f = raw frequency 
+
+n = total sample size
+
+::: notes 
+
+
+The percentage is simply just a proportion score multiplied by 100. 
+
+Essentially,  we are just re-scaling the proportion to fall within a range of 0-100. We do this because this is more readable to the public. 
+
+
+::: 
+
+
+## Examples of a Univariate Statistic 
+
+[Rate (r)]{.grey}
+
+<br>
+
+[$r = (f/N)Multiplier$]{.absolute top=300 left=400 width="350" height="300"}
+
+<br>
+
+<br>
+
+f = frequency
+
+N = population
+
+Multiplier = determined by our population size (e.g., if your population is millions, you'd use 100,000)
+
+* What would you use if your populations is smaller? For example, a rural town of 15,000.
+
+::: notes 
+
+Rate is a method of standardizing an event of interest by the total population. For example, rate per 100,000 or 10,000 or 1000
+
+::: 
+
+
+## Let's do some calculations
+
+
+
+![](Images/calc.png){fig-align="center"}
+
+
+
+
+
+::: notes
+
+Now that we understand some terms, lets calculate some rates. 
+
+**Calculate the rate for each row, then convert each rate into a standardization of per 10,000 people.** 
+
+Remember rate is: f/population 
+
+Then standardize it by converting that value into the that makes it intrepretable per 10,000 people. 
+
+
+
+
+![](Images/calc2.png){fig-align="center"}
+
+
+::: 
+
+
+
+
+# Examples of a Bivariate Statistics
+
+
+
+## Contingency Tables 
+
+[A table showing overlap between two variables.]{.grey}
+
+<br>
+
+The top [Columns]{.orange} and furthest left [Rows]{.orange} are our variables. 
+
+
+![](Images/contin.png){fig-align="center"}
+
+
+::: footer
+
+photo by study.com
+
+:::
+
+
+
+::: notes
+
+
+Walk through the table, make sure they understand this. 
+
+These will contain our **independent** and **dependent** variables. 
+
+The variables simple overlap and interact in that fashion.
+
+
+
+:::
+
+
+
+
+## Contingency Tables 
+
+[A table showing overlap between two variables.]{.grey}
+
+<br>
+
+
+```{r}
+
+library(tidyverse)
+library(kableExtra)
+library(palmerpenguins)
+
+data <- penguins |> 
+  dplyr::select(Species = species, sex) |> 
+  count(Species, sex) |> 
+  drop_na() |> 
+  pivot_wider(names_from = sex, values_from = n)
+  
+
+data |>
+  kbl(caption = "Palmer Penguins Count") |> 
+  kable_classic(full_width = F)
+
+```
+
+
+
+
+
+
+## Recap
+
+<br> 
+
+* Univariate and Bivariate Statistics   
+
+<br>
+
+* Proportion, Percents, and Rates 
+
+<br>
+
+* Contingency Tables   
+
+<br> 
+
+
+::: notes
+
+Mention test 1 date (02-27)  
+
+Homework  
+
+
+:::
+
+
+# Graphs and Charts 
+
+
+
+## Pie Charts 
+
+Used for [categorical variables]{.grey} with only a few groups. 
+
+```{r}
+
+library(plotrix)
+
+values <- c(2,4,6,8)
+
+labels <- c("We hate\n pies","We oppose\n pies","We don't\n care","We just love pies")
+
+
+lp<-pie3D(values,
+          radius = 0.8,
+          theta = 1.0,
+          labels = labels ,
+          explode=0.05)
+
+
+```
+
+::: notes
+
+Ask what are the two types of categorical varibles (Nominal and ordinal)
+
+
+::: 
+
+
+## Adding Data to Pies
+
+Adding [percentages]{.grey} to pie charts 
+
+
+```{r}
+
+
+library(tidyverse)
+library(plotly)
+library(palmerpenguins)
+
+data <- penguins |> 
+  group_by(species) |> 
+  summarise(counts = n()) 
+ 
+  
+plot_ly(data, 
+  labels = ~ species,
+  values = ~ counts,
+  type = 'pie',
+  hole = 0.4,
+  sort = F,
+  textinfo = "label",
+  direction = "clockwise",
+  title = "<b>Species of Penguins</b>",
+  showlegend = F)
+
+
+
+```
+
+
+::: footer
+
+[RPubs](https://rpubs.com/hari141v/644255)
+
+
+:::
+
+
+::: notes 
+
+Problems with pie charts 
+
+* Humans are not great at interpreting angles, this is clear when compare multiple pie charts 
+
+![](Images/pies.png)
+
+* If you have a lot of categories, you will have trouble interpreting 
+
+* Small percentages are difficult to see
+
+
+
+:::
+
+
+##  Bar Graphs
+
+
+Used for [categorical]{.grey} variables that have many or a few groups. 
+
+<br>
+
+```{r}
+
+
+library(plotly)
+library(palmerpenguins)
+
+data <- penguins |> 
+  group_by(species) |> 
+  summarise(counts = n()) 
+
+fig <- plot_ly(data, 
+               x = ~species,
+               y = ~counts,
+               type = 'bar')
+
+fig <- fig|> 
+  layout(title = "Number of Species in Palmer Penguins Data Set",
+         xaxis = list(title = " "),
+         yaxis = list(title = "Count"))
+
+fig
+
+```
+
+<br>
+
+::: footer
+
+[Plotly](https://plotly.com/r/bar-charts/)
+
+:::
+
+
+## Histograms 
+
+Used for [continuous]{.grey} variables
+
+```{r}
+
+
+library(plotly)
+
+set.seed(021424)
+
+fig <- plot_ly(type='histogram',
+  x=~rnorm(100, 5),
+  bingroup=1)
+
+fig <- fig |> 
+  add_trace(
+  type='histogram',
+  x=~rnorm(30, 5),
+  bingroup=1)
+
+fig <- fig |> 
+  layout(barmode="overlay",
+  bargap= 0.2)
+
+fig
+
+
+
+
+
+```
+
+::: footer
+
+[Plotly](https://plotly.com/r/histograms/)
+
+::: 
+
+
+::: notes
+
+Ask what are the variables that can be continuous (ratio and interval). 
+
+
+:::
+
+
+## Frequency Polygon
+
+Used for [continuous]{.grey} variables.
+
+<br>
+
+Alternative to a histogram. 
+
+<br>
+
+```{r}
+
+set.seed(021424)
+
+pos1 <- rpois(10000, lambda = 6)
+
+hist_data <- hist(pos1, 
+                  plot = FALSE)
+
+# Plot the frequency polygon
+plot(hist_data$mids,
+     hist_data$density,
+     type = "l", lwd = 2, col = "#859ab2", 
+     main = "Frequency Polygon", xlab = "Values", ylab = "Density")
+
+```
+
+
+::: notes
+
+Show them what the shape of a polygon is if they do not know, could help with associations 
+
+::: 
+
+## Line Charts 
+
+These are common for [longitudinal]{.grey} variables or [trends]{.grey}.
+
+<br>
+
+```{r}
+
+library(tidyverse)
+
+set.seed(021424)
+
+data <- data.frame(
+  x = rnorm(50, 8),
+  y = rnorm(50, 3)
+)
+
+
+ggplot(data, aes(x, y)) +
+  geom_line(color = "blue", size = 1.5) +  
+  geom_point(color = "orange", size = 2) +    
+  labs(title = "Relationship Between Years and Cost", 
+       x = "Years", y = "Cost") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+
+
+
+```
+
+::: notes 
+
+
+**Longitudinal** variables that are measured repeatedly over time
+
+Briefly mention the difference between cross-sectional and longitundinal 
+
+
+**Trends** patterns that indicate whether something is increasing or decreasing or staying constant over time. 
+
+:::
+
+
+## Pop Quiz
+
+
+<br> 
+
+When using [categorical graphs]{.grey}, what types of variables can we use? 
+
+<br>
+
+A.) Ratio and Ordinal  
+B.) Interval and Nominal   
+C.) Nominal and Ordinal  
+D.) None of the above  
+
+
+
+```{r}
+countdown::countdown(minutes = 1,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+
+## Setting up Posit Cloud
+
+1.) [Head to Posit Cloud](https://posit.cloud/)
+
+<br>
+
+2.) Click "Get Started"
+
+<br>
+
+3.) Under "Cloud Free" click Learn more 
+
+<br>
+
+4.) Click Sign Up then fill out the form 
+
+<br>
+
+5.) Verify your email 
+
+
+
+## Setting up Posit Cloud
+
+6.) Once your in the posit Cloud, click "New Project" 
+
+<br>
+
+![](Images/PC.png){fig-align="center"}  
+
+
+
+
+## Setting up Posit Cloud
+
+7.) Then "New RStudio Project" 
+
+<br>
+
+![](Images/PC2.png){fig-align="center"}
+
+
+
+## Have a great day
+
+
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmhvMWV3aTY3MTQ1NmZmZmhpeDl1Y2oycndqN3o3aXVkOXdxOXQxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l49FqlUguNsGDNCGk/giphy.gif){fig-align="center"}
+
+::: footer
+
+Giphy
+
+:::
+
+
+
+
+

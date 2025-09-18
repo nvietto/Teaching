@@ -1,0 +1,133 @@
+---
+title: 'CRCJ 2510: Research Methods'
+author: "Nicholas Vietto"
+date: "Fall 2023"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+**Instructor:** Nicholas Vietto  
+**Contact:** nvietto@unomaha.edu  
+**Office Hours:** By appointment via Zoom  
+**Class Meeting Times:** NA     
+**Classroom:** NA      
+
+## Course Description
+
+The primary goal of this course is to facilitate your growth as both consumers and producers of research. We will explore a variety of methodologies (e.g., survey research/self-report, official stats/secondary data, quasi-experimental design, etc.) used in criminological and criminal justice research. Further, we will evaluate these methodologies within the context of design concerns such as: research purpose, operationalization, validity, reliability, and ethics.
+
+## Textbook and Resources
+
+- **Required Textbook:** Ronet Bachman & Russell K. Schutt (2015). Fundamentals of research in criminology and criminal justice
+(3rd Ed.). Sage (ISBN: 978-1-4833-3345-8).
+- Supplementary Resources: Will be uploaded to the course page on Canvas 
+
+## Assignments, Exams, and Grading
+
+There will be three exams over the course of the semester, comprised of multiple choice and short-answer questions drawn from the assigned readings and class discussions. You will have the entire class session to complete each exam. Each exam is worth 25% of your final grade. Additionally, there will be writing and group assignments periodically throughout the semester. 
+
+- **Assignments:** 25%
+- **Exam 1:** 25%
+- **Exam 2:** 25%
+- **Exam 3:** 25%
+
+Grading scale: A (90-100), B (80-89), C (70-79), D (60-69), F (0-59).
+
+## Policies
+
+- **Attendance:** Attendance in this course is considered an integral part of the learning experience and contributes to your overall success. Engaging in class discussions, group activities, and participating in hands-on experiences are essential for a comprehensive understanding of the subject matter.
+- **Late Work:** If you miss an assignment due to your own illness (including mental health) or the illness of a family member or close friend, please let me know within 48 hours (use email provided above). Depending on circumstances, I may allow you to make up an assignment within one week of the due date or to submit an additional assignment in lieu of a missed assignment. If some circumstance arises during the semester that may require you to miss several activities or assignments, please let me know as soon as possible.
+- **Academic Integrity:** Maintaining the highest standards of academic integrity is crucial for fostering a fair and ethical learning environment. I take academic dishonesty and lack of integrity seriously and will follow all procedures that are stated by the University of Nebraska-Omaha's [\textcolor{red}{academic integrity policy}](https://www.unomaha.edu/campus-policies/academic-integrity.php).
+
+- **Accommodations:** Reasonable accommodations are provided for students who are registered with Accessibility Services Center (ASC) and make their requests sufficiently in advance. For more information, contact ASC (Location: 104 H&K, Phone: 402.554.2872, Email: unoaccessibility@unomaha.edu.). In addition, Counseling and Psychological Services (CAPS) are free and confidential for enrolled students. For more information, contact CAPS at 402.554.2409, H&K 101, Monday – Friday, 8a.m. - 5p.m. Please also visit our [\textcolor{blue}{website}](https://caps.unomaha.edu) to learn more. If you are in crisis or dealing with thoughts of suicide, please call 402.554.2409 (and press "2" after-hours) to speak to a counselor immediately.
+
+## Schedule
+
+*This syllabus is subject to change at the discretion of the instructor. Any changes will be communicated to students.*
+
+**Week 1**, 08/21-08/26  
+
+* Tuesday: Introductions / Review syllabus 
+* Thursday: Chapter 1 - Science, society, and criminological research
+
+**Week 2**, 08/28-09/01
+
+* Tuesday: Chapter 1 - Science, society, and criminological research
+* Thursday: Chapter 2 - The process and problems of criminological research
+
+**Week 3**, 09/04-09/08
+
+* Tuesday: Chapter 2 - The process and problems of criminological research
+* Thursday: Chapter 3 - Research ethics and philosophies
+
+**Week 4**, 09/11-09/15
+
+* Tuesday: Chapter 3 - Research ethics and philosophies
+* Thursday: Chapter 4 - Conceptualization and measurement
+
+**Week 5**, 09/18-09/22
+
+* Tuesday: Tuesday: Chapter 4 - Conceptualization and measurement
+* Thursday: Thursday: **Exam 1**
+
+**Week 6**, 09/25-09/29
+
+* Tuesday: Chapter 5 - Sampling
+* Thursday: Chapter 5 - Sampling
+
+**Week 7**, 10/02-10/06
+
+* Tuesday: Chapter 6 - Causation and research design
+* Thursday: Chapter 6 - Causation and research design
+
+**Week 8**, 10/09-10/13
+
+* Tuesday: Chapter 7 - Survey research
+* Thursday: Chapter 7 - Survey research
+
+**Week 9**, 10/16-10/20
+
+* Tuesday: Semester Break 
+* Thursday: Chapter 8 - Qualitative methods and data analysis
+
+**Week 10**, 10/23-10/27  
+
+* Tuesday: Chapter 8 - Qualitative methods and data analysis
+* Thursday: **Exam 2**
+
+**Week 11**, 10/30-11/03 
+
+* Tuesday: Chapter 9 - Analyzing content
+* Thursday: Chapter 10 - Analyzing content
+
+**Week 12**, 11/06-11/10
+
+* Tuesday: Chapter 10 -Evaluation and policy analysis
+* Thursday: Chapter 11 - Evaluation and policy analysis
+
+**Week 13**, 11/13-11/17
+
+* ASC Conference (No Class)
+
+**Week 14**, 11/20-11/24
+
+* Tuesday: Chapter 11 - Mixing and comparing methods
+* Thursday: Thanksgiving Vacation 
+
+**Week 15**, 11/27-12/01
+
+* Tuesday: Chapter 12 - Mixing and comparing methods
+* Thursday: Chapter 12 - Reporting research results
+
+**Week 16**, 12/04-12/08
+
+* Prep Week - Study, study, study..... and sleep 
+
+**Week 17**, 12/11-12/15
+
+* Tuesday: **Exam 3**
+ 
+
+---
