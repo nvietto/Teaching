@@ -1,0 +1,584 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: true
+    preview-links: true
+    transition: fade
+---
+
+# 
+
+::: {.title}
+
+Early Positive School Perspectives of Criminality
+
+:::
+
+# 
+
+![](Images/muhaha.png){fig-align="center"}
+
+## Positivism (Early 1900s)
+
+:::{.small-text}
+
+
+
+[A framework that uses scientific methods to understand criminal behavior by focusing on biological or psychological elements, rather than free will]{.blue}. 
+
+<br>
+
+Behavior is determined by [measurable causes, not just individual choice]{.blue}
+
+<br>
+
+Each framework (biological, psychological) had a distinct individual influence on crime
+
+<br>
+
+Replaced the Classic School (e.g., Rational Choice Theory)
+
+:::
+
+::: notes
+
+Moving away from free will, classical theories to more scientific method centered. 
+
+Which in the early 1900s the scientfic method was really a hot topic, with the Industrial Revolution had already shown how applying science and technology could transform economies and daily life.
+
+
+:::
+
+
+## Pseudoscience
+
+[A collection of beliefs or practices mistakenly regarded as being based on scientific method or evidence.]{.blue}
+
+<br>
+
+[Characteristics:]{.blue2}
+
+<br>
+
+1.) Lacks empirical support or testability.
+
+2.) Relies on [anecdotal evidence or subjective validation]{.blue}.
+
+3.) Often resistant to criticism or revision.
+
+<br>
+
+For example, Astrology and [Scientology](https://en.wikipedia.org/wiki/Scientology)
+
+
+##
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWRsbjM3ZGJxYnVuNm9vdDN1M3l2d2RjaGl0NG9idWozOGZzY2h1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y5wlazC8lSVuU/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+# EVERYTHING YOU ARE ABOUT TO HEAR IS A PSEUDOSCIENCE!
+
+## Eugenics 
+
+:::{.small-text}
+
+The study and implementation of [policies aimed at improving the human race through controlled reproduction, often enforced on specific groups.]{.orange}
+
+Individuals were classified into "superior" and "inferior" groups based on perceived genetic traits.
+
+Linked criminal behavior to heredity and [advocating for selective reproduction to reduce crime.]{.blue}
+
+:::
+
+
+
+![](Images/CSH.jpg){fig-align="center"}
+
+
+
+
+::: footer
+
+image: Cold Spring Harbor
+
+:::
+
+
+## Positivism, Eugenics, and Nazi Germany
+
+
+:::{.smaller-text}
+
+Applied positivist ideas to “improve” society through controlled reproduction, sterilization, and eventually genocide
+
+<br>
+
+[Nazi Germany (1933–1945)]{style="text-decoration: underline;"}
+
+[Law for the Prevention of Hereditarily Diseased Offspring (1933):]{.blue}
+Mandated the forced sterilization of individuals diagnosed with certain hereditary conditions (e.g., schizophrenia, epilepsy, hereditary blindness, serious deformities, chronic alcoholism).
+
+<br>
+
+The law institutionalized eugenics courts and provided the legal framework for large-scale sterilization programs. 
+
+<br>
+
+Culminated in mass sterilizations, euthanasia programs, and the Holocaust
+
+
+:::
+
+## Positivism and Slavery in the U.S.
+
+:::{.small-text}
+
+[Scientific Racism]{.blue} 
+
+Positivist “measurements” (skulls, faces, bodies) misused to prove racial hierarchies
+
+
+<br>
+
+
+[Biological Determinism]{.blue}
+
+The theory that biological factors, primarily genetics and physical traits, determine human behavior, social structures, and cultural norms
+
+
+<br>
+
+[IQ Testing]{.blue} 
+
+Misapplied to reinforce stereotypes of Black intellectual inferiority and justify discriminatory policies
+
+:::
+
+## How Positivist Claims Were Propagated with Pseudoscience
+
+:::{.small-text}
+
+[Craniometry]{.blue} measuring skull size/shape to “prove” intelligence or criminality
+
+<br>
+
+[Physiognomy]{.blue} judging moral character from facial features
+
+<br>
+
+
+[Misuse of Darwin’s On the Origin of Species]{.blue} distorted into “Social Darwinism,” justifying racial hierarchies and eugenics
+
+<br>
+
+[IQ Testing]{.blue} misapplied to label groups as “feebleminded” or criminal, used to support sterilization policies
+
+:::
+
+## Craniometry
+
+
+
+:::{.small-text}
+
+The study of [skull and brain size as indicators of superiority or inferiority among individuals or racial/ethnic groups.]{.blue}
+
+Skull size and shape were believed to reflect brain capacity, [with larger skulls indicating higher intelligence and moral superiority.]{.orange}
+
+Used to justify racial hierarchies and discriminatory policies that [linked traits to criminal behavior.]{.blue2}
+
+:::
+
+
+
+![](Images/cran.jpg){fig-align="center"}
+
+::: footer
+
+Image: Science Photo Gallery
+
+:::
+
+
+
+::: notes
+
+It was believed that the skull's size and shape perfectly reflected the brain's structure and capacity, with larger skulls indicating greater intelligence and moral superiority.
+
+:::
+
+# Group Discussion!!! 
+
+##  Group Discussion!!! 
+
+
+```{r}
+countdown::countdown(minutes = 5,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+
+<br>
+
+[To what extent do modern algorithms risk reproducing biological determinism or social bias, echoing earlier positivist claims that misused science (e.g., craniometry, IQ testing, eugenics) to justify inequality?]{.blue}
+
+<br>
+
+Elect one speaker to summarize your argument.
+
+
+## Where We’ve Been in Module 1
+
+:::{.smaller-text}
+
+[Pre-Classical Theories]{.blue}
+
+Crime explained through spiritualism, absolute good vs. absolute evil
+
+<br>
+
+[Classical Theories]{.blue}
+
+[Introduction of free will]{.blue2}
+
+Rational choice & deterrence as central ideas
+
+<br>
+
+[Positivist Theories]{.blue}
+
+[Removal of free will]{.blue2}
+
+[Rise of determinalism]{.violet} and scientific explanations of crime
+
+:::
+
+## Determinalism
+
+[The view that all events, including human actions, are shaped by forces outside of individual will or control]{.blue}
+
+<br>
+
+All events, including crime, are caused by prior conditions (biological, psychological)
+
+<br>
+
+Challenges the assumption of free will central to classical theory
+
+## Recap
+
+[Positivism is determinism]{.orange}
+
+<br> 
+
+In other words, in this perspective on crime, [crime is not due to free will or free choice.]{.violet} 
+
+<br> 
+
+If an individual has features, propagated by positivist, that are associated with criminal behavior (e.g., craniometry, IQ testing) that person [will]{.blue} commit a crime 
+
+##
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWRsbjM3ZGJxYnVuNm9vdDN1M3l2d2RjaGl0NG9idWozOGZzY2h1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y5wlazC8lSVuU/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+# EVERYTHING YOU ARE ABOUT TO HEAR IS A PSEUDOSCIENCE!
+
+
+## Physiognomy 
+
+::: {.columns}
+::: {.column width="50%"}
+
+:::{.smaller-text}
+
+Claimed to assess personality traits and moral character by [analyzing facial features (e.g., eyes, nose, jaw, mouth)]{.blue}
+
+<br>
+Examples: large jaws, forward projection of jaw, how sloping forehead, hard shifty eyes
+
+<br>
+
+Argued that [outward appearance revealed inner qualities or dispositions]{.blue2}
+
+<br>
+
+[Influenced criminology by stigmatizing certain groups based on supposed “criminal” looks]{.blue}
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+
+![](Images/phys.jpeg){.absolute top=50 right=10 height="70%"}
+
+:::
+:::
+
+
+::: notes
+
+fi·zee·aag·nuh·mee
+
+
+:::
+
+#
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjM1c3cyOWpobG55cTM0ZW5tY3dkb3I0ZWFqenRveDV4cjlraGVwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mz6aYifIzDqOuZSvEd/giphy.gif){fig-align="center"}
+
+::: footer
+
+Image: giphy
+
+:::
+
+
+
+
+
+# THIS NEXT SLIDE IS [NOT]{.blue} PSEUDOSCIENCE!
+
+## On the Origin of Species (1859)
+
+
+::: {.columns}
+::: {.column width="60%"}
+
+::: {.small-text}
+
+**Charles Darwin**
+
+[Foundation of modern biology and genetics.]{.orange}
+
+Explains species change via [natural selection]{.blue}
+
+<br>
+
+::: {.smaller-text}
+
+Key Points:
+
+[Variation:]{.orange} Genetic differences exist within a population
+
+[Competition:]{.orange} Organisms compete for limited resources
+
+[Adaptation:]{.orange} Beneficial traits improve survival
+
+[Natural Selection:]{.orange} Favorable traits are passed on
+
+[Speciation:]{.orange} Accumulated changes lead to new species
+
+::: 
+
+:::
+
+:::
+
+::: {.column width="40%"}
+
+![](Images/os.jpg){.absolute top=100 right=10 height="70%"}
+
+:::
+
+:::
+
+## WE ARE BACK TO THE PSEUDOSCIENCE!
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2gwNnc4MGxmdzlkZzBqa2NlZ2hpMGYyd3lrdHVqbjB1OW9idTZ6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/55itGuoAJiZEEen9gg/giphy.gif){fig-align="center"}
+
+::: footer
+
+Image: giphy
+
+:::
+
+
+
+## Misuse of Darwin's On the Origin of Species
+
+::: {.small-text}
+
+**Francis Galton** created [Social Darwinism]{.orange}
+
+[Misapplied natural selection to human societies, using "survival of the fittest" to justify social inequality and group dominance.]{.blue}
+
+<br>
+
+Claimed intelligence, morality, and criminality were hereditary, [advocating reproduction for the "fit" and restrictions for the "unfit."]{.orange}
+
+<br>
+
+Provided a pseudoscientific basis for discriminatory [policies like forced sterilizations and immigration controls]{.blue2}, framed as improving the human race.
+
+:::
+
+## Lombroso's Theory of Atavism and the "Born Criminal"
+
+
+::: {.small-text}
+
+The Criminal Man (1876), which propagated [Atavism]{.blue}
+
+[Criminals are evolutionary "throwbacks" to primitive humans, exhibiting physical, mental, and behavioral traits of earlier stages of human development.]{.blue}
+
+<br>
+
+
+Certain individuals are [biologically predisposed to criminal behavior]{.orange}, identifiable through physical stigmata (e.g., asymmetrical faces, large jaws, sloping foreheads).
+
+<br>
+
+[Pioneered the positivist school of criminology]{.grey}, shifting focus from free will to biological determinism in explaining criminal behavior.
+
+:::
+
+#
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjM1c3cyOWpobG55cTM0ZW5tY3dkb3I0ZWFqenRveDV4cjlraGVwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mz6aYifIzDqOuZSvEd/giphy.gif){fig-align="center"}
+
+::: footer
+
+Image: giphy
+
+:::
+
+# THIS NEXT SLIDE IS [NOT]{.blue} PSEUDOSCIENCE!
+
+
+## Intelligence Quotient (IQ)
+
+::: {.small-text}
+
+[Alfred Binet developed IQ testing to identify under performing students]{.orange}, where he had children do tasks such as follow commands, copy patterns, name objects, and put things in order or arrange them properly.
+
+Believed IQ could [change over time]{.blue}
+
+:::
+
+<br>
+
+![](Images/IQ.png){fig-align="center"}
+
+::: footer
+
+Image: Lumen Learning
+
+:::
+
+# WE ARE BACK TO THE PSEUDOSCIENCE!
+
+## IQ and Eugenics
+
+
+::: {.columns}
+::: {.column width="50%"}
+
+::: {.small-text}
+
+[H.H. Goddard]{.blue} took Binet's ideas to propagate eugenic policies.
+
+<br>
+
+Claimed IQ was [static and inherited.]{.orange}
+
+<br>
+
+Introduced the concept of "feeblemindedness" to label individuals with below-average IQ
+
+<br>
+
+Created a ranking system to categorize intelligence levels
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+![](Images/IQEU.jpg)
+
+:::
+
+:::
+
+::: footer
+
+Image: American Scientist
+
+:::
+    
+## *Buck v. Bell*
+
+:::{.small-text}
+
+A 1927 Supreme Court case that upheld Virginia's law [allowing the sterilization of Carrie Buck, a woman who was deemed "feeble-minded".]{.blue}
+
+<br>
+
+Her condition had been present in her family for the last three generations. [Justice Holmes declared, “Three generations of imbeciles are enough.”]{.orange}
+
+<br>
+
+This idea led to over [60,000 people sterilized in the U.S.]{.blue2}, mostly women, minorities, and disabled individuals (e.g., 19,000 women were sterilized in California) and lasted until 1970s
+
+<br>
+
+[NPR Podcast](https://www.npr.org/2017/03/24/521360544/the-supreme-court-ruling-that-led-to-70-000-forced-sterilizations)
+
+
+:::
+
+## Kahoot 🦉
+
+[Here](https://play.kahoot.it/v2/?quizId=ca0ca3af-846d-4daf-adcb-f58985ca2719&hostId=eae399c1-3145-4884-b8a8-15e8559beeef)
+
+## Questions for Exam
+
+Exam Tuesday 
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDhpdXQxbGVjejRxcnVoZ21qdzhzbWtlNGNmazkwbWJvY3M5Zm5sbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMB2WiOdjpB7K4o/giphy.gif){fig-align="center"}
+
+::: footer
+
+Image: giphy
+
+:::
+
+## Good luck studying!!!
+
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODQwM2dyMnJyODVvN3Jnc2pkc2ptbnd5bTA0N2IxZ250Mmc0bjRmdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GLEppek0U6LFA37je3/giphy.gif){fig-align="center"}
+
+::: footer
+
+Image: giphy
+
+:::
