@@ -1,0 +1,1062 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+
+#
+
+::: {.title}
+
+Modern Biopsychosocial Perspectives of Criminal Behavior
+
+:::
+
+
+
+
+## Where We’ve Been
+
+:::{.smaller-text}
+
+[Pre-Classical Theories]{.blue}
+
+Crime explained through spiritualism, absolute good vs. absolute evil
+
+<br>
+
+[Classical Theories]{.blue}
+
+[Introduction of free will]{.blue2}
+
+Rational choice & deterrence as central ideas
+
+<br>
+
+[Positivist Theories]{.blue}
+
+[Removal of free will]{.blue2}
+
+[Rise of determinalism]{.violet} and scientific explanations of crime
+
+<br>
+
+[Integrated Theories]{.orange}
+
+[Bringing together multiple perspectives to explain crime]{.orange}
+
+:::
+ 
+
+## Integrated Theories 
+
+<br>
+
+::::::{.small-text}
+
+A process of [*joining ideas from two or more criminological theories into a single framework*]{.blue}, aiming for a more complete and accurate explanation of crime or delinquent behavior
+
+<br>
+
+For example, the modern biopsychosocial perspective does just that!
+
+<br>
+
+Combining [biological]{.blue}, [psychological]{.orange}, and [social]{.blue2} factors 
+
+:::
+
+
+## [Bio]{.blue}[Psycho]{.orange}[Social]{.blue2} 
+
+<br>
+
+[Biological:]{.blue} Genetics, Autonomic Nervous System, Hormones
+
+<br>
+
+[Psychological:]{.orange} Psychopathy, Traits, Intelligence
+
+<br>
+
+[Sociological:]{.blue2} Economics, Environmental, Cultural Factors
+
+## But wait, isn't this just Positivist again? 
+
+:::{.small-text}
+
+Nope!
+
+<br>
+
+Positivism explained crime as [determined by forces outside of individuals control]{.blue} (remember the removal of 'free will').
+
+For example, the biological claims of low IQ or other ativisitic claims.  
+
+<br>
+
+The biopsychosocial perspective differs from positivist perpecitives in that is it no longer [determinalistic]{.blue}, but instead it is [probabilistic]{.orange}
+
+:::
+
+## Determinalistic vs. Probabilistic 
+
+:::{.small-text}
+
+<br>
+
+[Deterministic:]{style="text-decoration: underline;"}
+
+
+Crime is an [inevitable result]{.red} of biological or psychological factors 
+
+<br>
+
+[Probabilistic:]{style="text-decoration: underline;"}
+ 
+
+Crime results from interacting factors that increase or decrease the [probability/chance of offending]{.blue}, [but outcomes are not fixed]{.orange}
+
+:::
+
+## Probability 
+
+
+:::{.small-text}
+
+[Probability is the measure of how likely an event is to occur, expressed as a value between 0 (impossible) and 1 (certain)]{.blue}
+
+<br>
+
+For example, a probability of 0.5 means there is a 50% [chance]{.violet} the event will happen.
+
+<br> 
+
+In criminology, probabilistic explanations mean that [certain risk factors]{.orange} (e.g., low self-control, poverty, exposure to violence) [increase the likelihood of crime]{.blue2}, but they [do not make crime inevitable]{style="text-decoration: underline;"}
+
+:::
+
+## [Bio]{.blue}[Psycho]{.orange}[Social]{.blue2} 
+
+<br>
+
+[Biological:]{.blue} Genetics, Autonomic Nervous System, Hormones, and so on
+
+<br>
+
+[Psychological:]{.orange} Psychopathy, Traits, Intelligence, and so on
+
+<br>
+
+[Sociological:]{.blue2} Economics, Environmental, Cultural Factors, and so on
+
+
+# But really, this all comes down to measurement
+
+#
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXBhMzJ0M3EzdWhjcmdhNnl1eXFodW93YXEwemh2eWZncnV5djRmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c5eqVJN7oNLTq/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+
+# What kind of measurements?
+
+## {auto-animate=true}
+
+Family Studies
+
+## {auto-animate=true}
+
+Family Studies
+
+Twin Studies 
+
+## {auto-animate=true}
+
+
+Family Studies
+
+Twin Studies 
+
+Adoption Studies
+
+## {auto-animate=true}
+
+Family Studies
+
+Twin Studies 
+
+Adoption Studies
+
+Hormones
+
+## {auto-animate=true}
+
+Family Studies
+
+Twin Studies 
+
+Adoption Studies
+
+Hormones
+
+Neurotransmitters
+
+## {auto-animate=true}
+
+Family Studies
+
+Twin Studies 
+
+Adoption Studies
+
+Hormones
+
+Neurotransmitters
+
+Brain Injuries 
+
+## {auto-animate=true}
+
+Family Studies
+
+Twin Studies 
+
+Adoption Studies
+
+Hormones
+
+Neurotransmitters
+
+Brain Injuries 
+
+Genetics 
+
+## {auto-animate=true}
+
+Family Studies
+
+Twin Studies 
+
+Adoption Studies
+
+Hormones
+
+Neurotransmitters
+
+Brain Injuries 
+
+Genetics 
+
+<br>
+
+[In other words, a lotttttt of stuff]{.blue }
+
+#
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWp5MXZ5d20yMTllcWdjNTAwdXp2bGZ1Mm43bHN3NjVydjF0enVrMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jVBU853RBY7LsXEVPt/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+## Don't feel overwhlemed 
+
+<br>
+
+We will spend a few lectures on this 
+
+# Let's Begin
+
+## Heredity/Genetics vs. The Environment 
+
+:::{.small-text}
+
+Represents the [long-standing debate, the biopsychosocial criminologist  vs. sociologist based criminologist]{.violet} (*majority of the field*)
+
+<br>
+
+[Biopsychosocial criminology]{.blue} emphasizes the role of heredity, genetics, and neurobiology interacting with psychological traits and social environments
+
+<br>
+
+
+[Sociological criminology]{.blue2} tends to stress structural, cultural, and environmental factors (e.g., poverty, inequality, social disorganization) while being more skeptical of biological explanations
+
+<br>
+
+
+This divide has historically produced contention
+
+:::
+
+## Heredity/Genetics vs. The Environment Arguments
+
+:::{.small-text}
+
+[Major argument was:]{style="text-decoration: underline;"}
+
+<br>
+
+How much of criminality is [inherited]{.blue2} from our parents (or ancestors) in comparison to how much of it is due to [only environmental factors]{.blue}
+
+<br>
+
+This reflects the classic '[nature]{.blue2} vs. [nurture]{.blue}' controversy in criminology and the social sciences more broadly
+
+
+:::
+
+::: notes
+
+From this point forward, *we will consider heredity and genetics as interchangeable, but will mostly use genetics*
+
+
+:::
+
+## Family Studies
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+::: {.small-text}
+
+[Brunner Syndrome (X-linked, MAOA gene mutation)](https://pubmed.ncbi.nlm.nih.gov/8211186/)
+
+<br>
+
+MAOA enzyme [critical for breaking down neurotransmitters (serotonin, dopamine, norepinephrine).]{.blue}
+
+<br>
+
+Characterized by [impulsive aggression (i.e., violent outbursts, antisocial behavior), mild intellectual disability, behavioral abnormalities (e.g., emotional dysregulation).]{.orange}
+
+<br>
+
+**Landmark case linking genetics to behavior.**
+
+:::
+
+
+:::
+
+::: {.column width="30%"}
+
+![](Images/brun.png)
+
+:::
+
+
+:::
+
+
+
+::: notes
+
+**Original Study**: Dutch family with violent/antisocial male members exhibiting extreme impulsivity (e.g., arson, attempted rape) and borderline intellectual functioning. Female carriers showed no severe symptoms, consistent with X-linked recessive inheritance (males inherit mutated X chromosome from mother; females require two copies for full expression).   
+
+**Debates**: Findings ignited debates on genetic determinism vs. free will. Critics warned against stigmatizing "criminal genes"; proponents highlighted potential for targeted therapies.   
+
+**Behavioral Genetics**: Case underscored gene-environment interactions (e.g., trauma, upbringing) in shaping outcomes.  
+
+**Brunner Syndrome & MAOA**: Inspired the "warrior gene" hypothesis (MAOA variants). Later research showed MAOA alone does not predestine behavior—environmental factors (e.g., childhood abuse) modulate risk.  
+
+**X-linked recessive**: Inheritance pattern where males (XY) are affected if they inherit one mutated X-linked gene (from mother). Females (XX) require two mutated copies to exhibit the trait, making them predominantly carriers.
+
+:::
+
+
+## Warror Gene in the News
+
+![](Images/bbc.png){fig-align="center"}
+
+
+Read more [here](https://www.bbc.com/news/science-environment-29760212)
+
+## Recap
+
+
+:::{.small-text}
+
+[Family Studies]{.orange}
+
+<br>
+
+A line of research that examines whether [criminal or antisocial behavior clusters within families]{.blue}, and to what extent this clustering reflects genetic inheritance and shared environmental influences
+
+Example:
+
+[MAOA and the Warrior Gene]{.orange}
+
+<br> 
+
+Determinism vs. Probabilistic 
+
+
+:::
+
+
+## Adoption Studies
+
+
+:::{.small-text}
+
+
+[Compares adoptees to biological parents (genetic influence) and adoptive parents (environmental influence).]{.orange}
+
+<br>
+
+Emphasize focus on the [Nature vs. Nurture]{.orange} debate
+
+<br>
+
+[Genetic predisposition:]{.blue} Higher similarity to bio-parents (e.g., criminal behavior in adoptees correlates with bio-parents’ history).
+
+[Environmental factors:]{.red} Similarity to adoptive family (e.g., parenting style, trauma, socioeconomic status).
+
+:::
+
+<br>
+
+:::{.smaller-text}
+
+Adoptee with criminal behavior linked to bio-parents’ history → [genetic risk]{.blue}
+
+Adoptee’s aggression mirrors adoptive siblings exposed to abuse → [environmental risk]{.red}
+
+:::
+
+
+# Phsysiology, Molecular Genetics, and Criminology 
+
+
+## Autonomic Nervious System
+
+::: {.column}
+::: {.column width="70%"}
+
+:::{.small-text}
+
+A network of nerves regulating [unconscious bodily processes]{.blue}
+
+<br>
+ 
+Helps the body adapt to environmental changes, particularly during [danger or stress]{.red}
+
+<br>
+
+[Activates the "fight or flight" reaction to prepare the body for immediate action]{.orange}
+ 
+
+:::
+
+:::
+
+:::{.column width="30%"}
+
+![](images/auto.png){.absolute top=90 right=10 height="60%"}
+
+:::
+
+
+:::
+
+## [Psychopathy]{.aqua}
+
+![](images/psycho.jpg){fig-align="center"}
+
+::: footer
+
+Image: Discovery Magazine
+
+:::
+
+
+## [Psychopathy]{.aqua}
+
+
+:::{.small-text}
+
+A type of antisocial behavior characterized by constellation of traits: 
+
+<br>
+
+[Callousness:]{.orange} Lack of empathy or concern for others' feelings
+
+[Unemotionality:]{.orange}  Absence of emotional depth or responsiveness
+
+[Manipulativeness:]{.orange}  Skilled at exploiting others for personal gain
+
+[Impulsivity:]{.orange}  Acting without forethought or consideration of consequences
+
+[Shallow Affect:]{.orange}  Superficial or limited emotional expression
+
+<br>
+
+These are measured via surveys built by researchers and clinicians (e.g., PCL-R (Psychopathy Checklist-Revised))
+
+:::
+
+
+## Psychopathy Case Study
+
+
+:::{.smallest-text}
+
+
+Ted Bundy (1946 - 1989)
+
+<br>
+
+An American serial killer responsible for the deaths of at least 30 women across several states
+
+[Highly Intelligent, Highly Manipulative and Charismatic (charm), Extreme Brutality in Crimes]{.orange}
+
+Raised by grandparents, told mother was his sister, never knew father
+
+<br>
+
+
+[Childhood was pretty normal:]{style="text-decoration: underline;"}
+
+[Middle-class, well-educated household, and no chronic poverty or overt abuse]{.blue2}
+
+Performed very well academically, went on to law school
+
+Odd behavior in youth that led to [alienation]{.orange}
+
+<br>
+
+More below: 
+
+Conversations with a Killer: The Ted Bundy Tapes on Netflix, actual interview footage
+
+:::
+
+## Psychopathy Case Study
+
+
+:::{.smaller-text}
+
+Within the [PCL-R (Psychopathy Checklist-Revised):]{.blue}
+
+<br>
+
+[Interpersonal:]{.blue} Superficial Charm, grandiosity, deceitful (e.g., manipulated victims by posing as injured)
+
+<br>
+
+[Affective:]{.blue} Lack of empathy (e.g., described murders in detail without remorse, see [court videos](https://www.youtube.com/watch?v=zZlGQeGsWQ4))
+
+<br>
+
+[Lifestyle:]{.blue} Parasitic lifestyle (e.g., lived off girlfriends and manipulated them for resources)
+
+<br>
+
+[Antisocial:]{.blue} Poor impulse control, criminal versatility (e.g., escaped custody twice, impulse murder spree afterwards both times)
+
+
+:::
+
+
+#
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXRkdmJsNmdrbTV0bG0xZnN4cTJsbHhkbXdlcjRjNnE3eHZ4cGpsMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fioIqjullSWYprABn9/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+
+
+## ANS and Psychopathy
+
+[Low Resting Heart Rate Hypothesis:]{.blue}
+
+Associated with increased antisocial behavior.
+
+[May reflect reduced fear, facilitating risk-taking and antisocial acts]{.orange}
+
+<br>
+
+[Low Arousal Hypothesis:]{.blue}
+
+Low ANS arousal may create an unpleasant 🙁 physiological state.
+
+[Individuals may engage in stimulating or antisocial behaviors to increase arousal to optimal levels]{.orange}
+
+## ANS and Psychopathy
+
+![](Images/manu.png){fig-align="center"}
+
+
+
+Full text [here](https://www.crimrxiv.com/pub/q7z2nfny/release/1)
+
+
+## Resting Heart Rate
+
+```{r}
+countdown::countdown(minutes = 1,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+<br>
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+
+Check pulse 
+
+<br>
+
+*Watch the clock (15 seconds or 30 seconds) and count heart beats and multiply by 4 or 2*
+
+<br>
+
+Write it down
+
+<br>
+
+
+:::
+
+::: {.column width="50%"}
+
+![](images/pulse.jpg)
+
+:::
+
+:::
+
+## Survey 
+
+```{r}
+countdown::countdown(minutes = 1,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+<br>
+
+[The Inventory of Callous-Unemotional Traits](https://arc.psych.wisc.edu/self-report/the-inventory-of-callous-unemotional-traits-icu/)
+
+<br>
+
+Higher scores 🧮 indicate higher Callous-Unemotional Traits!
+
+<br>
+
+The ICU has three subscales: Callousness, Uncaring, and Unemotional
+
+<br>
+
+Take your survey 
+
+
+
+## Score and Analyze 
+
+::: {.smaller-text}
+
+What was your heart rate at [rest?]{.blue}
+
+<br>
+
+What was your [score?]{.blue}
+
+<br>
+
+1️⃣ Deal with reverse scored items: 1, 3, 5, 8, 13, 14, 15, 16, 17, 19, 23, 24
+
+To reverse score:
+
+If original response = 0 becomes 3 
+
+(1 becomes 2, 2 to 1, 3 to 0 )
+
+<br>
+
+2️⃣ Sum the scores of all 24 items
+
+ 
+:::
+
+
+::: notes
+
+::: notes
+
+Low / Low CU traits	~ 0 to ~ 24	Lower than average, relatively few callous-unemotional traits
+Medium / Moderate CU traits	~ 25 to ~ 48	Intermediate level
+High / Elevated CU traits	~ 49 to 72
+
+::: 
+
+:::
+
+## 
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHYzb2loMHVyZGVjcGltdWJidGticGRpaTJubnhyNHd0aG1jbHVocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6fIZP7rywPQyEV44/giphy.gif){fig-align="center"}
+
+::: footer
+
+image: giphy
+
+:::
+
+
+# If you have a [lower heart rate at rest]{.blue} and [higher callousness scores]{.orange} chances are... 
+
+## Drum Roll{.center}
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdiODJ4ZG1qZnh6MnNzeXJxdnB5cHh0cHp4NzJ3cTV0OHR0aGg1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GBvkxysAR8Svm/giphy.gif)
+
+::: footer
+
+image: giphy
+
+:::
+
+# You're just a hungry college student who wants this class to end so you can go have lunch 🤪
+
+
+
+## Recap
+
+Adoption Studies
+
+<br>
+
+ANS
+
+<br>
+
+Psychopathy 
+ 
+
+
+## Hormones 
+
+Hormones are the body's chemical messengers that travel through the blood stream (think long range 🚀)
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+[Testosterone]{.blue}
+
+::: {.small-text}
+
+The major sex hormone in males, essential to the development of male growth and masculine characteristics
+
+:::
+
+![](Images2/testo.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+[Cortisol]{.blue}
+
+::: {.small-text}
+
+The body's main stress hormone, involved in the 🤺 or 🛫 response. 
+
+:::
+
+![](Images2/corto.png)
+:::
+
+:::
+
+
+## Hormones and Crime 
+
+:::{.small-text}
+
+[Testosterone]{.blue}
+
+Linked to aggression, dominance, and risk-taking behaviors, specifically  violent and [impulsive]{.blue} crimes (e.g., assault). 
+
+<br>
+
+[Cortisol]{.blue}
+
+Low levels tied to reduced fear, poor impulse control, and [sensation-seeking]{.blue}.
+
+<br>
+
+[Interaction Effect]{.orange}
+
+([High]{.green} testosterone) x ([Low]{.red} cortisol)  = aggression and rule-breaking (e.g., "dual hormone hypothesis").
+
+<br>
+
+Here's a cool paper on the role of [testosterone, cortisol, and criminal behavior in men and women](https://www.sciencedirect.com/science/article/abs/pii/S0018506X22001544).
+
+
+:::
+
+
+## Neurotransmitters 
+
+Chemical messengers that transmit signals between neurons (think short range 🧠)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+[Serotonin]{.blue}
+
+::: {.small-text}
+
+Often referred to as the 'feel-good' molecule - involved in mood regulation, sleep, appetite, learning, memory, and many other things. 
+
+:::
+
+![](Images2/sero.png)
+
+:::
+
+
+::: {.column width="50%"}
+
+[Dopamine]{.blue}
+
+
+::: {.small-text}
+
+Released during pleasurable activities, essential for motivation, attention, mood, and even physical movement (e.g., Parkinson's disease is a result degradation of the dopamine producing cells). 
+
+:::
+
+![](Images2/dopa.png)
+
+:::
+
+:::
+
+
+## Neurotransmitters and Crime
+
+:::{.smaller-text}
+
+[Serotonin]{.blue}
+
+Low serotonin levels have been associated depression & anxiety. 
+
+Mostly associated with crimes due to mental health incident which can be homicide and/or suicide. Also, drug-related offenses.  
+
+[Very famous paper regarding serotonin aka 5HT](https://pubmed.ncbi.nlm.nih.gov/12869766/) 
+
+<br>
+
+[Dopamine]{.blue}
+
+Hyperactivity is associated with addiction, compulsive behaviors, or crimes tied to [sensation-seeking]{.blue}. 
+
+Associated with antisocial personality disorders (e.g., psychopathy) and impulsive anti-social behavior. 
+
+<br>
+
+
+[Interaction Effect]{.orange}
+
+([High]{.green} dopamine) x ([Low]{.red} serotonin) = heightened impulsivity and reward-driven aggression (e.g., "hot-tempered" vs. "cold-tempered" criminal acts)
+
+
+
+
+:::
+
+
+
+
+## Genetics x the Environment (GxE)
+
+All the work showed that it is an [interaction]{.blue2} between the [moleculer genetics]{.orange} and the [environment]{.orange}
+
+<br>
+
+It's never [just]{.blue} genetics or [just]{.blue2} the environment. [Its both!]{.orange}
+
+<br>
+
+And finally, as we'll see, genetics isn't always a [bad]{.orange} thing.
+
+<br>
+
+It really just make peoples more sensitive or more resistant to the environment they are. 
+
+## Neurodiversity
+
+::: {.smaller-text}
+
+[The natural variations in brain function that shape how individuals process information, perceive the world, and interact with others. These differences—shaped by evolutionary and developmental influence.]{.blue}
+
+People experience and interact with the world around them in many ways, with [no one "right" way of thinking]{.orange}, learning, and behaving, and [differences are not deficits.]{.orange}
+
+Read more at [Harvard Health](https://www.health.harvard.edu/blog/what-is-neurodiversity-202111232645).
+
+:::
+
+![](Images2/nd.png){fig-align="center"}
+
+::: footer
+
+image: National Library of Medicine
+
+:::
+
+## Differential Susceptibility
+
+::: {.small-text}
+
+[An evolutionary developmental theory proposing that genetic variation influences environmental sensitivity, shaping neurodiversity]{.blue}
+
+:::
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+![](Images/dandi.jpg){.absolute right=600 height="50%"}
+
+:::
+
+::: {.column width="50%"}
+
+
+![](Images/orch.jpg){.absolute height="50%" width="55%"}
+
+:::
+
+
+:::
+
+
+## Sensitivity and Neurodiversity
+
+
+::: {.smaller-text}
+
+[**'Dandelion' Children**]{.blue}
+
+Children who are [less reactive to their environments and are not as strongly affected by all experiences, both positive and negative]{.blue}
+
+Can thrive in a wide range of circumstances and [more resistant]{.blue} to environmental variation
+
+<br>
+
+[**'Orchid' Children**]{.orchid}
+
+Children who are [more sensitive to environmental factors and are more affected by all experiences, both positive and negative]{.orchid}
+
+Can thrive in optimal circumstance that are [less resistant]{.orchid} to environmental variation. 
+
+[*When given optimal circumstance they exceed in the [top percentile]{.orange} level*]{.orchid}
+
+[When not optimal, they may be more susceptible to harsh effects of the environment they are in, and thus can lead to negative behavior outcomes]{.blue2}
+
+:::
+
+# Group Discussion!!!!
+
+## Group Discussion 
+
+```{r}
+countdown::countdown(minutes = 10,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+:::{.small-text}
+
+Studies suggest that both [psychiatric interventions (e.g., Selective serotonin reuptake inhibitors)]{.blue} and [mindfulness-based/holistic approaches]{.green} can reduce symptoms related to antisocial behavior disorder. Given limited funding, should prison rehabilitation systems prioritize:
+
+<br>
+
+A.) [Pharmacological interventions (e.g., SSRIs) with social support programs]{.blue} 
+
+<br>
+
+B.) [Holistic interventions (e.g., meditation) with social support programs]{.green}
+
+<br>
+
+Pick one and make an argument for your choice. Elect one speaker to present your point.
+
+:::
+
+
+## Policy
+
+[Early Intervention Programs](https://pubmed.ncbi.nlm.nih.gov/16770765/) 
+
+Evidence-based parenting support: Fund programs to promote sensitive, proactive parenting strategies (e.g., positive discipline, emotional regulation training).
+
+<br>
+
+[Nutritional Interventions for Crime Prevention](https://penntoday.upenn.edu/news/time-has-come-implement-omega-3-supplementation-reduce-aggression)
+
+Integrate omega-3 fatty acids (e.g., fish oils) into at-risk youth diets, linked to improved impulse control and reduced aggression in clinical trials.
+
+## Have a good day!
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTdsZjN3cnQzbHd5NXJieTFrMHczdWYxdDN1czc2dTNydmFwM2Z4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hBjZTIe0LaYczHtxdQ/giphy.gif){fig-align="center"}
+
+::: footer
+
+image: giphy
+
+:::

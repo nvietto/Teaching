@@ -1,0 +1,580 @@
+---
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+
+#
+
+::: {.title}
+
+Social Reaction and Critical Models of Crime
+
+
+:::
+
+
+## Extra Credit 
+
+Will add on Canvas, but let's take a look [here](https://nvietto.quarto.pub/extra-credit---generative-art/)
+
+# Labeling Theory 
+
+## How Did We Arrive Here? 
+
+::: {.smaller-text}
+
+<br>
+
+Criminology began moving away from traditional explanations focused on:
+
+<br>
+
+Biology (e.g., Genetics)
+
+Psychology (e.g., Psychopathology)
+
+Social (e.g., Rational Choice Theory)
+
+<br>
+
+[Researchers started asking:]{.blue2}
+
+
+[What if crime is shaped not just by the individual, but by how society reacts to them?]{.orange}
+
+<br>
+
+This period saw growing skepticism toward the [neutrality of police, courts, and other institutions]{.blue}
+
+:::
+
+## How Did We Arrive Here? 
+
+
+::: {.smaller-text}
+
+[What led to this growing skepticism?]{.blue2}
+
+<br>
+
+Civil Rights & Social Movements
+
+Expanding juvenile justice systems and school discipline raised concerns about over-sanctioning youth
+
+Scholars like Becker and Tannenbaum [argued that acts aren’t deviant - society makes them deviant through reactions]{.orange}
+
+<br>
+
+[Resulting Shift:]{.blue2}
+
+Focus turned toward labels, stigma, identity, and power dynamics
+
+Recognition that sanctions can produce unintended [criminogenic effects]{.blue}
+
+
+:::
+
+
+## Criminogenic Effects
+
+::: {.small-text}
+
+Refer to [social reactions, policies, or interventions that unintentionally increase the likelihood of future criminal behavior]{.blue}
+
+<br>
+
+In other words, an [iatrogenic effect]{style="text-decoration: underline;"} - [efforts meant to control crime can sometimes end up producing more crime]{.blue2}
+
+<br>
+
+Examples:
+
+[School suspensions]{.violet} lead to more time with deviant peers
+
+[Arrest records]{.violet} blocks people from employment and education (e.g., Pell Grants and FASFA access)
+
+[Over-policing]{.violet} in minority communities leads to higher chance of criminalization and less trust
+
+[Incarceration]{.violet} exposure to criminal networks 
+
+:::
+
+
+## Labeling Theory 
+
+
+
+::: {.columns}
+::: {.column width="50%"}
+
+:::{.smallest-text}
+
+[Argues that deviance is not inherent in an act, instead deviance results from social reactions, definitions, and labels applied by others]{.blue2}
+
+<br>
+
+Once a label such as “delinquent,” “criminal,” “troublemaker” is applied, [it can shape a person's identity, opportunities, and future behavior via internalizing that label]{.blue}
+
+<br>
+
+[Important Elements:]{style="text-decoration: underline;"} 
+
+1️⃣ No act is inherently deviant - behavior becomes deviant only when society defines it as such
+
+2️⃣ “Deviant” labels are socially applied by parents, schools, police, courts, media, and peers
+
+3️⃣ Social reactions can produce criminogenic effects
+
+:::
+
+:::
+
+
+::: {.column width="50%"}
+
+
+
+![](Images2/lab.png){.absolute top=130 right=40 height="70%"}
+
+:::
+
+
+:::
+
+
+## Primary vs. Secondary Deviance
+
+:::{.smaller-text}
+
+[Primary Deviance:]{.blue}
+
+Initial, [often minor rule-breaking]{.orange} (e.g., underage drinking) that typically doesn’t alter self-image
+
+<br>
+
+Example: A teen shoplifts once, isn’t caught, doesn’t adopt a “thief” identity
+
+<br>
+
+[Secondary Deviance:]{.blue} 
+
+[Further deviance caused by society’s reaction and the internalization of a deviant label]{.orange}
+
+<br>
+
+Example: The teen is publicly labeled a “thief,” shunned, and then embraces that identity by committing more thefts
+
+:::
+
+## Dramatization of Evil 
+
+::: {.small-text}
+
+Coined by Frank Tannenbaum
+
+[When society overreacts to minor misbehavior by defining the person - not the act - as “evil,” the individual becomes segregated and pushed into a deviant role]{.blue}
+
+<br>
+
+[This dramatization accelerates the transition from primary to secondary deviance]{.blue2}
+
+<br>
+
+Example:
+
+1️⃣ A middle-school child cheats on one homework assignment 
+
+2️⃣ Teachers begin referring to them as “a cheater,” and classmates avoid working with them
+
+3️⃣ Feeling distrusted and discouraged, the student stops trying in class and cheats again
+
+:::
+
+
+## The Labeling Process
+
+<br>
+
+:::{.small-text}
+
+1️⃣ [Initial Act (Primary Deviance):]{.blue} Usually minor, goes unnoticed or unpunished
+
+<br>
+
+2️⃣ [Detection & Labeling:]{.blue} Authorities or community apply a formal deviant label
+
+<br>
+
+3️⃣ [Stigmatization:]{.blue} Person faces social rejection; opportunities narrow
+
+<br>
+
+4️⃣ [Internalization:]{.blue} The label becomes part of self-identity, fueling continued deviance [(Secondary Deviance)]{.blue}
+
+:::
+
+::: notes
+
+Self-Fulfilling Prophecy: Harsh labeling can deepen criminal behavior
+
+
+:::
+
+
+
+## Labeling as Criminogenic: Creating Career Criminals
+
+::: {.smaller-text}
+
+Labeling theory proposes that formal and informal societal reactions can push individuals into long-term criminal pathways, in other words - [career criminals]{.blue}
+
+<br>
+
+[Career criminals]{.blue} are [individuals who engage in persistent, long-term patterns of offending across their life course, often beginning with minor acts in childhood or adolescence and progressing into more serious or frequent criminal behavior over time]{.blue2}
+
+<br>
+
+[Mechanisms:]{style="text-decoration: underline;"}
+
+Repeated labeling, surveillance, and exclusion lead to:
+
+Reduce access to education, employment, and conventional peer groups
+
+This process helps explain why some individuals become career criminals - not because of inherent traits, [but because social reactions intensify and prolong deviant identities]{.blue}
+
+
+:::
+
+
+## Criticisms of Labeling Theory
+
+<br>
+
+Overlooks [why]{.blue} deviance starts in the first place
+
+<br>
+
+Often used alongside other theories to fully explain criminal behavior
+
+<br>
+
+Difficult to test empirically
+
+
+# Group Discussion!!!!
+
+## Group Discussion 
+
+```{r}
+countdown::countdown(minutes = 10,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+:::{.smaller-text}
+
+[Cancel culture]{.orange} refers to a modern form of public shaming in which a person is widely criticized and socially excluded after saying or doing something perceived as offensive or harmful 
+
+Social media amplifies this process, making labels spread rapidly and consequences immediate
+
+<br>
+
+[Does “canceling” someone operate like labeling theory? Or is it something different?]{.blue2}
+
+<br>
+
+[If it is different, what makes cancel culture unique compared to traditional labeling?]{.blue}
+
+[If it is not different, what are some ways individuals, groups, or institutions can respond to or reduce the harmful effects of labeling?]{.blue}
+
+:::
+
+
+## Recap
+
+:::{.smaller-text}
+
+[Social Reaction Models]{.blue}
+
+<br>
+
+Refer to a broad group of criminological perspectives that explain crime and deviance as [products of social interaction and societal responses, rather than inherent qualities of the individual]{.blue2}
+
+<br>
+
+Criminogenic Effects 
+
+<br>
+
+Labeling Theory 
+
+:::
+    
+# Marxist Criminology 
+
+## What is Marxism? 
+
+:::{.small-text}
+
+<br>
+
+“A spectre is haunting Europe - the spectre of Communism.”
+
+— Karl Marx & Friedrich Engels, The Communist Manifesto (1848)
+
+<br>
+
+[Here](https://www.pbs.org/video/who-was-karl-marx-and-why-is-everyone-still-talking-about-him-yztklg/)
+
+:::
+
+## Karl Marx 
+
+
+::: {.columns}
+::: {.column width="50%"}
+:::{.smallest-text}
+
+Philosopher, economist, and social theorist (1818–1883)
+
+<br>
+
+Argued that society is shaped by [material conditions]{.violet}, especially how goods are produced and who controls that production
+
+<br>
+
+[Believed capitalism creates inequality, exploitation, and conflict, which undermine social solidarity]{.blue2}
+
+<br>
+
+Viewed the [state and the legal system as tools that protect the interests of the ruling class]{.orange}
+
+<br>
+
+[Saw crime as a symptom of the unequal social and economic structures produced by capitalism]{.blue}
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+![](Images2/marx.jpg){.absolute top=130 right=40 height="70%"}
+
+
+:::
+
+:::
+
+
+## How Did We Get Here? 
+
+:::{.smallest-text}
+
+Marxist criminology trace back to the social and economic transformations of the 1800s, where [rapid social change]{.blue} created: 
+
+<br>
+
+1️⃣ Declining social cohesion 
+
+2️⃣ Growing inequalities between *owners* and *workers*
+
+3️⃣ Harsh labor conditions and lack of social mobility
+
+4️⃣ Increase conflict between social classes (i.e., rich and poor)
+
+<br>
+
+Marx and Engels argued [that capitalism fundamentally reorganized society around competition, private property, and exploitation, creating an environment where social tensions were symptoms of structural problems]{.blue}
+
+<br>
+
+Believed the only solution was to find an alternative to Capitalism
+
+<br>
+
+Set the stage for [the development of Marxist perspectives on law, power, inequality, and ultimately crime]{.blue2}
+
+:::
+
+## Russian Revolution of 1917
+
+:::{.smallest-text}
+
+The Russian Revolution served as the historical flashpoint that transformed Marx and Engels’ ideas from theoretical critique into political reality
+
+[It was driven by extreme economic inequalities between the bourgeoisie and proletariat, which produced widespread poverty, food shortages, and political repression]{.blue2}
+
+[Bourgeoisie]{.blue} – the ruling class that owned the means of production
+
+[Proletariat]{.blue} – the working class that sold their labor under exploitative conditions
+
+<br>
+
+1️⃣ [February Revolution]{.blue} – Mass protests and strikes forced Tsar Nicholas II to abdicate, ending centuries of imperial rule
+
+2️⃣ [October Revolution]{.blue} – Led by the Bolsheviks under Vladimir Lenin, this second uprising transferred power to the Soviets (worker councils), establishing the first major socialist state
+
+<br>
+
+A civil war then broke out between the Bolshevik Red Army and various anti-Bolshevik factions.
+
+<br>
+
+The Bolsheviks ultimately prevailed and, by 1922, created the Union of Soviet Socialist Republics (USSR).
+
+:::
+
+
+
+## Marxism
+
+:::{.smallest-text}
+
+Marxism is a theoretical framework developed by Karl Marx and Friedrich Engels to [explain how economic structures, power, and class relations shape social life]{.orange}
+
+<br>
+
+[Fundamental propositions:]{style="text-decoration: underline;"}
+
+<br>
+
+1️⃣ Conflict grows with inequality
+
+*Differences in access to scarce resources intensify conflict between groups*
+
+2️⃣ Those who receive less begin questioning the legitimacy of the system
+
+*They recognize the structural “raw deal” and the exploitation shaping their conditions*
+
+3️⃣ Oppressed groups eventually organize and bring conflict into the open
+
+*This leads to polarization, social struggle, and attempts to redistribute resources*
+
+4️⃣ Capitalism is the source of the conflict
+
+*It generates extreme inequality, exploitation, and alienation*
+
+<br>
+
+This conflict-based understanding of society directly informs Marxist criminology
+
+:::
+
+## Marxist Criminology
+
+:::{.smaller-text}
+
+Examines how crime and law are shaped by economic structures and class power
+
+<br>
+
+[Core Ideas]{style="text-decoration: underline;"}
+
+1️⃣ Crime is a symptom of capitalism
+
+2️⃣ Inequality, poverty, and competition create criminogenic conditions
+
+3️⃣ Human nature is innately social, capitalism distorts it into egoism and individualism
+
+4️⃣ Both the poor and the powerful commit crime (but in different forms)
+
+<br>
+
+[Law & Power]{style="text-decoration: underline;"}
+
+[Laws reflect the interests of the bourgeoisie or ruling class]{.blue}
+
+[Behaviors threatening the bourgeoisie are more likely to be criminalized]{.blue}
+
+
+:::
+
+## Marxist Criminology
+
+:::{.small-text}
+
+*William Bonger*
+
+<br>
+
+Capitalism creates an “unfavorable environment” that increases both:
+
+<br>
+
+1️⃣ Crimes of survival (poverty)
+
+2️⃣ Crimes of power (greed, exploitation)
+
+<br>
+
+Abolishing capitalism would restore social solidarity and reduce crime
+
+
+:::
+
+# Group Discussion!!!!
+
+## Group Discussion 
+
+```{r}
+countdown::countdown(minutes = 10,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    margin = "0.2em",
+                    font_size = "2em")
+```
+
+:::{.smaller-text}
+
+<br>
+
+[How might the revolutionary ideas that fueled the Russian Revolution of 1917 compare to today’s political and social movements]{.blue2} — such as the “No Kings” protests, concerns over economic inequality, recession fears, rising healthcare costs, or nationwide debates about political power and representation?
+
+<br>
+
+In your view, [can any contemporary acts of civil disobedience OR crime be explained through a Marxist lens]{.blue2}, and if so, [would those actions be justifiable?]{.orange}
+
+<br>
+
+Elect one speaker to present your point
+
+<br>
+
+Speak your mind! 
+
+
+:::
+
+
+## Enjoy your turkey/tofurky day!
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGdwbTRwZG5ydnk1bGVneGpzYjVidndsMDZ2cDRtYWlsZTBhcjRxbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J0IZzqRxvrcmdZ4LgD/giphy.gif){fig-align="center"}
+
+
+::: footer
+
+image: giphy
+
+:::
