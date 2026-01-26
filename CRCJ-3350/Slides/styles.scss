@@ -1,0 +1,179 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Fire+Sans|Quicksand');
+
+// font family
+$font-family-sans-serif: 'Quicksand', sans-serif !default;
+$presentation-heading-font: 'Fire Sans', sans-serif !default;
+
+// font size
+$presentation-h1-font-size: 2.6em;
+$presentation-h2-font-size: 1.7em;
+$presentation-h3-font-size: 1.4em;
+$presentation-h4-font-size: 0.7em;
+$presentation-font-size-root: 40px;
+$presentation-line-height: 1.0em;
+
+// font color
+$presentation-heading-color: #000000 !default;
+$theme-grey:#859ab2;
+$theme-orange: #FF7F50;
+$theme-green: #88E032;
+$theme-blue1: #0b1e38;
+$theme-blue2: #4988BF;
+$theme-blue3: #82C9D9;
+$theme-aqua: #12a79d;
+$theme-white: #FFFFFF;
+$theme-black: #373038;
+$theme-red: #f05133;
+$theme-violet: #8F00FF;
+$theme-forest: #4F9153;
+$theme-yellow: #FFDB77;
+$theme-orchid: #DA70D6;
+
+// bg color
+$body-color: #000000;
+$link-color: #98b0cc;
+$body-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+
+
+.titlebox {
+  padding: 0.2em 0.4em;
+  backdrop-filter: invert(80%);
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+}
+
+
+.blue2 {
+  color: $theme-blue2;
+}
+
+.forest { 
+  color: $theme-forest;
+}
+
+.yellow {
+  color: $theme-yellow;
+}
+
+.violet { 
+  color: $theme-violet;
+}
+
+.blue {
+  color: $theme-blue3;
+}
+
+.aqua {
+  color: $theme-aqua;
+}
+
+.orchid {
+  color: $theme-orchid;
+}
+
+.green {
+  color: $theme-green;
+}
+
+
+.red {
+  color: $theme-red;
+}
+
+.grey {
+  color: $theme-grey;
+}
+
+.orange {
+  color: $theme-orange;
+}
+
+.math.display {
+  font-size: 75%;
+  color: #000000;
+}
+
+h2 {
+  padding-bottom: 35px;
+}
+
+.center {
+  text-align: center !important
+}
+
+.small-text {
+  font-size: 0.80em;
+}
+
+.smaller-text {
+  font-size: 0.70em;
+}
+
+.smallest-text {
+  font-size: 0.60em;
+}
+
+
+.reveal .slide-menu-button {
+    left: 5px;
+    top: 15px;
+    padding-left: 10px;
+    color: #859ab2;
+  }
+
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #859ab2;
+  height: 2%;
+}
+
+
+.highlight-last  {
+  color: grey;
+  .current-fragment {
+    color: #5500ff;
+  }
+}
+
+
+/* title styling - shadow effect */
+
+.title {
+  font-family: Impact, sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #87CEEB; 
+
+/* 3D-shadow behind the letters */
+  text-shadow: 
+  8px 8px 0 #000; /* distance */
+  
+  transform: 
+  perspective(600px) /* depth */
+  rotateX(5deg) /* forward or back */
+  rotateY(-2deg) /* L to R */
+  rotateZ(-1deg); /* like a steering wheel (clockwise or opp) */
+  letter-spacing: 0.1em;
+}
+
+/* hover effect */
+.title:hover {
+  transform: 
+    perspective(600px) 
+    rotateX(15deg) 
+    rotateY(-5deg) 
+    rotateZ(-2deg); 
+  text-shadow: 
+    12px 12px 0 #000; 
+  transition: transform 0.3s ease, text-shadow 0.3s ease; 
+}
+  
+  
+  
+  
