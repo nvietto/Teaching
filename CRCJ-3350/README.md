@@ -1,1 +1,1 @@
-This is an undergraduate criminology theory course. Some lectures have been held out. Feel free to contact me to access them.
+This is an undergraduate criminology theory course.
