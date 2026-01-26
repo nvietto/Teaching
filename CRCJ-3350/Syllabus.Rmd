@@ -1,0 +1,145 @@
+---
+title: 'CRCJ 3350-Criminology'
+author: "Nicholas Vietto"
+date: "Fall 2025"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+**Instructor:** Nicholas Vietto\
+**Contact:** [nvietto\@unomaha.edu](mailto:nvietto@unomaha.edu){.email}\
+**Location:** CPACS126  
+**Time:** 1:00PM - 02:15PM
+
+## Course Description
+
+This course is about facts and frameworks. The facts that we are interested in are facts about criminal behavior and the frameworks are theories that organize these facts in a coherent fashion. As we learn about criminological facts and the theories that organize these facts, we will pay attention to research so that we understand how these facts are developed and how these theories are tested. We will also try to draw out the policy implications of the various facts and theories that we address. 
+
+## Textbook and Resources
+
+-   **Required Textbook:** Tibbetts, S. G. (2015). Criminological Theory. 3rd ed. Thousand Oaks, CA: Sage Publications. ISBN: 9781483359533
+
+-   Supplementary Resources: Will be uploaded to the course page on Canvas
+
+## Don't stress, I'm here to help
+
+I’m here to assist with any questions or concerns you may have. The best way to reach me is via email at [nvietto\@unomaha.edu](mailto:nvietto@unomaha.edu){.email} or through Canvas messaging. I’m almost always at my computer, so you can expect a response within 24 hours, often sooner. If you’d like to meet in person, we can arrange a Zoom meeting or schedule a time to meet on campus.
+
+I understand that this is an intensive course, but please rest assured that I am committed to helping you succeed. **I don’t believe in failing students who give an honest effort and complete the work.** I know what it’s like to be overwhelmed with school, work, and life, so please don’t hesitate to reach out if you need help, have questions, or just want to talk. I’m here to help.
+
+## Exams, Quizzes, and Grading
+
+Exam: 50%
+
+Pop Quizzes: 25% (Given the class size, I may switch this to a research proposal, we will discuss in class)
+
+Group Discussions: 25%
+
+**Grading scale: A (90-100), B (80-89), C (70-79), D (60-69), F (0-59).**
+
+## Policies
+
+-   **Late Work:** If you miss an assignment due to your own illness (including mental health) or the illness of a family member or close friend, please let me know within 48 hours (use email provided above). Depending on circumstances, I may allow you to make up an assignment within one week of the due date or to submit an additional assignment in lieu of a missed assignment. If some circumstance arises during the semester that may require you to miss several activities or assignments, please let me know as soon as possible.
+
+-   **Academic Integrity:** Maintaining the highest standards of academic integrity is crucial for fostering a fair and ethical learning environment. I take academic dishonesty and lack of integrity seriously and will follow all procedures that are stated by the University of Nebraska-Omaha's [\textcolor{red}{academic integrity policy}](https://www.unomaha.edu/campus-policies/academic-integrity.php).
+
+-   **Accommodations:** Reasonable accommodations are provided for students who are registered with Accessibility Services Center (ASC) and make their requests sufficiently in advance. For more information, contact ASC (Location: 104 H&K, Phone: 402.554.2872, Email: [unoaccessibility\@unomaha.edu](mailto:unoaccessibility@unomaha.edu){.email}.). In addition, Counseling and Psychological Services (CAPS) are free and confidential for enrolled students. For more information, contact CAPS at 402.554.2409, H&K 101, Monday – Friday, 8a.m. - 5p.m. Please also visit our [\textcolor{blue}{website}](https://caps.unomaha.edu) to learn more. If you are in crisis or dealing with thoughts of suicide, please call 402.554.2409 (and press "2" after-hours) to speak to a counselor immediately.
+
+
+## Schedule
+
+*This syllabus is subject to change at the discretion of the instructor. Any changes will be communicated to students.*
+
+**Week 1** 
+Tuesday (08/26/25) - Introductions/syllabus
+
+Thursday (08/28/25) - Chapter 1
+
+**Week 2** 
+
+Tuesday (09/02/25) - Chapter 1
+
+Thursday (09/04/25) - Chapter 2
+
+**Week 3** 
+
+Tuesday (09/09/25) - Chapter 2
+
+Thursday (09/11/25) - Chapter 3
+
+**Week 4** 
+Tuesday (09/16/25) - Chapter 3
+
+Thursday (09/18/25) - Chapter 4
+
+**Week 5** 
+Tuesday (09/23/25) - Chapter 4
+
+Thursday (09/25/25) - **Exam 1 (Chapters 1 - 4)**
+
+**Week 6** 
+
+Tuesday (09/30/25) - Chapter 5
+
+Thursday (10/02/25) - Chapter 5
+
+**Week 7** 
+
+Tuesday (10/07/25) - Chapter 6
+
+Thursday (10/09/25) - Chapter 6
+
+**Week 8** 
+
+Tuesday (10/14/25) - Chapter 7
+
+Thursday (10/16/25) - Chapter 7
+
+**Semester Break Classes Resume Oct 22**
+
+**Week 9** 
+
+Thursday (10/23/25) - Chapter 8 
+
+**Week 10** 
+
+Tuesday (10/28/25) - **Exam 2 (Chapters 5 - 8)**
+
+Thursday (10/30/25) - Chapter 9
+
+
+**Week 11** 
+
+Tuesday (11/04/25) - Chapter 9 
+
+Thursday (11/06/25) - Chapter 10
+
+**Week 12** 
+
+Tuesday (11/11/25) - Chapter 10 
+
+Thursday (11/13/25) - Chapter 11
+
+**Week 13** 
+
+Tuesday (11/18/25) - Chapter 11
+
+Thursday (11/20/25) - Chapter 12
+
+**Week 14** 
+
+Tuesday (11/25/25) - Chapter 12
+
+**Thanksgiving Break - Classes Resume December 1**
+
+**Week 15** 
+
+Tuesday (12/02/25) - Final Review and/or Proposal Presentations 
+
+**Prep Week December 8 - December 12 **
+
+**Final Exam December 13 - December 19 (Chapters 9 - 12)**
+
+*Thanks for reading the entire syllabus. For extra credit, send me a photo of your favorite animal by 09/16/25.*

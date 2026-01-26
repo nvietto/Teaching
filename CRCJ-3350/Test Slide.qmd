@@ -1,0 +1,45 @@
+---
+title: "Test Day 😅"
+format:
+  revealjs: 
+    theme: styles.scss
+    incremental: true 
+    slide-number: true
+    embed-resources: true
+    self-contained: true
+    show-notes: false
+    preview-links: true
+    transition: fade
+---
+
+
+# You Got This!
+
+# Stay calm and do your best!
+
+# Keep Moving Forward!
+
+# Believe in Yourself!
+
+##
+
+
+
+```{r}
+countdown::countdown(minutes = 70,
+                    color_border = "#FF7F50",
+                    color_text = "#859ab2",
+                    color_running_text = "white",
+                    color_running_background = "#859ab2",
+                    color_finished_text = "white",
+                    color_finished_background = "#FF7F50",
+                    top = 0,
+                    bottom = 0,
+                    left = 0,
+                    right = 0,
+                    margin = "2em",
+                    font_size = "3em")
+```
+
+
+# Pens Down!
